@@ -1,0 +1,8 @@
+extraSprites:
+  - type: TEXTURE.DAT
+    width: 800
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Geoscape/TEXTURES.PNG

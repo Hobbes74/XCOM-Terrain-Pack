@@ -1,0 +1,4718 @@
+terrains: 
+  - name: AIRFIELD1
+    mapDataSets: &MCDS_AIRFIELD
+      - BLANKS
+      - AIRFIELDA
+      - AIRFIELDB
+      - AREA51_AT4
+      - AIRFIELDC
+    script: AIRFIELD1
+    mapBlocks: &MAPS_AIRFIELD
+      - name: AIRFIELD00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD01
+        width: 20
+        length: 20
+        groups: 2
+      - name: AIRFIELD02
+        width: 20
+        length: 20
+        groups: 3
+      - name: AIRFIELD03
+        width: 10
+        length: 10
+      - name: AIRFIELD04
+        width: 10
+        length: 10
+      - name: AIRFIELD05
+        width: 20
+        length: 20
+      - name: AIRFIELD06
+        width: 10
+        length: 10
+      - name: AIRFIELD07
+        width: 20
+        length: 20
+      - name: AIRFIELD08
+        width: 10
+        length: 10
+      - name: AIRFIELD09
+        width: 10
+        length: 10
+      - name: AIRFIELD10
+        width: 20
+        length: 20
+      - name: AIRFIELD11
+        width: 20
+        length: 20
+        groups: 4
+      - name: AIRFIELD12
+        width: 20
+        length: 20
+      - name: AIRFIELD13
+        width: 10
+        length: 10
+      - name: AIRFIELD14
+        width: 20
+        length: 20
+      - name: AIRFIELD15
+        width: 20
+        length: 20
+      - name: AIRFIELD16
+        width: 20
+        length: 20
+      - name: AIRFIELD17
+        width: 20
+        length: 20
+      - name: AIRFIELD18
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD19
+        width: 10
+        length: 10
+        groups: [0, 1]
+  - name: AIRFIELD2
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD2
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD3
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD3
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD4
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD4
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD5
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD5
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD6
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD6
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD7
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD7
+    mapBlocks: *MAPS_AIRFIELD
+  - name: AIRFIELD8
+    mapDataSets: *MCDS_AIRFIELD
+    script: AIRFIELD8
+    mapBlocks: *MAPS_AIRFIELD
+  - name: CITY
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    script: URBAN
+    mapBlocks:
+      - name: CITY00
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY01
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY02
+        width: 10
+        length: 10
+        groups: 4
+      - name: CITY03
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY04
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY05
+        width: 20
+        length: 20
+      - name: CITY06
+        width: 20
+        length: 20
+      - name: CITY07
+        width: 20
+        length: 20
+      - name: CITY08
+        width: 20
+        length: 20
+      - name: CITY09
+        width: 20
+        length: 20
+      - name: CITY10
+        width: 20
+        length: 20
+      - name: CITY11
+        width: 20
+        length: 20
+      - name: CITY12
+        width: 20
+        length: 20
+      - name: CITY13
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY14
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY15
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY16
+        width: 10
+        length: 10
+        groups: 2
+      - name: CITY17
+        width: 10
+        length: 10
+        groups: 3
+      - name: CITY18
+        width: 10
+        length: 10
+        groups: 2
+  - name: CARGOSHIP
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - CARGOSHIP1
+      - CARGOSHIP2
+      - CARGOSHIP3
+      - CARGOSHIP4
+      - SEABITS
+    script: SHIP_P1
+    mapBlocks:
+      - name: CARGOSHIP
+        width: 30
+        length: 70
+  - name: COLDISLE
+    mapDataSets:
+      - BLANKS
+      - COLDISLE
+      - POLARMOUNTBITS
+      - SEAURBAN
+      - COLDISLEB1
+      - COLDISLEB2
+    script: COLDISLE
+    mapBlocks:
+      - name: COLDISLE00
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE01
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE02
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE07
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE09
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE10
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE11
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE12
+        width: 20
+        length: 20
+      - name: COLDISLE13
+        width: 20
+        length: 20
+      - name: COLDISLE14
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE16
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE17
+        width: 10
+        length: 10
+      - name: COLDISLE18
+        width: 10
+        length: 10
+      - name: COLDISLE19
+        width: 10
+        length: 10
+      - name: COLDISLE20
+        width: 10
+        length: 10
+      - name: COLDISLE21
+        width: 10
+        length: 10
+      - name: COLDISLE22
+        width: 10
+        length: 10
+      - name: COLDISLE23
+        width: 10
+        length: 10
+      - name: COLDISLE24
+        width: 10
+        length: 10
+      - name: COLDISLE25
+        width: 10
+        length: 10
+      - name: COLDISLE26
+        width: 10
+        length: 10
+      - name: COLDISLE27
+        width: 20
+        length: 20
+      - name: COLDISLE28
+        width: 20
+        length: 20
+      - name: COLDISLE29
+        width: 20
+        length: 20
+      - name: COLDISLE30
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE31
+        width: 20
+        length: 20
+      - name: COLDISLE32
+        width: 20
+        length: 20
+      - name: COLDISLE33
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE34
+        width: 20
+        length: 20
+        groups: 4
+  - name: CULTAFARMA
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    script: DEFAULT
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+      - name: CULTAFARM00
+        width: 20
+        length: 20
+      - name: CULTAFARM01
+        width: 10
+        length: 10
+      - name: CULTAFARM02
+        width: 10
+        length: 10
+      - name: CULTAFARM03
+        width: 10
+        length: 10
+      - name: CULTAFARM04
+        width: 10
+        length: 10
+      - name: CULTAFARM05
+        width: 10
+        length: 10
+      - name: CULTAFARM06
+        width: 10
+        length: 10
+      - name: CULTAFARM07
+        width: 20
+        length: 20
+      - name: CULTAFARM08
+        width: 20
+        length: 20
+      - name: CULTAFARM09
+        width: 20
+        length: 20
+      - name: CULTAFARM10
+        width: 10
+        length: 10
+      - name: CULTAFARM11
+        width: 10
+        length: 10
+      - name: CULTAFARM12
+        width: 10
+        length: 10
+      - name: CULTAFARM13
+        width: 10
+        length: 10
+      - name: CULTAFARM14
+        width: 20
+        length: 20
+      - name: CULTAFARM15
+        width: 20
+        length: 20
+      - name: CULTAFARM16
+        width: 10
+        length: 10
+      - name: CULTAFARM17
+        width: 20
+        length: 20
+      - name: CULTAFARM18
+        width: 20
+        length: 20
+      - name: CULTAFARM19
+        width: 10
+        length: 10
+      - name: CULTAFARM20
+        width: 10
+        length: 10
+      - name: CULTAFARM21
+        width: 10
+        length: 10
+      - name: CULTAFARM22
+        width: 20
+        length: 20
+  - name: CULTAFARMB
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    script: DEFAULT
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTAFARM00
+        width: 20
+        length: 20
+      - name: CULTAFARM01
+        width: 10
+        length: 10
+      - name: CULTAFARM02
+        width: 10
+        length: 10
+      - name: CULTAFARM03
+        width: 10
+        length: 10
+      - name: CULTAFARM04
+        width: 10
+        length: 10
+      - name: CULTAFARM05
+        width: 10
+        length: 10
+      - name: CULTAFARM06
+        width: 10
+        length: 10
+      - name: CULTAFARM07
+        width: 20
+        length: 20
+      - name: CULTAFARM08
+        width: 20
+        length: 20
+      - name: CULTAFARM09
+        width: 20
+        length: 20
+      - name: CULTAFARM10
+        width: 10
+        length: 10
+      - name: CULTAFARM11
+        width: 10
+        length: 10
+      - name: CULTAFARM12
+        width: 10
+        length: 10
+      - name: CULTAFARM13
+        width: 10
+        length: 10
+      - name: CULTAFARM14
+        width: 20
+        length: 20
+      - name: CULTAFARM15
+        width: 20
+        length: 20
+      - name: CULTAFARM16
+        width: 10
+        length: 10
+      - name: CULTAFARM17
+        width: 20
+        length: 20
+      - name: CULTAFARM18
+        width: 20
+        length: 20
+      - name: CULTAFARM19
+        width: 10
+        length: 10
+      - name: CULTAFARM20
+        width: 10
+        length: 10
+      - name: CULTAFARM21
+        width: 10
+        length: 10
+      - name: CULTAFARM22
+        width: 20
+        length: 20
+  - name: DAWNURBANA
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANA
+    mapBlocks:
+      - name: DAWNURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN07
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN09
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN10
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN11
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN12
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN14
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN16
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN17
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN18
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN19
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN20
+        width: 20
+        length: 20
+      - name: DAWNURBAN21
+        width: 20
+        length: 20
+      - name: DAWNURBAN22
+        width: 20
+        length: 20
+      - name: DAWNURBAN23
+        width: 20
+        length: 20
+      - name: DAWNURBAN24
+        width: 20
+        length: 20
+      - name: DAWNURBAN25
+        width: 20
+        length: 20
+      - name: DAWNURBAN26
+        width: 20
+        length: 20
+      - name: DAWNURBAN27
+        width: 20
+        length: 20
+      - name: DAWNURBAN28
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN29
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN30
+        width: 10
+        length: 10
+      - name: DAWNURBAN31
+        width: 10
+        length: 10
+      - name: DAWNURBAN32
+        width: 10
+        length: 10
+      - name: DAWNURBAN33
+        width: 10
+        length: 10
+      - name: DAWNURBAN34
+        width: 10
+        length: 10
+      - name: DAWNURBAN35
+        width: 10
+        length: 10
+      - name: DAWNURBAN36
+        width: 10
+        length: 10
+      - name: DAWNURBAN37
+        width: 10
+        length: 10
+      - name: DAWNURBAN38
+        width: 10
+        length: 10
+      - name: DAWNURBAN39
+        width: 10
+        length: 10
+  - name: DAWNURBANB
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNURBANB
+    mapBlocks:
+      - name: DAWNURBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN41
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN42
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN43
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN44
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN45
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN46
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN47
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN48
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN49
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN50
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN51
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN52
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN53
+        width: 10
+        length: 10
+      - name: DAWNURBAN54
+        width: 10
+        length: 10
+      - name: DAWNURBAN55
+        width: 10
+        length: 10
+      - name: DAWNURBAN56
+        width: 10
+        length: 10
+      - name: DAWNURBAN57
+        width: 10
+        length: 10
+      - name: DAWNURBAN58
+        width: 10
+        length: 10
+      - name: DAWNURBAN59
+        width: 10
+        length: 10
+      - name: DAWNURBAN60
+        width: 20
+        length: 20
+      - name: DAWNURBAN61
+        width: 20
+        length: 20
+      - name: DAWNURBAN62
+        width: 20
+        length: 20
+      - name: DAWNURBAN63
+        width: 20
+        length: 20
+      - name: DAWNURBAN64
+        width: 20
+        length: 20
+      - name: DAWNURBAN65
+        width: 20
+        length: 20
+      - name: DAWNURBAN66
+        width: 20
+        length: 20
+      - name: DAWNURBAN67
+        width: 20
+        length: 20
+  - name: DESERT
+    mapDataSets:
+      - BLANKS
+      - DESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+  - name: DESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - DESERTMOUNT
+      - DESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+  - name: DESERTPLANE
+    mapDataSets:
+      - BLANKS
+      - DESERTPLANE
+      - CRASHEDPLANE
+    script: CRASHEDPLANE
+    mapBlocks: &CRASHEDPLANE_MAPS
+      - name: CRASHEDPLANE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CRASHEDPLANE01
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE02
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE03
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE04
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE05
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE06
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE07
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE08
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE09
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE10
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE11
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE12
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE13
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE14
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE15
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE16
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE17
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE18
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE19
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE20
+        width: 10
+        length: 10
+  - name: DESERTTEMPLE
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    script: DESERT
+    mapBlocks:
+      - name: ATLANTDESERT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLANTDESERT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLANTDESERT02
+        width: 10
+        length: 10
+      - name: ATLANTDESERT03
+        width: 10
+        length: 10
+      - name: ATLANTDESERT04
+        width: 10
+        length: 10
+      - name: ATLANTDESERT05
+        width: 10
+        length: 10
+      - name: ATLANTDESERT06
+        width: 10
+        length: 10
+      - name: ATLANTDESERT07
+        width: 10
+        length: 10
+      - name: ATLANTDESERT08
+        width: 10
+        length: 10
+      - name: ATLANTDESERT09
+        width: 10
+        length: 10
+      - name: ATLANTDESERT10
+        width: 20
+        length: 20
+      - name: ATLANTDESERT11
+        width: 20
+        length: 20
+      - name: ATLANTDESERT12
+        width: 20
+        length: 20
+  - name: DOWNTOWNURBAN
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    script: DOWNTOWNURBAN
+    mapBlocks:
+      - name: DOWNTOWNURBAN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN01
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN02
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN03
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN05
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN06
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN07
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN08
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN09
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN10
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN11
+        width: 10
+        length: 10
+        groups: 4
+      - name: DOWNTOWNURBAN12
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN14
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN15
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN16
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN17
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN19
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN20
+        width: 10
+        length: 10
+        groups: 1
+      - name: DOWNTOWNURBAN21
+        width: 10
+        length: 10
+  - name: EXPANDEDTERROR
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    script: EXPANDEDTERROR
+    mapBlocks: &EXPANDEDTERRORMAPS
+      - name: EXPANDEDTERROR00 #Landingzone Dirt 1
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR01 #Landingzone Dirt 2
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR02 #Landing Zone Grass
+        width: 10
+        length: 10
+        groups: 1
+      - name: EXPANDEDTERROR03 #Road WE
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR04 #Road WE with Garbage
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR05 #Road WE with Bus Station
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR06 #Road WE with Postbox
+        width: 10
+        length: 10
+        groups: 2
+      - name: EXPANDEDTERROR07 #Road NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR08 #Road NS 2 Sewer
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR09 #Road NS Bus Station
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR10 #Road NS Garbage
+        width: 10
+        length: 10
+        groups: 3
+      - name: EXPANDEDTERROR11 #Crossroad Garbage
+        width: 10
+        length: 10
+        groups: 4
+      - name: EXPANDEDTERROR12 #Crossroad Telephon Box
+        width: 10
+        length: 10
+        groups: 4
+      - name: EXPANDEDTERROR13 #2 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR14 #1 Level Small Slum House
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR15 #NS Small Park
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR16 #2 Level Small Appartment
+        width: 10
+        length: 10
+      - name: EXPANDEDTERROR17 #2 Level Large Storage and Shop
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR18 #Parking Lot with Shop
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR19 #Large Park with Telephon Box
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR20 #2 Level Slum Buildings with Telephone Box
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR21 #Restaurant
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR22 #2 Level Appartment with Parking Lot
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR23 #4 Level Appartment Building
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR24 #2 Level Family House with Garage
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR25 #2 Level Storage with Office
+        width: 20
+        length: 20
+      - name: EXPANDEDTERROR26 #2 Level Double Family House
+        width: 20
+        length: 20
+      - name: URBAN05 #27 Large Storage House
+        width: 20
+        length: 20
+      - name: URBAN06 #28 Large Shopping Mall
+        width: 20
+        length: 20
+      - name: URBAN07 #29 Large Park
+        width: 20
+        length: 20
+      - name: URBAN08 #30 3 Level Appartment
+        width: 20
+        length: 20
+      - name: URBAN09 #31 Gas Station
+        width: 20
+        length: 20
+      - name: URBAN14 #32 1 Level Small Slum House
+        width: 10
+        length: 10
+      - name: URBAN15 #33 2 Level Small Appartment House
+        width: 10
+        length: 10
+      - name: URBAN16 #34 Small Park
+        width: 10
+        length: 10
+      - name: URBAN17 #35 Small Storage House
+        width: 10
+        length: 10
+      - name: URBAN18 #36 Level Small Shop
+        width: 10
+        length: 10
+  - name: FOREST
+    mapDataSets:
+      - BLANKS
+      - FOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+  - name: FORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - FORESTMOUNT
+      - FORESTEARTH
+      - FORESTBITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+  - name: FORESTPOLAR
+    mapDataSets:
+      - BLANKS
+      - FORESTPOLAR
+      - FOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: GRASSLANDDESERT
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDDESERT
+      - GRASSLANDBITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+      - name: DESERT01
+        width: 10
+        length: 10
+      - name: DESERT02
+        width: 10
+        length: 10
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: GRASSLANDDESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDMOUNT
+      - GRASSLANDDESERT
+      - GRASSLANDBITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+      - name: DESERTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: GRASSLANDFOREST
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDFOREST
+      - GRASSLANDBITS
+    script: DESERT
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: GRASSLANDFORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDMOUNT
+      - GRASSLANDFOREST
+      - GRASSLANDBITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+      - name: FORESTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: GRASSLANDPOLAR
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDPOLAR
+      - GRASSLANDFOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: INDUSTRIALURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    script: INDUSTRIALURBAN
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+  - name: INDUSTRIALUFO
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    script: INDUSTRIALUFO
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+  - name: ISLANDURBAN
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+      - SEABITS
+    script: ISLANDURBAN
+    mapBlocks:
+      - name: ISLANDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN02
+        width: 20
+        length: 20
+      - name: ISLANDURBAN03
+        width: 20
+        length: 20
+      - name: ISLANDURBAN04
+        width: 20
+        length: 20
+        groups: 2
+      - name: ISLANDURBAN05
+        width: 20
+        length: 20
+        groups: 3
+      - name: ISLANDURBAN06
+        width: 20
+        length: 20
+      - name: ISLANDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: ISLANDURBAN08
+        width: 10
+        length: 10
+      - name: ISLANDURBAN09
+        width: 10
+        length: 10
+      - name: ISLANDURBAN10
+        width: 10
+        length: 10
+      - name: ISLANDURBAN11
+        width: 10
+        length: 10
+      - name: ISLANDURBAN12
+        width: 10
+        length: 10
+      - name: ISLANDURBAN13
+        width: 10
+        length: 10
+      - name: ISLANDURBAN14
+        width: 10
+        length: 10
+  - name: JUNGLE
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+  - name: JUNGLEMOUNT
+    mapDataSets:
+      - BLANKS
+      - JUNGLEMOUNT
+      - JUNGLEBITS
+    script: DESERT
+    mapBlocks:
+      - name: JUNGLEMOUNT00
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT01
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT02
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT03
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT04
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT05
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT06
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT07
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT08
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT09
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT10
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT11
+        width: 20
+        length: 20
+      - name: JUNGLEMOUNT12
+        width: 20
+        length: 20
+      - name: JUNGLEMOUNT13
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEMOUNT14
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEMOUNT15
+        width: 10
+        length: 10
+        groups: 1
+  - name: JUNGLEPOLAR
+    mapDataSets:
+      - BLANKS
+      - JUNGLEPOLAR
+      - JUNGLEBITS
+    script: POLAR
+    mapBlocks:
+      - name: JUNGLEPOLAR00
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR01
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR02
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR03
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR04
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR05
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR06
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR07
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR08
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR09
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR10
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR11
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR12
+        width: 20
+        length: 20
+      - name: JUNGLEPOLAR13
+        width: 20
+        length: 20
+      - name: JUNGLEPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLEPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: JUNGLETEMPLE
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - MUJUNGLE
+      - JUNGLEBITS
+    script: DESERT
+    mapBlocks:
+      - name: MUJUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MUJUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MUJUNGLE02
+        width: 10
+        length: 10
+      - name: MUJUNGLE03
+        width: 10
+        length: 10
+      - name: MUJUNGLE04
+        width: 10
+        length: 10
+      - name: MUJUNGLE05
+        width: 10
+        length: 10
+      - name: MUJUNGLE06
+        width: 10
+        length: 10
+      - name: MUJUNGLE07
+        width: 10
+        length: 10
+      - name: MUJUNGLE08
+        width: 10
+        length: 10
+      - name: MUJUNGLE09
+        width: 20
+        length: 20
+      - name: MUJUNGLE10
+        width: 20
+        length: 20
+      - name: MUJUNGLE11
+        width: 20
+        length: 20
+      - name: MUJUNGLE12
+        width: 20
+        length: 20
+      - name: MUJUNGLE13
+        width: 20
+        length: 20
+      - name: MUJUNGLE14
+        width: 20
+        length: 20
+  - name: LINERSHIP
+    mapDataSets:
+      - BLANKS
+      - DECKSHIPC
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+    script: SHIP_L1
+    mapBlocks:
+      - name: LINERSHIP
+        width: 30
+        length: 70
+  - name: MADURBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    script: MADURBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+  - name: MADURBANSNOW
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - MADDECOR
+    script: MADURBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+  - name: MADURBANUFO
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    script: MADURBANUFO
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+  - name: MOUNT
+    mapDataSets:
+      - BLANKS
+      - MOUNT
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+  - name: NATIVEURBAN
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: NATIVEURBAN
+    mapBlocks:
+      - name: NATIVEURBAN00
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46
+        width: 10
+        length: 10
+        groups: 1
+  - name: NATIVEUFO
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: NATIVEUFO
+    mapBlocks:
+      - name: NATIVEURBAN00
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46
+        width: 10
+        length: 10
+        groups: 1
+  - name: POLAR
+    mapDataSets:
+      - BLANKS
+      - POLAR
+    script: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+      - name: POLAR04
+        width: 10
+        length: 10
+      - name: POLAR05
+        width: 10
+        length: 10
+      - name: POLAR06
+        width: 10
+        length: 10
+      - name: POLAR07
+        width: 10
+        length: 10
+      - name: POLAR08
+        width: 10
+        length: 10
+      - name: POLAR09
+        width: 10
+        length: 10
+      - name: POLAR10
+        width: 10
+        length: 10
+      - name: POLAR11
+        width: 10
+        length: 10
+      - name: POLAR12
+        width: 20
+        length: 20
+      - name: POLAR13
+        width: 20
+        length: 20
+  - name: POLARDESERT
+    mapDataSets:
+      - BLANKS
+      - POLARDESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+  - name: POLARDESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - POLARMOUNT
+      - POLARDESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+  - name: POLARMOUNT
+    mapDataSets:
+      - BLANKS
+      - POLARMOUNT
+      - POLAR
+      - POLARMOUNTBITS
+    script: DESERT
+    mapBlocks:
+      - name: POLARMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: POLARMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: POLARMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: POLARMOUNT03
+        width: 10
+        length: 10
+      - name: POLARMOUNT04
+        width: 10
+        length: 10
+      - name: POLARMOUNT05
+        width: 10
+        length: 10
+      - name: POLARMOUNT06
+        width: 10
+        length: 10
+      - name: POLARMOUNT07
+        width: 10
+        length: 10
+      - name: POLARMOUNT08
+        width: 10
+        length: 10
+      - name: POLARMOUNT09
+        width: 10
+        length: 10
+      - name: POLARMOUNT10
+        width: 10
+        length: 10
+      - name: POLARMOUNT11
+        width: 20
+        length: 20
+      - name: POLARMOUNT12
+        width: 20
+        length: 20
+  - name: POLARPLANE
+    mapDataSets:
+      - BLANKS
+      - POLARPLANE
+      - CRASHEDPLANE
+    script: CRASHEDPLANE
+    mapBlocks: *CRASHEDPLANE_MAPS
+  - name: PORTTFTD
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
+    script: PORTTFTD
+    mapBlocks:
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+        groups: 5
+  - name: PORTURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
+    script: PORTURBAN
+    mapBlocks:
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+        groups: 5
+      - name: PORTUFO21
+        width: 20
+        length: 20
+      - name: PORTUFO22
+        width: 20
+        length: 20
+      - name: PORTUFO23
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO24
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO25
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO26
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO27
+        width: 10
+        length: 10
+        groups: 4   
+      - name: PORTUFO28
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31
+        width: 10
+        length: 10
+        groups: 3
+  - name: SAVANNADESERT
+    mapDataSets:
+      - BLANKS
+      - SAVANNADESERT
+      - SAVANNABITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+      - name: DESERT01
+        width: 10
+        length: 10
+      - name: DESERT02
+        width: 10
+        length: 10
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: SAVANNADESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - SAVANNAMOUNT
+      - SAVANNADESERT
+      - SAVANNABITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+      - name: DESERTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: SAVANNAFOREST
+    mapDataSets:
+      - BLANKS
+      - SAVANNAFOREST
+      - SAVANNABITS
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: SAVANNAFORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - SAVANNAMOUNT
+      - SAVANNAFOREST
+      - SAVANNABITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+      - name: FORESTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: SAVANNAPOLAR
+    mapDataSets:
+      - BLANKS
+      - SAVANNAPOLAR
+      - SAVANNAFOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: STEPPEDESERT
+    mapDataSets:
+      - BLANKS
+      - STEPPEDESERT
+      - STEPPEBITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+      - name: DESERT01
+        width: 10
+        length: 10
+      - name: DESERT02
+        width: 10
+        length: 10
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: STEPPEDESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - STEPPEMOUNT
+      - STEPPEDESERT
+      - STEPPEBITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+      - name: DESERTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: STEPPEFOREST
+    mapDataSets:
+      - BLANKS
+      - STEPPEFOREST
+      - STEPPEBITS
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: STEPPEFORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - STEPPEMOUNT
+      - STEPPEFOREST
+      - STEPPEBITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+      - name: FORESTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: STEPPEPOLAR
+    mapDataSets:
+      - BLANKS
+      - STEPPEPOLAR
+      - STEPPEFOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: STORMMOUNTAIN
+    mapDataSets:
+      - BLANKS
+      - MOUNT
+      - XBASE1_REDUX
+      - STORMMOUNT
+    script: STORMMOUNTAIN
+    mapBlocks:
+      - name: STORMMOUNTAIN00
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN01
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN02
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN03
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN04
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN05
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN06
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN07
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN08
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN09
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN10
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN11
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN12
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN13
+        width: 10
+        length: 10
+  - name: TAIGADESERT
+    mapDataSets:
+      - BLANKS
+      - TAIGADESERT
+      - TAIGABITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+      - name: DESERT01
+        width: 10
+        length: 10
+      - name: DESERT02
+        width: 10
+        length: 10
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TAIGADESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - TAIGAMOUNT
+      - TAIGADESERT
+      - TAIGABITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+      - name: DESERTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TAIGAFOREST
+    mapDataSets:
+      - BLANKS
+      - TAIGAFOREST
+      - TAIGABITS
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TAIGAFORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - TAIGAMOUNT
+      - TAIGAFOREST
+      - TAIGABITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+      - name: FORESTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TAIGAPOLAR
+    mapDataSets:
+      - BLANKS
+      - TAIGAPOLAR
+      - TAIGAFOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: TUNDRADESERT
+    mapDataSets:
+      - BLANKS
+      - TUNDRADESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+  - name: TUNDRADESERTMOUNT
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+      - TUNDRADESERT
+    script: DESERT
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+  - name: TUNDRAFOREST
+    mapDataSets:
+      - BLANKS
+      - TUNDRAFOREST
+      - TUNDRABITS
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TUNDRAFORESTMOUNT
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+      - TUNDRAFOREST
+      - TUNDRABITS
+    script: DESERT
+    mapBlocks:
+      - name: FORESTMOUNT00
+        width: 10
+        length: 10
+      - name: FORESTMOUNT01
+        width: 10
+        length: 10
+      - name: FORESTMOUNT02
+        width: 10
+        length: 10
+      - name: FORESTMOUNT03
+        width: 10
+        length: 10
+      - name: FORESTMOUNT04
+        width: 10
+        length: 10
+      - name: FORESTMOUNT05
+        width: 10
+        length: 10
+      - name: FORESTMOUNT06
+        width: 10
+        length: 10
+      - name: FORESTMOUNT07
+        width: 10
+        length: 10
+      - name: FORESTMOUNT08
+        width: 10
+        length: 10
+      - name: FORESTMOUNT09
+        width: 10
+        length: 10
+      - name: FORESTMOUNT10
+        width: 10
+        length: 10
+      - name: FORESTMOUNT11
+        width: 20
+        length: 20
+      - name: FORESTMOUNT12
+        width: 20
+        length: 20
+      - name: FORESTMOUNT13
+        width: 20
+        length: 20
+      - name: FORESTMOUNT14
+        width: 20
+        length: 20
+      - name: FORESTMOUNT15
+        width: 10
+        length: 10
+      - name: FORESTMOUNT16
+        width: 10
+        length: 10
+      - name: FORESTMOUNT17
+        width: 10
+        length: 10
+      - name: FORESTMOUNT18
+        width: 10
+        length: 10
+      - name: FORESTMOUNT19
+        width: 10
+        length: 10
+      - name: FORESTMOUNT20
+        width: 10
+        length: 10
+      - name: FORESTMOUNT21
+        width: 10
+        length: 10
+      - name: FORESTMOUNT22
+        width: 10
+        length: 10
+      - name: FORESTMOUNT23
+        width: 10
+        length: 10
+      - name: FORESTMOUNT24
+        width: 10
+        length: 10
+      - name: FORESTMOUNT25
+        width: 20
+        length: 20
+      - name: FORESTMOUNT26
+        width: 20
+        length: 20
+      - name: FORESTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+  - name: TUNDRAMOUNT
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+  - name: TUNDRAPOLAR
+    mapDataSets:
+      - BLANKS
+      - TUNDRAPOLAR
+      - TUNDRAFOREST
+    script: POLAR
+    mapBlocks:
+      - name: FORESTPOLAR00
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+  - name: TUNDRAPLANE
+    mapDataSets:
+      - BLANKS
+      - TUNDRAPLANE
+      - CRASHEDPLANE
+    script: CRASHEDPLANE
+    mapBlocks: *CRASHEDPLANE_MAPS

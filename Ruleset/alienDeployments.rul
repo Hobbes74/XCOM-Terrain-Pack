@@ -1,0 +1,256 @@
+alienDeployments:
+  - delete: STR_TERROR_MISSION
+  - type: STR_TERROR_MISSION
+    data: &TERROR_MISSION_ALIENRANKS
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - URBAN
+      - MADURBAN
+      - INDUSTRIALURBAN
+      - INDUSTRIALURBAN
+      - EXPANDEDTERROR
+      - EXPANDEDTERROR
+      - DOWNTOWNURBAN
+      - DOWNTOWNURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: &TERROR_MISSION_BRIEFING
+      title: STR_TERROR_MISSION
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_AIRFIELD
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
+      - AIRFIELD4
+      - AIRFIELD5
+      - AIRFIELD6
+      - AIRFIELD7
+      - AIRFIELD8
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_ISLAND
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - ISLANDURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_PORT
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - PORTURBAN
+      - PORTTFTD
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_SHIP
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 30
+    length: 70
+    height: 5
+    civilians: 16
+    terrains:
+      - CARGOSHIP
+      - LINERSHIP
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_SNOW
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - MADURBANSNOW
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_POLAR
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    shade: 10
+    civilians: 16
+    terrains:
+      - COLDISLE
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_TROPICAL
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - NATIVEURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
