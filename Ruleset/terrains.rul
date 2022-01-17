@@ -102,13 +102,72 @@ terrains:
     mapDataSets: *MCDS_AIRFIELD
     script: AIRFIELD8
     mapBlocks: *MAPS_AIRFIELD
+  - name: AREA
+    mapDataSets:
+      - BLANKS
+      - AREA_ROADS
+      - AREA_URBITS
+      - AREA_URBAN
+      - AREA_FRNITURE
+    script: URBAN
+    mapBlocks:
+      - name: AREA00
+        width: 10
+        length: 10
+        groups: 2
+      - name: AREA01
+        width: 10
+        length: 10
+        groups: 3
+      - name: AREA02
+        width: 10
+        length: 10
+        groups: 4
+      - name: AREA03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA05
+        width: 20
+        length: 20
+      - name: AREA06
+        width: 20
+        length: 20
+      - name: AREA07
+        width: 20
+        length: 20
+      - name: AREA08
+        width: 20
+        length: 20
+      - name: AREA09
+        width: 20
+        length: 20
+      - name: AREA14
+        width: 10
+        length: 10
+      - name: AREA15
+        width: 10
+        length: 10
+      - name: AREA16
+        width: 10
+        length: 10
+      - name: AREA17
+        width: 10
+        length: 10
+      - name: AREA18
+        width: 10
+        length: 10
   - name: CITY
     mapDataSets:
       - BLANKS
-      - ROADS
-      - URBITS
-      - URBAN
-      - FRNITURE
+      - APARTA
+      - APARTB
+      - APARTC
+      - APARTD
     script: URBAN
     mapBlocks:
       - name: CITY00
@@ -146,19 +205,6 @@ terrains:
       - name: CITY09
         width: 20
         length: 20
-      - name: CITY10
-        width: 20
-        length: 20
-      - name: CITY11
-        width: 20
-        length: 20
-      - name: CITY12
-        width: 20
-        length: 20
-      - name: CITY13
-        width: 10
-        length: 10
-        groups: 3
       - name: CITY14
         width: 10
         length: 10
@@ -3150,6 +3196,32 @@ terrains:
       - CRASHEDPLANE
     script: CRASHEDPLANE
     mapBlocks: *CRASHEDPLANE_MAPS
+  - name: POLISURBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    script: POLISURBAN
+    mapBlocks:
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLISURBAN02
+        width: 60
+        length: 60
+      - name: POLISURBAN04
+        width: 60
+        length: 60
+      - name: POLISURBAN05
+        width: 60
+        length: 60
+      - name: POLISURBAN06
+        width: 60
+        length: 60
   - name: PORTTFTD
     mapDataSets:
       - BLANKS
@@ -3362,6 +3434,189 @@ terrains:
         width: 10
         length: 10
         groups: 3
+  - name: PORTINDUSTRIALURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
+    script: PORTINDUSTRIALURBAN
+    mapBlocks:
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 7
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+        groups: 5
+      - name: PORTUFO21
+        width: 20
+        length: 20
+      - name: PORTUFO22
+        width: 20
+        length: 20
+      - name: PORTUFO23
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO24
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO25
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO26
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO27
+        width: 10
+        length: 10
+        groups: 4   
+      - name: PORTUFO28
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
   - name: SAVANNADESERT
     mapDataSets:
       - BLANKS
@@ -3675,6 +3930,131 @@ terrains:
         width: 10
         length: 10
         groups: 1
+  - name: SLUMURBAN
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - DECKSHIPC
+      - LINERSHIPC
+      - PORTBITS
+    script: SLUMURBAN
+    mapBlocks:
+      - name: SLUMURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN03
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN04
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN05
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN06
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN07
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN09
+        width: 10
+        length: 10
+        groups: 4
+      - name: SLUMURBAN10
+        width: 20
+        length: 20
+      - name: SLUMURBAN11
+        width: 20
+        length: 20
+      - name: SLUMURBAN12
+        width: 10
+        length: 20
+      - name: SLUMURBAN13
+        width: 10
+        length: 20
+      - name: SLUMURBAN14
+        width: 10
+        length: 20
+      - name: SLUMURBAN15
+        width: 10
+        length: 20
+      - name: SLUMURBAN16
+        width: 10
+        length: 20
+      - name: SLUMURBAN17
+        width: 10
+        length: 30
+      - name: SLUMURBAN18
+        width: 10
+        length: 30
+      - name: SLUMURBAN19
+        width: 10
+        length: 30
+      - name: SLUMURBAN20
+        width: 10
+        length: 30
+      - name: SLUMURBAN21
+        width: 10
+        length: 30
+      - name: SLUMURBAN22
+        width: 10
+        length: 30
+      - name: SLUMURBAN23
+        width: 10
+        length: 10
+      - name: SLUMURBAN24
+        width: 10
+        length: 10
+      - name: SLUMURBAN25
+        width: 10
+        length: 10
+      - name: SLUMURBAN26
+        width: 10
+        length: 10
+      - name: SLUMURBAN27
+        width: 10
+        length: 10 
+      - name: SLUMURBAN28
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN29
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN30
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN31
+        width: 10
+        length: 10
+        groups: 11
   - name: STEPPEDESERT
     mapDataSets:
       - BLANKS

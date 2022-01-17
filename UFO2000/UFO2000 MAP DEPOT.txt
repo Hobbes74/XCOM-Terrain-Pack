@@ -1,6 +1,6 @@
 ----------------------
 UFO2000 MAP DEPOT
 ----------------------
-This folder contains the original mods created for UFO2000 that have been adapted for the Terrain Pack mod and were originally all a part of the UFO2000 Map Depot, and were hosted at area51.xcomufo.com
+This folder contains the original mods created for UFO2000 that have been adapted for the Terrain Pack mod and were originally all a part of the UFO2000 Map Depot, and were hosted at area51.xcomufo.com. It also contains the original Terrain Pack created by Hobbes for UFO2000, and adapted later to OpenXCom.
 
  All of those terrains can be played on UFO2000 by dropping the .zip file on its /extensions folder.

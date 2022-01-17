@@ -5,24 +5,25 @@ Any questions can be asked in the OpenXCom forums, Github page or emailed direct
 
 PERMISSIONS
 -----------
-The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it as you wish, as long as you respect the conditions and terms of the license (check LICENSE files for more details). As per the license, any work that includes the Terrain Pack and its files must also be released under the same GNU GPL license. 
+The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it as you wish, as long as you respect the conditions and terms of the license (check LICENSE file for more details). As per the license, any work that includes the Terrain Pack and its files must also be released under the same GNU GPL license. 
 
 All the game files of the original games present on this mod are considered copyright of 2K Games/Firaxis, or the current XCOM IP holder. This includes original artwork, map, routes, tileset and globe files, even if it has been expanded and adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
 
-
 DESCRIPTION
 -----------
-The Terrain Pack contains dozens of new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom.
+The Terrain Pack contains dozens of new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom. It was originally created by Hobbes for UFO2000, who later updated it for use in OpenXCom, and expanded it with the help of other modders.
 
-The Pack includes already published terrain mods made for the original game and for the UFO2000 opensource multiplayer version of the original XCom game and that were converted to use in OpenXCom, that were originally published and hosted on my old Area 51 website until it went dead. It also includes new terrains created specifically for OpenXCom.
+The pack includes published terrain mods for the original game and for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/), that were converted by Hobbes to use in OpenXCom. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/) until it went dead. Since the UFO2000 terrains were originally designed for multiplayer, it was required to create new AI route nodes (.RMP files) by Hobbes for all of them in order to work with the original game.  
 
-For a history of these terrains and their original authors, please check the AUTHORS part of this document, which lists the different versions of the terrains made over the years for the original game, UFO2000 and OpenXCom.
+It also includes new terrains created specifically for OpenXCom by several authors and published on the OpenXCom forums.
 
-Finally, and since the UFO2000 open source project doesn't have a working repository anymore, the Terrain Pack also contains a specific UFO2000 folder with the .zip files of the terrains that were released and distributed for the project, and that were being hosted on my old Area 51 site as the Map Depot. This will allow UFO2000 players to keep playing them in the future and for XCom modders to keep using and adapting them to other terrains.
+For the individual history of all these terrains and their original authors, please read the AUTHORS part of this document, which lists the different versions of the terrains made over the years for the original game, UFO2000 and OpenXCom.
 
-This is a gift from XCom map makers to the community, and specially from all of us who were involved with the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. 
+Since the UFO2000 open source project doesn't have a working repository anymore, the Terrain Pack also contains a specific UFO2000 folder with the .zip files of the terrains that were released and distributed for the project, and that were being hosted at Hobbes' old Area 51 site as the Map Depot. This will allow UFO2000 players to keep playing them in the future and for XCom modders to keep using and adapting them to other terrains.
 
-Enjoy and use them well as we did.
+Finally, there is a folder called 'Modding Tools' which contains all the necessary XCom editors, tools and documentation that were used to create these terrain mods.  
+
+"This is a gift from all the terrain modders involved to the XCom community, from all of us who were a part of the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. Play, enjoy, learn, modify and use them well in the future as we did with them." - Hobbes, January 17th, 2022.
 
 TERRAIN LIST
 ------------
@@ -92,10 +93,11 @@ Terror Site Terrains:
 * STORMMOUNTAIN (Underground base)
 
 Other Features:
-- Reworked Geoscape, including several new textures and cities
-- Country Zones have been redesigned to reflect better the countries' geography
-- Terrain of terror sites will match geographical locations (large city terrains only appear at some cities, etc,)
-- North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned
+- Reworked Geoscape, including several new textures and cities.
+- Country Zones have been redesigned to reflect better the countries' geography.
+- Terrain of terror sites will match geographical locations (large city terrains only appear at some cities, etc,).
+- North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned.
+- Several new countries added.
 
 AUTHORS
 -------
@@ -107,19 +109,31 @@ Blank
 * COLD ISLE
 Original OpenXCom terrain (polar research station).
 
+Gix
+* Geoscape cities, countries and Country Zones 
+
+Taken from the Improved Nations mod and expanded by Hobbes.
+
 Hobbes
 * CITY/APARTMENT
-First ever terrain mod for the original game's Terror Site, converted to UFO2000 and later adapted to OXC by author.
+First ever published terrain mod for the original game's Terror Site, converted to UFO2000 and later adapted to OXC by author. This is the original UFO Defense version.
+* AREA 51
+Second terrain published mod for the original game's Terror Site, converted to UFO2000 and currently being expanded by the author for another OpenXCom mod. This is the original UFO Defense version.
 * MODIFIED FARM 
-UFO2000 terrain, converted to OXC by the author as CULTAFARM.
+UFO2000 terrain, converted to OXC by the author as CULTAFARM. Adds additional map blocks to vanilla Farm.
 * DAWN CITY 
-Originally made by author as UFO2000 terrain together with Nachtwolf and Voller, converted to OXC by the author as DAWNURBAN.
+Originally made by author as UFO2000 terrain together with Nachtwolf and Voller to replace the original URBAN terrain in UFO2000, converted to OXC by the author as DAWNURBAN.
 * MAD CITY
 Originally made by author as Modified City original game mod, converted as UFO2000 terrain, converted to OXC by the author as MADURBAN, MADURBANSNOW and MADURBANUFO.
 * NATIVE
 Originally made by author as an UFO Defense mod and UFO2000 terrain, converted by author to OXC as NATIVEURBAN and NATIVEUFO.
+* POLIS
+Originally made as UFO2000 terrain and converted to OXC as POLISURBAN by the author.
 * RAILYARD 
-Originally made by author as UFO2000 terrain, converted to OXC as RAILYARDURBAN by Hobbes and Solarius Scorch.
+Originally made by author as UFO2000 terrain, converted to OXC as RAILYARDURBAN by the author.
+* SLUM
+Originslly made as UFO2000 terrain and converted to OXC as SLUMURBAN by the author.
+
 * CARGOSHIP
 * DESERTMOUNT
 * DESERTPLANE
@@ -164,45 +178,57 @@ Originally made by author as UFO2000 terrain, converted to OXC as RAILYARDURBAN 
 * TUNDRAMOUNT
 * TUNDRAPOLAR
 * TUNDRAPLANE (adapted Crashed Plane TFTD terrain)
+
 Terrains that were converted/combined from original UFO/TFTD terrains by author to OpenXCom.
 
+* Geoscape.dat 
+New Geospace globe, regions, countries and textures
+
 Luke83
-* EXPANDEDTERROR 
+* EXPANDEDTERROR
+
 New OpenXCom terrain for Terror Sites.
 
 MKSheppard 
-* Geoscape cities and and Country Zones 
-Taken from his Improved Nations mod and expanded by Hobbes.
+* Geoscape cities, countries and Country Zones 
+
+Taken from the Improved Nations mod and expanded by Hobbes.
 
 Nachtwolf
 * DAWN CITY 
+
 General design with Hobbes and artwork with Voller.
 
 Twilight Owl
 * AIRFIELD 
+
 Originally developed for UFO2000, converted to OpenXCom format by Hobbes.
 
 Voller
 * DAWN CITY 
+
 Artwork for original UFO2000 terrain, together with Nachtwolf.
 
 Volutar
 * Geoscape.dat 
-From his Improved Globe mod and expanded by Hobbes.
+
+From his Improved Globe mod and expanded by Hobbes as ImprovedGlobe.dat.
 
 Wiseman
 * DOWNTOWN 
+
 Originally developed for UFO2000, converted to OpenXCom format by Hobbes as DOWNTOWNURBAN.
 
 XOps
 * DESERTTEMPLE
 * JUNGLETEMPLE 
+
 Additional artwork for adapted/Combined UFO/TFTD terrains to OXC.
 
 TERRAIN PACK GENERAL CREDITS
 ----------------------------
 Hobbes
-* Lead Developer and new Geospace regions, countries and textures
+* Lead Developer
 Falko
 * Creator of the OXC Tools website
 Supsuper

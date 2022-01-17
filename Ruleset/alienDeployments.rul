@@ -146,6 +146,39 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_BIG_CITY
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - CITY
+      - CITY
+      - DAWNURBANA
+      - DAWNURBANB
+      - RAILYARDURBAN
+      - RAILYARDURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_FACILITY
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
   - type: STR_TERROR_MISSION_AIRFIELD
     data: *TERROR_MISSION_ALIENRANKS
     width: 60
@@ -181,6 +214,20 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_POLIS
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 70
+    length: 70
+    height: 6
+    civilians: 16
+    terrains:
+      - POLISURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
   - type: STR_TERROR_MISSION_PORT
     data: *TERROR_MISSION_ALIENRANKS
     width: 50
@@ -205,6 +252,20 @@ alienDeployments:
     terrains:
       - CARGOSHIP
       - LINERSHIP
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_SLUM
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 70
+    height: 4
+    civilians: 24
+    terrains:
+      - SLUMURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing: *TERROR_MISSION_BRIEFING

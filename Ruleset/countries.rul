@@ -1,4 +1,3 @@
-
 countries:
   - delete: STR_USA
   - delete: STR_RUSSIA
@@ -192,6 +191,7 @@ countries:
       - [281, 284.3, -44.5, -43.38] #Toronto Region 3
       - [293.5, 298, -45, -43.2] #Newfoundland 1
       - [305, 307.89, -49.37, -46.77] #Newfoundland 2
+#New countries
   - type: STR_MEXICO
     fundingBase: 160
     fundingCap: 3400
@@ -238,3 +238,109 @@ countries:
       - [144, 149, 40, 44.3]
       - [164, 177.2, 40, 47]
       - [172, 179, 33.5, 40]
+  - type: STR_PHILIPPINES 
+    fundingBase: 100 
+    fundingCap: 1000
+    labelLon: 120
+    labelLat: -18
+    areas: 
+      - [117, 126, -19.5, -11.6]
+      - [121, 128, -11.6, -5]
+  - type: STR_IRAN
+    fundingBase: 150
+    fundingCap: 5500
+    labelLon: 50
+    labelLat: -33.5
+    areas:
+      - [47, 61, -38.3, -29]
+      - [50.2, 61, -29, -26.3]
+      - [56.8, 61, -26.3, -24.7]
+  - type: STR_SAUDIARABIA
+    fundingBase: 150
+    fundingCap: 5500
+    labelLon: 44.6
+    labelLat: -22.1
+    areas:
+      - [37, 50, -29, -21]
+      - [38.6, 50, -21, -17]
+      - [50, 55, -23, -18.6]
+  - type: STR_TAIWAN
+    fundingBase: 100
+    fundingCap: 1000
+    labelLon: 120
+    labelLat: -22.8
+    areas:
+      - [118, 124, -26, -21]
+  - type: STR_SOUTHKOREA
+    fundingBase: 140
+    fundingCap: 1400
+    labelLon: 125
+    labelLat: -39
+    areas:   # lonMin lonMax latMin latMax
+      - [125, 129, -41, -40] #upper body of Korea 1
+      - [127.7, 130.5, -42, -41] #upper body of Korea 2
+      - [124, 130, -40, -33.6] #main body of Korea
+  - type: STR_ISRAEL
+    fundingBase: 360
+    fundingCap: 3600
+    labelLon: 33.5
+    labelLat: -33.91
+    areas:
+      - [33.5, 35.9, -34.3, -31.14]
+  - type: STR_VENEZUELA
+    fundingBase: 110
+    fundingCap: 1100
+    labelLon: 292.9
+    labelLat: -7.7
+    areas:
+      - [288.7, 300, -12.7, -6.8] #Box 1
+      - [291.4, 296.6, -6.8, -1.7] #Box 2
+      - [296.6, 299.581, -6.8, -4.25] #Box 3
+  - type: STR_COLOMBIA
+    fundingBase: 100
+    fundingCap: 1000
+    labelLon: 284.9
+    labelLat: -6.27
+    areas:
+      - [281.4, 288.7, -13, -2.8] #Box 1
+      - [288.7, 291.4, -6.8, -2.8] #Box 2
+      - [285, 289.878, -2.8, 1.5] #Box 3
+      - [287, 289.878, 1.5, 3.8] #Box 4
+      - [289.878, 291.4, -2.8, -1.7] #Box 4
+  - type: STR_UKRAINE
+    fundingBase: 90
+    fundingCap: 900
+    labelLon: 30.25
+    labelLat: -48.69
+    areas:
+      - [24.3, 33.6, -51.5, -47.5] #UkraineBox1
+      - [33.6, 37.9, -51.16, -44.19] #UkraineBox2
+      - [28.35, 33.6, -47.5, -44.19] #UkraineBox3
+  - type: STR_POLAND
+    fundingBase: 120
+    fundingCap: 1200
+    labelLon: 18.09
+    labelLat: -51.7
+    areas:
+      - [15, 24, -55, -50.95] #Main Body of Poland
+      - [18.5, 24, -50.95, -49.5] #Bottom Body of Poland
+  - type: STR_INDONESIA
+    fundingBase: 120
+    fundingCap: 1200
+    labelLon: 112
+    labelLat: 3.5
+    areas:
+      - [107, 141, -1.85, 9.45] #Main Body of Indonesia 1
+      - [98.57, 107, -0.57, 9.45] #Main Body of Indonesia 2
+      - [95, 100, -5.9, -0.57] #Main Body of Indonesia 3
+      - [100, 101, -3.54, -0.57] #Main Body of Indonesia 4
+      - [101, 102, -2.17, -0.57] #Main Body of Indonesia 5
+      - [102, 103, -1.54, -0.57] #Main Body of Indonesia 6
+  - type: STR_TURKEY #new country
+    fundingBase: 180
+    fundingCap: 1800
+    labelLon: 35.25
+    labelLat: -38.7
+    areas:
+      - [25.7, 46, -42, -36] #Main Body of Turkey
+	  
