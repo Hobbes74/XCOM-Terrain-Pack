@@ -1,6 +1,0 @@
-Terrain Pack for OpenXCom version 4.3
-
-----------------------
-UFO2000 ORIGINAL FILES
-----------------------
-This folder contains the original mods created for UFO2000 that have been adapted for the Terrain Pack mod and were originally all a part of the UFO2000 Map Depot.
