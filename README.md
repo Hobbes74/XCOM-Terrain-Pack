@@ -1,5 +1,5 @@
 # Terrain-Pack
-Mod for OpenXCom that contains new terrains and an upgraded globe.
+Terrain Mod for the original XCom UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom or UFO2000 to be played.
 
 Any questions can be asked in the OpenXCom forums, Github page or emailed directly to Hobbes at aadlg@rocketmail.com
 
@@ -11,7 +11,7 @@ All the game files of the original games present on this mod are considered copy
 
 DESCRIPTION
 -----------
-The Terrain Pack contains dozens of new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom. It was originally created by Hobbes for UFO2000, who later updated it for use in OpenXCom, and expanded it with the help of other modders.
+The Terrain Pack contains 70+ new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom. It was originally created by Hobbes for UFO2000, who later updated it for use in OpenXCom, and expanded it with the help of other modders.
 
 The pack includes published terrain mods for the original game and for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/), that were converted by Hobbes to use in OpenXCom. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/) until it went dead. Since the UFO2000 terrains were originally designed for multiplayer, it was required to create new AI route nodes (.RMP files) by Hobbes for all of them in order to work with the original game.  
 
@@ -19,7 +19,7 @@ It also includes new terrains created specifically for OpenXCom by several autho
 
 For the individual history of all these terrains and their original authors, please read the AUTHORS part of this document, which lists the different versions of the terrains made over the years for the original game, UFO2000 and OpenXCom.
 
-Since the UFO2000 open source project doesn't have a working repository anymore, the Terrain Pack also contains a specific UFO2000 folder with the .zip files of the terrains that were released and distributed for the project, and that were being hosted at Hobbes' old Area 51 site as the Map Depot. This will allow UFO2000 players to keep playing them in the future and for XCom modders to keep using and adapting them to other terrains.
+Since the UFO2000 open source project doesn't have a working repository anymore, the Terrain Pack also contains a specific UFO2000 folder with the .zip files of the terrains that were released and distributed for the project, and that were being hosted at Hobbes' old Area 51 site as the Map Depot. This will allow OpenXCom and UFO2000 players to keep playing them in the future and for XCom modders to keep using them to other terrains.
 
 Finally, there is a folder called 'Modding Tools' which contains all the necessary XCom editors, tools and documentation that were used to create these terrain mods.  
 
@@ -28,24 +28,24 @@ Finally, there is a folder called 'Modding Tools' which contains all the necessa
 TERRAIN LIST
 ------------
 Geoscape Terrains:
-* CULTAFARMA
-* CULTAFARMB
+* CULTAFARMA (vanilla Farm + several new map blocks)
+* CULTAFARMB (Farm using only the new map blocks)
 * DESERTMOUNT 
 * DESERTPLANE (adapted Crashed Plane TFTD terrain)
-* DESERTTEMPLE 
+* DESERTTEMPLE (adapted Atlantis TFTD terrain)
 * FORESTMOUNT (Forest Mountain)
 * FORESTPOLAR (Forest Swamp)
 * GRASSLANDDESERT (Northern hemisphere only)
 * GRASSLANDDESERTMOUNT (Northern hemisphere only)
 * GRASSLANDFOREST (Northern hemisphere only)
 * GRASSLANDFORESTMOUNT (Northern hemisphere only)
-* GRASSLANDPOLAR (Northern hemisphere only)
-* INDUSTRIALUFO
-* JUNGLEMOUNT
+* GRASSLANDPOLAR (Grassland Swamp Northern hemisphere only)
+* INDUSTRIALUFO (Industrial with landed UFOs)
+* JUNGLEMOUNT 
 * JUNGLEPOLAR (Jungle Swamp)
 * JUNGLETEMPLE (Original Jungle + Mu terrain from TFTD, together with XOps)
-* MADURBANUFO
-* NATIVEUFO
+* MADURBANUFO (Mad Urban with landed UFOs)
+* NATIVEUFO (Native with landed UFOs)
 * POLARDESERT
 * POLARDESERTMOUNT
 * POLARMOUNT
@@ -54,29 +54,30 @@ Geoscape Terrains:
 * SAVANNADESERTMOUNT (Southern hemisphere only)
 * SAVANNAFOREST (Southern hemisphere only)
 * SAVANNAFORESTMOUNT (Southern hemisphere only)
-* SAVANNAPOLAR (Southern hemisphere only)
+* SAVANNAPOLAR (Savanna Swamp Southern hemisphere only)
 * STEPPEDESERT (Northern hemisphere only)
 * STEPPEDESERTMOUNT (Northern hemisphere only)
 * STEPPEFOREST (Northern hemisphere only)
 * STEPPEFORESTMOUNT (Northern hemisphere only)
-* STEPPEPOLAR (Northern hemisphere only)
+* STEPPEPOLAR (Steppe Swamp Northern hemisphere only)
 * TAIGADESERT
 * TAIGADESERTMOUNT
 * TAIGAFOREST
 * TAIGAFORESTMOUNT
-* TAIGAPOLAR
+* TAIGAPOLAR (Taiga Swamp) 
 * TUNDRADESERT
 * TUNDRADESERTMOUNT
 * TUNDRAFOREST
 * TUNDRAFORESTMOUNT
 * TUNDRAMOUNT
-* TUNDRAPOLAR
+* TUNDRAPOLAR (Tundra Swamp) 
 * TUNDRAPLANE (adapted Crashed Plane TFTD terrain)
 
 Terror Site Terrains:
 * AIRFIELD
 * APARTMENT
 * CARGOSHIP (TFTD terrain, 1st stage mission only)
+* CARGOSHIPPORT (Cargo Ship + Port terrain)
 * COLDISLE (Polar research station)
 * DAWNURBANA
 * DAWNURBANB
@@ -84,12 +85,16 @@ Terror Site Terrains:
 * INDUSTRIALURBAN
 * ISLANDURBAN (vanilla TFTD terrain)
 * LINERSHIP (TFTD terrain, 1st stage mission only)
+* LINERSHIPPORT (Liner Ship + Port terrain)
 * MADURBAN (Expanded UFO Urban terrain)
 * MADURBANSNOW (Snow covered city)
 * NATIVEURBAN (Tropical Terror Site)
+* POLISURBAN
+* PORTINDUSTRIALURBAN (Port + Industrial)
 * PORTUFO (vanilla TFTD terrain)
 * PORTURBAN (expanded TFTD Port terrain)
 * RAILYARDURBAN
+* SLUMURBAN
 * STORMMOUNTAIN (Underground base)
 
 Other Features:
@@ -135,6 +140,7 @@ Originally made by author as UFO2000 terrain, converted to OXC as RAILYARDURBAN 
 Originslly made as UFO2000 terrain and converted to OXC as SLUMURBAN by the author.
 
 * CARGOSHIP
+* CARGOSHIPPORT
 * DESERTMOUNT
 * DESERTPLANE
 * DESERTTEMPLE
@@ -150,10 +156,12 @@ Originslly made as UFO2000 terrain and converted to OXC as SLUMURBAN by the auth
 * JUNGLEPOLAR 
 * JUNGLETEMPLE
 * LINERSHIP
+* LINERSHIPPORT
 * POLARDESERT
 * POLARDESERTMOUNT
 * POLARMOUNT
-* POLARPLANE 
+* POLARPLANE
+* PORTINDUSTRIALURBAN
 * PORTUFO
 * PORTURBAN 
 * SAVANNADESERT 
