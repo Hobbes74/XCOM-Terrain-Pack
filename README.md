@@ -132,7 +132,7 @@ Here are the most common modding uses and how fulfill these requirements:
 3) You create a modpack that requires the Terrain Pack to be integrated (modified) to work with several other mods. 
 * You include the pack in your mod as a separate folder, while keeping its README and LICENSE files inside, but you'll need to document any changes you make to its files and your mod pack will need to have the GPL license.
 4) You only use all or some of the pack's resources in a larger megamod or total conversion.
-* You'll ALWAYS need to keep the unchanged Terrain Pack's README file visible inside your mod's main folder, keep a record of every change you've made to its files (including removal and renaming) and give your mod the GNU GPL license. 
+* You'll ALWAYS need to keep the unchanged Terrain Pack's README file visible inside your mod's main folder, keep a record of every change you've made to its files (including removal and renaming) and give your mod the GNU GPL license. If required for clarification, you may rename the README to README_TERRAINPACK or anything similar. 
 
 AUTHORS
 -------
