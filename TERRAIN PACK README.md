@@ -1,13 +1,23 @@
 # Terrain-Pack
-Terrain Mod for the original XCom UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom or UFO2000 to be played.
+Terrain Pack mod for the original XCom UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom or UFO2000 to be played.
+
+Official GitHub repository: https://github.com/Hobbes74/Terrain-Pack
 
 Any questions can be asked in the OpenXCom forums, Github page or emailed directly to Hobbes at aadlg@rocketmail.com
 
 PERMISSIONS
 -----------
-The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it as you wish, as long as you respect the conditions and terms of the license (check LICENSE file for more details). As per the license, any work that includes the Terrain Pack and its files must also be released under the same GNU GPL license. 
+The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it for any propose that you wish, as long as you respect the conditions and terms of the license (check LICENSE file for full details). As per the license, any mod that includes the Terrain Pack and its files must also be released under the same GNU GPL license. 
+
+For more details on the GPL requirements and how to fulfill them, check the MODDING THE PACK section below. 
 
 All the game files of the original games present on this mod are considered copyright of 2K Games/Firaxis, or the current XCOM IP holder. This includes original artwork, map, routes, tileset and globe files, even if it has been expanded and adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
+
+INSTALLATION
+------------
+OpenXCom: Unzip and place the entire Terrain Pack folder in C:\Documents and Settings\User\Documents\OpenXcom\mods\
+
+UFO2000: Copy the .zip files found in the mod's \UFO2000 folder inside the \extensions folder of UFO2000
 
 DESCRIPTION
 -----------
@@ -82,6 +92,7 @@ Terror Site Terrains:
 * DAWNURBANA
 * DAWNURBANB
 * DOWNTOWNURBAN
+* EXPANDEDTERROR
 * INDUSTRIALURBAN
 * ISLANDURBAN (vanilla TFTD terrain)
 * LINERSHIP (TFTD terrain, 1st stage mission only)
@@ -103,6 +114,25 @@ Other Features:
 - Terrain of terror sites will match geographical locations (large city terrains only appear at some cities, etc,).
 - North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned.
 - Several new countries added.
+
+MODDING THE PACK
+----------------
+There are tons of possibilities to use the pack and its contents on your mod. However, you must follow the requirements of the GNU GPL license:
+* The original copyright notice (this README file) must be kept in a visible location within the mod, such as the main folder, and clearly identified as such.
+* The corresponding GNU GPL license (the included LICENSE file) should be kept next to it as well.
+* Any changes made to the pack's original files, including removal and renaming, must be properly documented and available.
+* And finally, If you use the pack any of its contents on your mod, then your mod must also have the GPL license.
+
+Here are the most common modding uses and how fulfill these requirements:
+1) You make a mod about weapons, aliens, craft, UFOs, etc. to work together with the pack but that can work separately from the pack. 
+* You can provide a download link to the pack, which avoids any of the GNU GPL requirements for your mod.
+* You can distribute the pack and your mod as a bundle, while keeping the pack's README and LICENSE files inside of it, but your mod will be required to be GPL as well.
+2) You create a mod that requires the Terrain Pack to be modified.
+* You create and distribute a patch for the Terrain Pack to work with your mod. The patch must document the changes and have the GPL license. Your mod will not require the GPL license, as long as the patch and your mod are separate download bundles.
+3) You create a modpack that requires the Terrain Pack to be integrated (modified) to work with several other mods. 
+* You include the pack in your mod as a separate folder, while keeping its README and LICENSE files inside, but you'll need to document any changes you make to its files and your mod pack will need to have the GPL license.
+4) You only use all or some of the pack's resources in a larger megamod or total conversion.
+* You'll ALWAYS need to keep the unchanged Terrain Pack's README file visible inside your mod's main folder, keep a record of every change you've made to its files (including removal and renaming) and give your mod the GNU GPL license. 
 
 AUTHORS
 -------
@@ -242,15 +272,15 @@ Falko
 Supsuper
 * Bugs and technical issues
 Volutar
-* WORLD.DAT editor and MCDEdit tools
+* WORLD.DAT editor and MCDEdit tools (both included on the Modding tools folder)
 Warboy1982
 * Bugs and technical issues
 Daishiva
-* Creator of the original MapView tool
+* Creator of the original MapView tool (included on the Modding tools folder, and updated to Windows 10 by SupSuper)
 
 Big thank you to everyone who has given feedback/ideas/bug reports: Solaris Scorch, Dioxine, Arthanor, JStank, davide, Falko, Aldorn, Mr Quiet, robin, niculinux, the_third_curry, XCOMFan419, BBHood217, ivandogovich, VSx86, MKSheppard, Recruit69, wsmithjr, Vulgar Monkey, myk002, XOps, Infini, pkrcel, new_civilian, TaxxiDriver, BlackLibrary, bladum, volutar, Yankes, shadics, Goldy, Gifty, hellrazor, SIMON, tollworkout, Ridan, Buscher and clownagent.
 
-Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the devs for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
+Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the developers for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
 
 OLD CHANGELOG
 -------------

@@ -336,7 +336,7 @@ countries:
       - [100, 101, -3.54, -0.57] #Main Body of Indonesia 4
       - [101, 102, -2.17, -0.57] #Main Body of Indonesia 5
       - [102, 103, -1.54, -0.57] #Main Body of Indonesia 6
-  - type: STR_TURKEY #new country
+  - type: STR_TURKEY
     fundingBase: 180
     fundingCap: 1800
     labelLon: 35.25

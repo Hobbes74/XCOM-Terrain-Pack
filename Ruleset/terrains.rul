@@ -3841,7 +3841,6 @@ terrains:
       - ROADS
       - URBITS
       - FRNITURE
-    civilianTypes: *CIVILIANS_CITY_ALLIED
     script: RAILYARDURBAN
     mapBlocks:
       - name: RAILYARDURBAN00
