@@ -1,13 +1,13 @@
 # Terrain-Pack
-Terrain Pack mod for the original XCom UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom or UFO2000 to be played.
+Open source terrain mod pack for the original UFO: Enemy Unknown/XCom: UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom, UFO2000 or the original game to be played.
 
 Official GitHub repository: https://github.com/Hobbes74/Terrain-Pack
 
-Any questions can be asked in the OpenXCom forums, Github page or emailed directly to Hobbes at aadlg@rocketmail.com
+Any questions can be asked in the OpenXCom forums, Github page or emailed directly to aadlg@rocketmail.com.
 
 PERMISSIONS
 -----------
-The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it for any propose that you wish, as long as you respect the conditions and terms of the license (check LICENSE file for full details). As per the license, any mod that includes the Terrain Pack and its files must also be released under the same GNU GPL license. 
+The Terrain Pack is released under the GNU GPL license. This means that you can download, use, modify and redistribute it for any propose that you wish, as long as you respect the conditions and terms of the license (check LICENSE file for full details). As per the license, any mod or bundle that includes the Terrain Pack and/or its files must also be released under the same GNU GPL license. 
 
 For more details on the GPL requirements and how to fulfill them, check the MODDING THE PACK section below. 
 
@@ -15,28 +15,29 @@ All the game files of the original games present on this mod are considered copy
 
 INSTALLATION
 ------------
-OpenXCom: Unzip and place the entire Terrain Pack folder in C:\Documents and Settings\User\Documents\OpenXcom\mods\
+* OpenXCom: Unzip and place the entire Terrain Pack folder in C:\Documents and Settings\User\Documents\OpenXcom\mods\
 
-UFO2000: Copy the .zip files found in the mod's \UFO2000 folder inside the \extensions folder of UFO2000
+* UFO2000: Copy the .zip files found in the mod's \Original\UFO2000\ folder inside the \extensions folder of \UFO2000
+
+* UFO: Enemy Unknown/XCOM: UFO Defense: unzip any of the files (without 2k on their name) that are inside found on the pack's \Original\Area 51 Site\ folder to the game's main folder and replace all the original files (make back-up copies first). 
 
 DESCRIPTION
 -----------
-The Terrain Pack contains 70+ new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom. It was originally created by Hobbes for UFO2000, who later updated it for use in OpenXCom, and expanded it with the help of other modders.
+The Terrain Pack contains 70+ new terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom, UFO2000 or even the original game. It was originally created by Hobbes for UFO2000, who later updated it for use in OpenXCom, and expanded it with the contributions of other authors.
 
-The pack includes published terrain mods for the original game and for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/), that were converted by Hobbes to use in OpenXCom. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/) until it went dead. Since the UFO2000 terrains were originally designed for multiplayer, it was required to create new AI route nodes (.RMP files) by Hobbes for all of them in order to work with the original game.  
+The pack includes all published terrain mods for the original game made by Hobbes, and all the terrains made for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/) by Hobbes and other authors. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/) until it went dead. It also includes Hobbes' first version of the Terrain Pack, which included all his UFO2000 terrains. 
 
-It also includes new terrains created specifically for OpenXCom by several authors and published on the OpenXCom forums.
+Many of these UFO2000 terrains were later converted by Hobbes to use in OpenXCom, it was required to create new AI route nodes (.RMP files) by Hobbes for all of them in order to work with the original game, since the multiplayer versions didn't require those files. This version of the Terrain Pack is specifically designed for OpenXCom and also includes new terrains created specifically for OpenXCom by several authors and published on the OpenXCom forums.
 
-For the individual history of all these terrains and their original authors, please read the AUTHORS part of this document, which lists the different versions of the terrains made over the years for the original game, UFO2000 and OpenXCom.
+For the individual history of all these terrains and their original authors, please read the AUTHORS and ORIGINAL FILES parts of this document, which lists the different versions of the terrains made over the years for the original game, UFO2000 and OpenXCom.
 
-Since the UFO2000 open source project doesn't have a working repository anymore, the Terrain Pack also contains a specific UFO2000 folder with the .zip files of the terrains that were released and distributed for the project, and that were being hosted at Hobbes' old Area 51 site as the Map Depot. This will allow OpenXCom and UFO2000 players to keep playing them in the future and for XCom modders to keep using them to other terrains.
+To keep all these files available, the Terrain Pack now contains a folder called \Original Files with all the .zip files of the terrains that were released and distributed by Hobbes and the UFO2000 authors, as well as the web pages where they were available. It also includes all the necessary XCom editors, tools and documentation that were used to create these terrain mods. This will allow OpenXCom and UFO2000 players to keep playing them in the future and for XCom modders to keep using them to other terrains.
 
-Finally, there is a folder called 'Modding Tools' which contains all the necessary XCom editors, tools and documentation that were used to create these terrain mods.  
-
+Finally, there is a folder called 'Original Terrains' which contains all the original published versions of all the terrains included, as well 
 "This is a gift from all the terrain modders involved to the XCom community, from all of us who were a part of the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. Play, enjoy, learn, modify and use them well in the future as we did with them." - Hobbes, January 17th, 2022.
 
-TERRAIN LIST
-------------
+TERRAIN LIST (for OpenXCom)
+---------------------------
 Geoscape Terrains:
 * CULTAFARMA (vanilla Farm + several new map blocks)
 * CULTAFARMB (Farm using only the new map blocks)
@@ -111,28 +112,32 @@ Terror Site Terrains:
 Other Features:
 - Reworked Geoscape, including several new textures and cities.
 - Country Zones have been redesigned to reflect better the countries' geography.
-- Terrain of terror sites will match geographical locations (large city terrains only appear at some cities, etc,).
+- Terrain of terror sites will match geographical locations (large city terrains only appear at some cities, etc.).
 - North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned.
 - Several new countries added.
 
 MODDING THE PACK
 ----------------
 There are tons of possibilities to use the pack and its contents on your mod. However, you must follow the requirements of the GNU GPL license:
-* The original copyright notice (this README file) must be kept in a visible location within the mod, such as the main folder, and clearly identified as such.
+* The author must have a valid copyright claim over the original software.
+* You must include the original, or instructions on how to obtain copies.
+* The copyright notice (this README file) must be kept in a visible location within the mod, such as the main folder, and clearly identified as such.
 * The corresponding GNU GPL license (the included LICENSE file) should be kept next to it as well.
-* Any changes made to the pack's original files, including removal and renaming, must be properly documented and available.
-* And finally, If you use the pack any of its contents on your mod, then your mod must also have the GPL license.
+* Any changes made to the pack's original files, including removal and renaming, must be properly documented and available with the software.
+* And finally, If you use the pack or any of its contents on your mod, then your mod must also have the GPL license.
 
 Here are the most common modding uses and how fulfill these requirements:
 1) You make a mod about weapons, aliens, craft, UFOs, etc. to work together with the pack but that can work separately from the pack. 
-* You can provide a download link to the pack, which avoids any of the GNU GPL requirements for your mod.
-* You can distribute the pack and your mod as a bundle, while keeping the pack's README and LICENSE files inside of it, but your mod will be required to be GPL as well.
+* While distributing your mod you also provide a download link to the pack, which avoids any of the GNU GPL requirements for your mod.
+* You combine the pack and your mod into a software bundle, but your mod will be required to have the same GPL license and you cannot change any of the pack's contents.
 2) You create a mod that requires the Terrain Pack to be modified.
-* You create and distribute a patch for the Terrain Pack to work with your mod. The patch must document the changes and have the GPL license. Your mod will not require the GPL license, as long as the patch and your mod are separate download bundles.
+* You create and distribute a patch for the Terrain Pack to work with your mod, along with a link to obtain an original copy of the Terrain Pack. The patch must document the changes being made to the pack and have the GPL license. Your mod will not require the GPL license, as long as the patch and your mod are separate download bundles. Otherwise, you need the GPL license for the entire bundle. 
 3) You create a modpack that requires the Terrain Pack to be integrated (modified) to work with several other mods. 
-* You include the pack in your mod as a separate folder, while keeping its README and LICENSE files inside, but you'll need to document any changes you make to its files and your mod pack will need to have the GPL license.
+* You include the pack in your mod as a separate folder, while keeping its README and LICENSE files inside, but you'll need to document separately any changes you make to its files and your modpack will need to have the GPL license.
 4) You only use all or some of the pack's resources in a larger megamod or total conversion.
-* You'll ALWAYS need to keep the unchanged Terrain Pack's README file visible inside your mod's main folder, keep a record of every change you've made to its files (including removal and renaming) and give your mod the GNU GPL license. If required for clarification, you may rename the README to README_TERRAINPACK or anything similar. 
+* You'll always need to keep the unchanged Terrain Pack's README file visible inside your mod's main folder, keep a record of every change you've made to its files (including removal and renaming), and give your mod the GNU GPL license. If required for clarification, you may rename the README to README_TERRAINPACK or anything similar that clearly identifies its original. 
+
+And if you have any doubts or specific questions on how to mod the pack or the license requirements, just ask.
 
 AUTHORS
 -------
@@ -282,8 +287,41 @@ Big thank you to everyone who has given feedback/ideas/bug reports: Solaris Scor
 
 Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the developers for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
 
-OLD CHANGELOG
--------------
+ORIGINAL FILES
+--------------
+This folder contains 3 subfolders
+\AREA 51 SITE
+Contains the original web pages of Hobbes' site regarding his personal terrains created for the UFO: Enemy Unknown and UFO2000 games, as well as all the terrains published on their original zipped versions and the first published version of this Terrain Pack made for UFO2000.
+UFO: Enemy Unknown/XCOM: UFO Defense
+Area51Mod.zip.zip
+City.zip
+city2mod.zip
+Dawn City Terror Site Release.zip
+FortMod.zip
+HiveMod.zip
+NativeMod.zip
+Port Terrain for EU Alpha 2.zip
+
+UFO2000
+apartmentufo2k.zip
+area51ufo2k.zip
+farmwithufos.zip
+hiveufo2k.zip
+modfarmufo2k.zip
+nativeufo2k.zip
+railyardufo2k.zip
+siberiaufo2k.zip
+slumufo2k.zip
+terrainpack2ufo2k.zip
+
+\UFO 2000
+Contains the mapdepot web page, and all the UFO2000 terrains made by several authors.
+
+\MODDING TOOLS
+Working versions of all the editors and tools listed on the credits.
+
+OLD CHANGELOG (OpenXCom version)
+--------------------------------
 Version 4.3
 Removed several terrains from Area 51 mod due to author's request
 Removed civilian units due to permission issues
