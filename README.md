@@ -3,13 +3,17 @@ Open source terrain mod pack for the original UFO: Enemy Unknown/XCom: UFO Defen
 
 Official GitHub repository: https://github.com/Hobbes74/Terrain-Pack
 
-Any questions can be asked in the OpenXCom forums, Github page or emailed directly to aadlg@rocketmail.com.
+Any questions can be asked in the OpenXCom forums & Discord or emailed to aadlg@rocketmail.com.
 
 COPYRIGHT
 ---------
-The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to properly use, distribute, modify, and credit the Terrain Pack and the terrain authors, which are individually listed on the AUTHORS file.
+The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to obtain the license to irrevocably and permanently use, distribute, modify and redistribute the Terrain Pack, by properly crediting it and the authors of the X-COM terrains, which are listed on the AUTHORS file inside its main folder. 
 
-The original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if it has been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
+The AUTHORS file also contains the credits for everyone who created, or was involved in the development of these terrains and the Terrain Pack. And while it's easier to remember the names of the terrain authors because of their originality and creativity, specially when XCOM modding was beginning, if you feel you have made an unrecognized contribution, please inform us to correct the situation. 
+
+Finally, the original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if they have been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
+
+TLDR - Modders, read the AUTHORS file, follow the rules and have fun.
 
 INSTALLATION
 ------------
@@ -17,21 +21,59 @@ INSTALLATION
 
 * UFO2000: Copy the .zip files found in the mod's \Original\UFO2000\ folder inside the \extensions folder of \UFO2000
 
-* UFO: Enemy Unknown/XCOM: UFO Defense: unzip any of the files (without 2k on their name) that are inside found on the pack's \Original\Area 51 Site\ folder to the game's main folder and replace all the original files (make back-up copies first). 
+* UFO: Enemy Unknown/XCOM: UFO Defense: unzip any of the files (without 2k on their name) that are inside found on the pack's \Original\Area 51 Site\ folder to the game's main folder and replace all the original files (make back-up copies first).
+
+TLDR - Any questions related to installing, ask.
 
 DESCRIPTION
 -----------
 The Terrain Pack contains 70+ terrains, as well as a new globe, to supplement those of the original UFO: Defense game while playing it through OpenXCom, UFO2000 or even the original game. It was originally created by Hobbes for his UFO2000 terrains, who later updated it for use in OpenXCom, and expanded it with the contributions of other authors.
 
-The pack includes all published terrain mods for the original game made by Hobbes, and all the terrains made for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/) by Hobbes and other authors. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/) until it went dead around 2015.
+The pack includes all published terrain mods for the original game made by Hobbes, and all the terrains made for the UFO2000 opensource multiplayer clone of the original XCom game (http://ufo2000.sourceforge.net/) by Hobbes and other authors. All of those were originally published and hosted on Hobbes' old Area 51 website (http://area51.xcomufo.com/), which was hosted on the http://www.xcomufo.com site until the page went offline dead around 2015. Several of Hobbes' terrains can also still be downloaded at the Strategycore.co.uk XCom site's forums (http://www.strategycore.co.uk/forums/topic/9389-ufo-terrain-mod/).
 
-Many of these UFO2000 terrains were later converted by Hobbes to use in OpenXCom, as it was required to create new AI route nodes (.RMP files) for all of them in order to work with the original game and OpenXCom, since the multiplayer versions didn't require those files. 
+By then OpenXCom (https://openxcom.org/) made its 1.0 release, all of these mods were collected by the XCOM modding community, and made into a new Terrain Pack by Hobbes and several others, by updating the previous UFO2000 version to OpenXCom. Nearly all of these UFO2000 terrains were later converted by Hobbes to use in OpenXCom, as it was required to create new AI route nodes (.RMP files) for all of them in order to work with the original game and OpenXCom. The multiplayer versions didn't require those files and their old authors weren't around since the UFO2000 project went dormant about a decade ago, or knew anything about how the XCOM Tactical AI or the .RMP files worked. 
 
 The current version of the Terrain Pack is specifically designed for OpenXCom and also includes new terrains created specifically for it by several authors and published on the OpenXCom forums, with the individual mod links provided on the included AUTHORS text file.
 
-To keep all this material available in the future, the Terrain Pack contains a folder called \Original Files with all the .zip files of the terrains that were released and distributed on the Area 51 website as well as its relevant web pages. It also includes all the necessary XCom editors, tools and documentation that were used to create these terrain mods. This will allow everyone to keep playing them in the future and for XCom modders to keep using them to other terrains.
+To keep all this material available in the future, the Terrain Pack contains a folder called \Original Files\ with all the .zip files of the terrains that were released and distributed on the Area 51 website as well as its relevant web pages. It also includes all the necessary XCom editors, tools and documentation that were used to create these terrain mods. This will allow everyone to keep playing them in the future and for XCom modders to keep using them to other terrains.
 
-"This is a gift from all the terrain modders involved to the XCom community, and specially from all of us who were a part of the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. Play, enjoy, learn, modify and use them well in the future as we did with them." - Hobbes, January 17th, 2022.
+This Terrain Pack is also available at the OpenXCom mod portal - https://openxcom.mod.io/
+
+Finally, if you'd like to give something back to Terrain Pack, a simple thank you message is more than enough. If you'd like to contribute, send us a message too.
+
+And if you insist in donating, then please donate instead to OpenXCom (https://openxcom.org/donate/), or any of its developers, OXCE included. Due to their work, the original game is constantly being developed and updated with new features, and without them, the current Terrain Pack wouldn't be possible. Thank you.
+
+TLDR - Players, follow the instructions to install and have fun.
+
+MOD COMPATIBILITY OPENXCOM
+--------------------------
+
+The Terrain Pack can be played on both OXC or OpenXCom Extended.
+
+Compatible Types Of Mods (100%)
+* Weapons
+* Craft
+* Aliens
+* Items
+* Armors
+* Units
+* UFOS
+* Alien Missions
+* Facilities
+* Manufacture
+* Research
+* Mission Scripts
+* Starting Base
+* Ufopedia
+
+Compatible Types of Mods (50%)
+* Terrains
+* Alien Deployments
+* Countries
+* Regions
+* Globe
+
+TLDR - Players, pick from the top list. Modders, pick from the bottom list. 
 
 TERRAIN LIST (OpenXCom)
 -----------------------
@@ -115,7 +157,10 @@ Other OpenXCom Features:
 - North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned.
 - Several new countries added.
 
-UFO2000 Terrains
+TLDR - Requires OpenXCom to be played, available at https://openxcom.org/
+
+TERRAIN LIST (UFO2000)
+----------------------
 * ABANDONED BASE
 * AIRFIELD
 * ALIEN BASE
@@ -146,7 +191,12 @@ UFO2000 Terrains
 * XBASE+
 * TERRAIN PACK (original published version)
 
-UFO: Enemy Unknown/XCOM: UFO Defense - some require XComUtil to be played.
+Several of these terrains remain unconverted to OpenXCom, mostly because they were created for multiplayer and lack the .RMP files necessary for alien spawning (https://www.ufopaedia.org/index.php/Alien_movement_patterns) and the tactical AI (https://www.ufopaedia.org/index.php/Tactical_AI) to properly control them.
+
+TLDR - Requires UFO2000 http://ufo2000.sourceforge.net/ to be played and another human to play against you.
+
+TERRAIN LIST (XCOM)
+-------------------
 * AREA 51
 * CITY
 * CITY2 (XComUtil)
@@ -157,6 +207,10 @@ UFO: Enemy Unknown/XCOM: UFO Defense - some require XComUtil to be played.
 * NATIVE (XComUtil)
 * PORT
 
+Several XCOM terrain mods that work by replacing the original game files. Remember to keep backup copies.
+Some require XComUtil to be played - available at http://xcomutil.scotttjones.com/
+
+TLDR - Several terrain mods created for the original game, still playable.
 
 OLD CHANGELOG (OpenXCom version)
 --------------------------------
@@ -363,3 +417,5 @@ Removed 2 unnecessary placeholder terrain files (PORTBAN and PORTFRNITURE)
 Version 1.5
 Added Mad City terrain
 Removed Area51, Hive and City terrains until they are reworked
+
+TLDR - History.
