@@ -1,8 +1,14 @@
 LICENSE
 
-The Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This gives you the freedom to distribute and modify the materials only for non-commercial proposes and only when providing proper attribution. Any derivatives made from this work must also have the CC BY-NC-SA 4.0 license, which means that you cannot use, copy or alter the original materials without giving them the same CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). 
 
-By proper attribution (https://wiki.creativecommons.org/wiki/License_Versions#Detailed_attribution_comparison_chart) you need to include on your credits the terrain(s) you are using and their author(s), as well as provide a link to the Terrain Pack repository (https://github.com/Hobbes74/Terrain-Pack) and the author's mod page, if it exists. You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS section below.
+This gives you the freedom to distribute and modify the materials for non-commercial proposes only and requires you to provide proper attribution. 
+
+Any derivatives made from this work must also have the CC BY-NC-SA 4.0 license, which means that you cannot  alter the original materials and share the modified versions without giving them the same CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+By proper attribution (https://wiki.creativecommons.org/wiki/License_Versions#Detailed_attribution_comparison_chart) you need to include on your credits the Terrain Pack (if you're using all of it) or the specific terrain(s) you are using and their author(s), as well as to include a link to the Terrain Pack repository (https://github.com/Hobbes74/Terrain-Pack) and/or the author's mod page, if it exists.
+
+You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS section below.
 
 AUTHORS (alphabetical order)
 
@@ -26,13 +32,13 @@ Exo2000
 * SAND CASTLE
 
 Hobbes
-* AREA (AREA 51)
-* CARGOSHIP (converted from TFTD terrain)
+* AREA/AREA 51
+* CARGOSHIP - converted to UFO from TFTD terrain
 * CARGOSHIPPORT
 * CITY/APARTMENT
 * CITY2 (MAD CITY/MADURBAN/MADURBANUFO)
 * DESERTMOUNT
-* DESERTPLANE (converted from TFTD terrain)
+* DESERTPLANE - converted to UFO from TFTD terrain
 * FARM WITH UFOS
 * FORESTMOUNT 
 * FORESTPOLAR 
@@ -43,20 +49,20 @@ Hobbes
 * GRASSLANDFORESTMOUNT
 * GRASSLANDPOLAR
 * HIVE
-* ISLANDURBAN (converted from TFTD terrain)
+* ISLANDURBAN - converted to UFO from TFTD terrain
 * JUNGLEMOUNT
 * JUNGLEPOLAR
-* LINERSHIP  (converted from TFTD terrain)
+* LINERSHIP  - converted to UFO from TFTD terrain
 * LINERSHIPPORT
-* MODIFIED FARM (CULTAFARMA/CULTAFARMB)
+* MODIFIED FARM (CULTAFARMA/CULTAFARMB) - created new map blocks
 * NATIVE (NATIVEURBAN/NATIVEUFO)
 * POLARDESERT
 * POLARDESERTMOUNT
 * POLARMOUNT
-* POLARPLANE (converted from TFTD terrain)
+* POLARPLANE - converted to UFO from TFTD terrain
 * POLIS (POLISURBAN)
-* PORTUFO (converted from TFTD terrain)
-* PORTURBAN 
+* PORTUFO - converted to UFO from TFTD terrain
+* PORTURBAN) - created new map blocks
 * RAILYARD (RAILYARDURBAN)
 * SLUM (SLUMURBAN)
 * SIBERIA
@@ -81,13 +87,16 @@ Hobbes
 * TUNDRAFORESTMOUNT
 * TUNDRAMOUNT
 * TUNDRAPOLAR
-* TUNDRAPLANE (conversion from TFTD terrain)
+* TUNDRAPLANE - converted to UFO from TFTD terrain
+
+Hobbes & Kratos 
+* MADURBANSNOW
 
 Hobbes & Nachtwolf & Voller
 * DAWN CITY (DAWNURBANA/DAWNURBANB)
 
-Hobbes & Kratos 
-* MADURBANSNOW
+*Hobbes & Solarius Scorch & Dioxine
+* COMRCURBAN
 
 JFarceur
 * ALIEN BASE++ (UBASE++)

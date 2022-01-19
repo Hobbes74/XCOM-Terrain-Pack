@@ -258,7 +258,28 @@ mapScripts:
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]      
+  - type: COMRCURBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: CRASHEDPLANE
     commands:
     - type: addUFO

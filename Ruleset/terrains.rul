@@ -372,6 +372,92 @@ terrains:
         width: 20
         length: 20
         groups: 4
+  - name: COMRCURBAN 
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN
+      - COMDECOR
+    script: COMRCURBAN
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: 1
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: 4
   - name: CULTAFARMA
     mapDataSets:
       - BLANKS

@@ -7,7 +7,7 @@ Any questions can be asked in the OpenXCom forums, Github page or emailed direct
 
 PERMISSIONS
 -----------
-The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to use it on your mods and properly credit the Terrain Pack and its authors, which are individually listed on the LICENSE file.
+The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to use, distribute, modify, and how to credit the Terrain Pack and the terrain authors, which are individually listed on the LICENSE file.
 
 The original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if it has been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
 
@@ -87,8 +87,9 @@ Terror Site Terrains:
 * CARGOSHIP (TFTD terrain, 1st stage mission only)
 * CARGOSHIPPORT (Cargo Ship + Port terrain)
 * COLDISLE (Polar research station)
-* DAWNURBANA
-* DAWNURBANB
+* COMRCURBAN (Commercial)
+* DAWNURBANA (Dawn City A)
+* DAWNURBANB( Dawn City B)
 * DOWNTOWNURBAN
 * EXPANDEDTERROR
 * INDUSTRIALURBAN
@@ -150,19 +151,24 @@ TERRAIN PACK GENERAL CREDITS
 ----------------------------
 Hobbes
 * Lead Developer
+
 Scott T Jones
 * Creator of the XComUtil tool for the original game
+
 Falko
 * Creator of the OXC Tools website
+
 Supsuper
 * Bugs and technical issues
+
 Volutar
 * WORLD.DAT editor and MCDEdit tools (both included on the Modding tools folder)
+
 Warboy1982
 * Bugs and technical issues
+
 Daishiva
-* Creator of the original MapView tool (included on the Modding tools folder, and updated to Windows 10 by SupSuper)
-* Creator of the PCKView tool - http://www.strategycore.co.uk/files/pckview/
+* Creator of the original MapView tool (included on the Modding tools folder, and updated to Windows 10 by SupSuper) and the PCKView tool - http://www.strategycore.co.uk/files/pckview/
 
 Big thank you to everyone who has given feedback/ideas/bug reports: Solaris Scorch, Dioxine, Arthanor, JStank, davide, Falko, Aldorn, Mr Quiet, robin, niculinux, the_third_curry, XCOMFan419, BBHood217, ivandogovich, VSx86, MKSheppard, Recruit69, wsmithjr, Vulgar Monkey, myk002, XOps, Infini, pkrcel, new_civilian, TaxxiDriver, BlackLibrary, bladum, volutar, Yankes, shadics, Goldy, Gifty, hellrazor, SIMON, tollworkout, Ridan, Buscher and clownagent.
 
