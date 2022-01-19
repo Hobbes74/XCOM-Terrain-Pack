@@ -2,147 +2,16 @@ LICENSE
 
 The Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). 
 
-This gives you the freedom to distribute and modify the materials for non-commercial proposes only and requires you to provide proper attribution. 
+This gives you the freedom to distribute and modify its materials for non-commercial proposes only and requires you to provide proper attribution. 
 
-Any derivatives made from this work must also have the CC BY-NC-SA 4.0 license, which means that you cannot  alter the original materials and share the modified versions without giving them the same CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+Any derivatives made from this work must also have the CC BY-NC-SA 4.0 license, which means that you cannot alter the original materials and share the modified versions without giving them the same CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-By proper attribution (https://wiki.creativecommons.org/wiki/License_Versions#Detailed_attribution_comparison_chart) you need to include on your credits the Terrain Pack (if you're using all of it) or the specific terrain(s) you are using and their author(s), as well as to include a link to the Terrain Pack repository (https://github.com/Hobbes74/Terrain-Pack) and/or the author's mod page, if it exists.
+For proper attribution you need to include on your mod's credits a mention to Terrain Pack and the specific terrain(s) you are using and their author(s), as well as to include a link to the Terrain Pack repository (https://github.com/Hobbes74/Terrain-Pack) and the author's mod page, if it exists. You can choose not to include the descriptions of the terrains.
 
-You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS section below.
+If you are using all or the majority of the Terrain Pack's assets, you must credit the entire pack on the top section of your authors/credits file because of its overall importance to your mod, while providing the above repository link.
 
-AUTHORS (alphabetical order)
+You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS file provided together with this LICENSE.
 
-Abyssion
-* ALIEN BASE
-* CYDONIA BASE
-* UFO YARDS
+This license is irrevocable and permanent as long as you fully comply with these conditions. 
 
-Bagirov
-* INDUSTRIAL 
-
-Bagirov & Hobbes
-* INDUSTRIALURBAN
-* INDUSTRIALUFO
-* PORTINDUSTRIALURBAN
-
-Blank
-* COLD ISLE - [TFTD]Terrain Expansion (https://openxcom.org/forum/index.php/topic,4680.0.html)
-
-Exo2000
-* SAND CASTLE
-
-Hobbes
-* AREA/AREA 51
-* CARGOSHIP - converted to UFO from TFTD terrain
-* CARGOSHIPPORT
-* CITY/APARTMENT
-* CITY2 (MAD CITY/MADURBAN/MADURBANUFO)
-* DESERTMOUNT
-* DESERTPLANE - converted to UFO from TFTD terrain
-* FARM WITH UFOS
-* FORESTMOUNT 
-* FORESTPOLAR 
-* FORT
-* GRASSLANDDESERT 
-* GRASSLANDDESERTMOUNT
-* GRASSLANDFOREST
-* GRASSLANDFORESTMOUNT
-* GRASSLANDPOLAR
-* HIVE
-* ISLANDURBAN - converted to UFO from TFTD terrain
-* JUNGLEMOUNT
-* JUNGLEPOLAR
-* LINERSHIP  - converted to UFO from TFTD terrain
-* LINERSHIPPORT
-* MODIFIED FARM (CULTAFARMA/CULTAFARMB) - created new map blocks
-* NATIVE (NATIVEURBAN/NATIVEUFO)
-* POLARDESERT
-* POLARDESERTMOUNT
-* POLARMOUNT
-* POLARPLANE - converted to UFO from TFTD terrain
-* POLIS (POLISURBAN)
-* PORTUFO - converted to UFO from TFTD terrain
-* PORTURBAN) - created new map blocks
-* RAILYARD (RAILYARDURBAN)
-* SLUM (SLUMURBAN)
-* SIBERIA
-* SAVANNADESERT 
-* SAVANNADESERTMOUNT 
-* SAVANNAFOREST
-* SAVANNAFORESTMOUNT 
-* SAVANNAPOLAR
-* STEPPEDESERT
-* STEPPEDESERTMOUNT
-* STEPPEFOREST
-* STEPPEFORESTMOUNT
-* STEPPEPOLAR
-* TAIGADESERT
-* TAIGADESERTMOUNT
-* TAIGAFOREST
-* TAIGAFORESTMOUNT
-* TAIGAPOLAR
-* TUNDRADESERT
-* TUNDRADESERTMOUNT
-* TUNDRAFOREST
-* TUNDRAFORESTMOUNT
-* TUNDRAMOUNT
-* TUNDRAPOLAR
-* TUNDRAPLANE - converted to UFO from TFTD terrain
-
-Hobbes & Kratos 
-* MADURBANSNOW
-
-Hobbes & Nachtwolf & Voller
-* DAWN CITY (DAWNURBANA/DAWNURBANB)
-
-*Hobbes & Solarius Scorch & Dioxine
-* COMRCURBAN
-
-JFarceur
-* ALIEN BASE++ (UBASE++)
-
-Kratos
-* ARCTIC CITY
-
-Llyr
-* DOWNTOWN 
-
-Llyr & Hobbes
-* DOWNTOWNURBAN
-
-Luke83
-* EXPANDEDTERROR - Community Map Pack (https://openxcom.mod.io/community-map-pack)
-
-MKSheppard & Gix & Hobbes
-* Geoscape cities, countries and Country Zones - Improved Nations mod https://openxcom.org/forum/index.php?topic=1513.0
-
-Twilight Owl
-* ABANDONED BASE
-* AIRFIELD 
-
-Twilight Owl & Hobbes
-* AIRFIELD1/2/3/4/5/6/7/8
-
-Violazr
-BEACHES OF NORMANDY
-EASTER ISLAND
-PAINTBALL FIELD
-PLANE CRASH SITE
-
-Volutar & Hobbes
-* WORLD.DAT - https://www.ufopaedia.org/index.php/User:Volutar
-
-Wiseman
-* STORM MOUNTAIN
-
-Wiseman & Hobbes
-* STORMMOUNTAIN
-
-Several UFO2000 authors
-* MODIFIED CITY
-* WAREHOUSE
-* XBASE+
-
-XOps & Hobbes
-* DESERTTEMPLE  (conversion from TFTD terrain)
-* JUNGLETEMPLE  (conversion from TFTD terrain)
+Failure to comply with the terms stated above will result in an initial warning. If necessary, it will be followed by proper reporting of the license violation to the host site, and if the abuse persists, revocation of youe permission to use/modify/distribute the Terrain Pack. 

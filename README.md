@@ -5,9 +5,9 @@ Official GitHub repository: https://github.com/Hobbes74/Terrain-Pack
 
 Any questions can be asked in the OpenXCom forums, Github page or emailed directly to aadlg@rocketmail.com.
 
-PERMISSIONS
------------
-The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to use, distribute, modify, and how to credit the Terrain Pack and the terrain authors, which are individually listed on the LICENSE file.
+COPYRIGHT
+---------
+The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to properly use, distribute, modify, and credit the Terrain Pack and the terrain authors, which are individually listed on the AUTHORS file.
 
 The original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if it has been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
 
@@ -27,15 +27,16 @@ The pack includes all published terrain mods for the original game made by Hobbe
 
 Many of these UFO2000 terrains were later converted by Hobbes to use in OpenXCom, as it was required to create new AI route nodes (.RMP files) for all of them in order to work with the original game and OpenXCom, since the multiplayer versions didn't require those files. 
 
-The current version of the Terrain Pack is specifically designed for OpenXCom and also includes new terrains created specifically for it by several authors and published on the OpenXCom forums, with the individual mod links provided on the included LICENSE.
+The current version of the Terrain Pack is specifically designed for OpenXCom and also includes new terrains created specifically for it by several authors and published on the OpenXCom forums, with the individual mod links provided on the included AUTHORS text file.
 
-To keep all these files available, the Terrain Pack contains a folder called \Original Files with all the .zip files of the terrains that were released and distributed on the Area 51 website as well as its relevant web pages«. It also includes all the necessary XCom editors, tools and documentation that were used to create these terrain mods. This will allow everyone to keep playing them in the future and for XCom modders to keep using them to other terrains.
+To keep all this material available in the future, the Terrain Pack contains a folder called \Original Files with all the .zip files of the terrains that were released and distributed on the Area 51 website as well as its relevant web pages. It also includes all the necessary XCom editors, tools and documentation that were used to create these terrain mods. This will allow everyone to keep playing them in the future and for XCom modders to keep using them to other terrains.
 
-"This is a gift from all the terrain modders involved to the XCom community, from all of us who were a part of the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. Play, enjoy, learn, modify and use them well in the future as we did with them." - Hobbes, January 17th, 2022.
+"This is a gift from all the terrain modders involved to the XCom community, and specially from all of us who were a part of the UFO2000 project and had to learn how to create XCom terrains from virtually zero other than the original game files. Play, enjoy, learn, modify and use them well in the future as we did with them." - Hobbes, January 17th, 2022.
 
 TERRAIN LIST (OpenXCom)
----------------------------
-Geoscape Terrains:
+-----------------------
+
+UFO Assault/Recovery:
 * CULTAFARMA (vanilla Farm + several new map blocks)
 * CULTAFARMB (Farm using only the new map blocks)
 * DESERTMOUNT 
@@ -81,7 +82,7 @@ Geoscape Terrains:
 * TUNDRAPOLAR (Tundra Swamp) 
 * TUNDRAPLANE (adapted Crashed Plane TFTD terrain)
 
-Terror Site Terrains:
+Terror Site:
 * AIRFIELD
 * APARTMENT
 * CARGOSHIP (TFTD terrain, 1st stage mission only)
@@ -114,7 +115,12 @@ Other OpenXCom Features:
 - North Atlantic, South Atlantic, Pacific and Indian Oceans can now have Alien Terror, Alien Base & Alien Research missions assigned.
 - Several new countries added.
 
-UFO2000 Terrains (ORIGINAL FILES\UFO2000\ folder)
+UFO2000 Terrains
+* ABANDONED BASE
+* AIRFIELD
+* ALIEN BASE
+* APARTMENT
+* AREA51
 * ARCTIC CITY
 * BEACHES OF NORMANDY
 * CYDONIA BASE
@@ -126,9 +132,13 @@ UFO2000 Terrains (ORIGINAL FILES\UFO2000\ folder)
 * MOTHERSHIP
 * NATIVE
 * PAINTBALL FIELD
+* PLANE CRASH
 * POLIS
 * RAILYARD
 * SAND CASTLE
+* SIBERIA
+* SKYRANGER FACTORY
+* SLUM
 * STORM MOUNTAIN
 * UBASE++
 * UFOYARDS
@@ -136,7 +146,7 @@ UFO2000 Terrains (ORIGINAL FILES\UFO2000\ folder)
 * XBASE+
 * TERRAIN PACK (original published version)
 
-UFO: Enemy Unknown/XCOM: UFO Defense (ORIGINAL FILES\AREA 51 SITE\) - some require XComUtil to be played.
+UFO: Enemy Unknown/XCOM: UFO Defense - some require XComUtil to be played.
 * AREA 51
 * CITY
 * CITY2 (XComUtil)
@@ -147,32 +157,6 @@ UFO: Enemy Unknown/XCOM: UFO Defense (ORIGINAL FILES\AREA 51 SITE\) - some requi
 * NATIVE (XComUtil)
 * PORT
 
-TERRAIN PACK GENERAL CREDITS
-----------------------------
-Hobbes
-* Lead Developer
-
-Scott T Jones
-* Creator of the XComUtil tool for the original game
-
-Falko
-* Creator of the OXC Tools website
-
-Supsuper
-* Bugs and technical issues
-
-Volutar
-* WORLD.DAT editor and MCDEdit tools (both included on the Modding tools folder)
-
-Warboy1982
-* Bugs and technical issues
-
-Daishiva
-* Creator of the original MapView tool (included on the Modding tools folder, and updated to Windows 10 by SupSuper) and the PCKView tool - http://www.strategycore.co.uk/files/pckview/
-
-Big thank you to everyone who has given feedback/ideas/bug reports: Solaris Scorch, Dioxine, Arthanor, JStank, davide, Falko, Aldorn, Mr Quiet, robin, niculinux, the_third_curry, XCOMFan419, BBHood217, ivandogovich, VSx86, MKSheppard, Recruit69, wsmithjr, Vulgar Monkey, myk002, XOps, Infini, pkrcel, new_civilian, TaxxiDriver, BlackLibrary, bladum, volutar, Yankes, shadics, Goldy, Gifty, hellrazor, SIMON, tollworkout, Ridan, Buscher and clownagent.
-
-Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the developers for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
 
 OLD CHANGELOG (OpenXCom version)
 --------------------------------
