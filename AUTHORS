@@ -1,7 +1,6 @@
 ---------------
 GENERAL CREDITS
 ---------------
-
 Hobbes
 * Lead Developer (https://www.ufopaedia.org/index.php/User:Hobbes)
 
@@ -9,8 +8,19 @@ Scott T Jones
 * Creator of the XComUtil tool for the original game (https://sites.google.com/site/stjones/xcomutil)
 
 Daishiva
-* Creator of the original MapView tool) (http://www.strategycore.co.uk/files/mapview-1/) - working Windows 10 version included on the Modding Tools folder, and updated to Windows 10 by SupSuper.
+* Creator of the original MapView tool) (http://www.strategycore.co.uk/files/mapview-1/) - working Windows 10 version included on the Modding Tools folder
 * PCKView editor - (http://www.strategycore.co.uk/files/pck_view/)
+
+Sergei Semaskho
+* Lead Developer of the UFO2000 project (http://ufo2000.sourceforge.net/)
+* Host of the UFO2000 Multiplayer Server, now offline
+
+Nachtwolf
+* UFO2000 Developer
+* Original artwork for the DAWN CITY terrain
+
+Koralt
+* MCDEdit editor - (http://www.strategycore.co.uk/files/mcdedit/) included on the Modding Tools folder
 
 BB's 
 * Creator of BB's Toolkit for XCOM (http://www.strategycore.co.uk/files/bbs-toolkit/)
@@ -19,16 +29,20 @@ Falko
 * Creator of the OXC World Editor website (http://falkooxc2.pythonanywhere.com/worldeditor)
 
 Volutar
-* WORLD.DAT editor - (https://www.ufopaedia.org/index.php/User:Volutar)
-* MCDEdit editor - 
+* WORLD.DAT editor - (https://www.ufopaedia.org/index.php/User:Volutar) included on the Modding Tools folder
+* OpenXCom developer
+
+SupSuper (https://github.com/SupSuper)
+* OpenXCom developer (https://openxcom.org/)
+, MapView Compatibility (Windows 10)
+* Bugs and technical issues
 
 Warboy1982 (https://github.com/Warboy1982)
 * OpenXCom developer (https://openxcom.org/)
 * Bugs and technical issues
 
-Supsuper (https://github.com/SupSuper)
-* OpenXCom developer (https://openxcom.org/)
-* Bugs and technical issues
+NKF
+* Author of the Mudranger APC craft (http://www.strategycore.co.uk/files/mudranger/)
 
 Meridian (https://github.com/MeridianOXC)
 * OpenXCom Extended developer (https://openxcom.org/forum/index.php/board,22.0.html)
@@ -37,15 +51,6 @@ Meridian (https://github.com/MeridianOXC)
 Yankees
 * OpenXCom Extended developer (https://openxcom.org/forum/index.php/board,22.0.html)
 * Bugs and technical issues
-
-----------------------------------
-Feedback/bug reporting/fixes/other
-----------------------------------
-Solaris Scorch, Dioxine, Arthanor, JStank, davide, Falko, Aldorn, Mr Quiet, robin, niculinux, the_third_curry, XCOMFan419, BBHood217, ivandogovich, VSx86, MKSheppard, Recruit69, wsmithjr, Vulgar Monkey, myk002, XOps, Infini, pkrcel, new_civilian, TaxxiDriver, BlackLibrary, bladum, volutar, Yankees, shadics, Goldy, Gifty, hellrazor, SIMON, tollworkout, Ridan, Buscher and clownagent.
-
-Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the developers for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
-
-If you feel that the credits are wrongly attributed, please inform the Terrain Pack authors to clarify and correct the issue.
 
 ----------------------
 MOD AUTHORS & TERRAINS
@@ -212,7 +217,16 @@ Notes:
 * Converting UFO/TFTD terrains to UFO2000 mainly required creating the .lua map generation files.
 * Combined terrains for OpenXCom was mostly done through map script rulesets, without changes done to the terrain's original files.
 * Enlarged terrains are those with new map blocks (.MAP and .RMP files) designed and added to the original version.
-* The XCOM and UFO2000 terrains were hosted at http://area51.xcomufo.com, which can be consulted through the Internet Wayback Machine. The original site files have been all included in the pack, in the Original Files folder.
+* Hobbes' XCOM and UFO2000 terrains were hosted at http://area51.xcomufo.com, the offline version can be consulted through this address at the Internet Wayback Machine. The original site files have been all included in the pack, in the Original Files folder. Several of those mods are still available to download at Strategycore.co.uk ( (http://www.strategycore.co.uk/forums/topic/9389-ufo-terrain-mod/).
+
+Feedback/Bug Reporting/Fixes/Other
+----------------------------------
+
+Solaris Scorch, Dioxine, Arthanor, JStank, davide, Falko, Aldorn, Mr Quiet, robin, niculinux, the_third_curry, XCOMFan419, BBHood217, ivandogovich, VSx86, MKSheppard, Recruit69, wsmithjr, Vulgar Monkey, myk002, XOps, Infini, pkrcel, new_civilian, TaxxiDriver, BlackLibrary, bladum, volutar, Yankees, shadics, Goldy, Gifty, hellrazor, SIMON, tollworkout, Ridan, Buscher and clownagent.
+
+Finally a big thanks for Warboy1982, Supsuper, Daiky and the rest of the developers for their amazing work with OpenXcom, to NineX for the mod site and hosting the UFOPaedia.org wiki, and to Yankees and Meridian for their work with OXCE.
+
+If you feel that the credits are wrongly attributed, please inform the Terrain Pack authors to clarify and correct the issue.
 
 -----------------------------
 ORIGINAL TERRAINS (XCOM/TFTD)

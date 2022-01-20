@@ -7,9 +7,9 @@ Any questions can be asked in the OpenXCom forums & Discord or emailed to aadlg@
 
 COPYRIGHT
 ---------
-The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license. See the included LICENSE file on how to obtain the license to irrevocably and permanently use, distribute, modify and redistribute the Terrain Pack, by properly crediting it and the authors of the X-COM terrains, which are listed on the AUTHORS file inside its main folder. 
+The Terrain Pack and its original contents are copyrighted to their individual authors and is released under the CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/). Please read the included LICENSE file on how to obtain the license to irrevocably and permanently use, distribute, modify and redistribute the Terrain Pack, by properly crediting it and the authors of the X-COM mod terrains, which are listed on the AUTHORS file inside its main folder.
 
-The AUTHORS file also contains the credits for everyone who created, or was involved in the development of these terrains and the Terrain Pack. And while it's easier to remember the names of the terrain authors because of their originality and creativity, specially when XCOM modding was beginning, if you feel you have made an unrecognized contribution, please inform us to correct the situation. 
+The AUTHORS file also contains the credits for everyone who created, or was involved in the development of these terrains and the Terrain Pack. And while it's easier to remember the names of the terrain authors because of their originality and creativity, specially when XCOM modding was beginning, if you feel you have made an unrecognized contribution, please inform us to correct the situation.
 
 Finally, the original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if they have been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom.
 
@@ -66,7 +66,7 @@ Compatible Types Of Mods (100%)
 * Starting Base
 * Ufopedia
 
-Compatible Types of Mods (50%)
+Incompatible Types of Mods (50%)
 * Terrains
 * Alien Deployments
 * Countries

@@ -134,8 +134,8 @@ alienDeployments:
       - INDUSTRIALURBAN
       - EXPANDEDTERROR
       - EXPANDEDTERROR
-      - DOWNTOWNURBAN
-      - DOWNTOWNURBAN
+      - CITY
+      - COMMERCIAL
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing: &TERROR_MISSION_BRIEFING
@@ -143,39 +143,6 @@ alienDeployments:
       desc: STR_TERROR_MISSION_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_BIG_CITY
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
-    terrains:
-      - CITY
-      - CITY
-      - DAWNURBANA
-      - DAWNURBANB
-      - RAILYARDURBAN
-      - RAILYARDURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_FACILITY
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
-    terrains:
-      - AREA
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
@@ -194,6 +161,38 @@ alienDeployments:
       - AIRFIELD6
       - AIRFIELD7
       - AIRFIELD8
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_BIG_CITY
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - DAWNURBANA
+      - DAWNURBANB
+      - DOWNTOWNURBAN
+      - DOWNTOWNURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+  - type: STR_TERROR_MISSION_FACILITY
+    data: *TERROR_MISSION_ALIENRANKS
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA
+      - RAILYARDURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing: *TERROR_MISSION_BRIEFING
@@ -237,6 +236,7 @@ alienDeployments:
     terrains:
       - PORTURBAN
       - PORTTFTD
+      - PORTINDUSTRIALURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing: *TERROR_MISSION_BRIEFING
@@ -294,6 +294,7 @@ alienDeployments:
     shade: 10
     civilians: 16
     terrains:
+      - SIBERIA
       - COLDISLE
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
