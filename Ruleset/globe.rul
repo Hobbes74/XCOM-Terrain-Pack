@@ -1,3 +1,4 @@
+#TERRAIN PACK
 globe:
   data: Resources/Geoscape/WORLD.DAT
   polylines:
@@ -33,6 +34,7 @@ globe:
     - [302.752, 34.475, 302.493, 30.022]
     - [306, 25.75, 304.134, 26.665, 301.182, 26.734, 301.897, 24.781, 297.182, 22.66, 291.928, 23.179, 289.604, 30.998, 290.166, 33.335, 286.13, 47.418, 288.082, 51.36, 291.753, 52.589, 291.962, 55.764]
     - [75.416, -37.588, 69.878, -37.484, 69.499, -33.858, 64.181, -29.319, 61.136, -29.213, 62.62, -26.75, 60.986, -25.129]
+#Textures -13 to -22 can be reused to add additional Terror Sites alienDeployments
   textures:
     - id: 0
       terrain:
@@ -42,58 +44,58 @@ globe:
         - name: FORESTMOUNT
           weight: 5
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGADESERT
+        - name: DESERT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGADESERTMOUNT
+        - name: DESERTMOUNT_TAIGA
           weight: 5
           area: [0, 360, -90, 0]
-        - name: TAIGAFOREST
+        - name: FOREST_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 5
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 5
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 1
       terrain:
         - name: CULTA
           weight: 15
-        - name: CULTAFARMA
+        - name: CULTA_FARMA
           weight: 15
-        - name: CULTAFARMB
+        - name: CULTA_FARMB
           weight: 15
         - name: FOREST
           weight: 10
@@ -101,96 +103,96 @@ globe:
         - name: FORESTMOUNT
           weight: 5
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 10
           area: [0, 360, 0, 0]
     - id: 2
       terrain:
         - name: CULTA
           weight: 15
-        - name: CULTAFARMA
+        - name: CULTA_FARMA
           weight: 15
-        - name: CULTAFARMB
+        - name: CULTA_FARMB
           weight: 15
-        - name: GRASSLANDDESERT
+        - name: DESERT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERTMOUNT
+        - name: DESERTMOUNT_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFOREST
+        - name: FOREST_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFORESTMOUNT
+        - name: FORESTMOUNT_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: GRASSLANDPOLAR
+        - name: WETLAND_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: INDUSTRIALUFO
+        - name: INDUSTRIAL_UFO
           weight: 20
           area: [0, 360, -90, 0]
-        - name: MADURBANUFO
+        - name: MADCITY_UFO
           weight: 20
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 10
           area: [0, 360, 0, 0]
     - id: 3
@@ -198,10 +200,10 @@ globe:
         - name: CULTA
           weight: 15
           area: [0, 360, -90, 0]
-        - name: CULTAFARMA
+        - name: CULTA_FARMA
           weight: 15
           area: [0, 360, -90, 0]
-        - name: CULTAFARMB
+        - name: CULTA_FARMB
           weight: 15
           area: [0, 360, -90, 0]
         - name: FOREST
@@ -210,37 +212,37 @@ globe:
         - name: FORESTMOUNT
           weight: 5
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, 0, 90]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, 0, 0]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 10
           area: [0, 360, 0, 0]
     - id: 4
@@ -248,93 +250,93 @@ globe:
         - name: CULTA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: CULTAFARMA
+        - name: CULTA_FARMA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: CULTAFARMB
+        - name: CULTA_FARMB
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERT
+        - name: DESERT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERTMOUNT
+        - name: DESERTMOUNT_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFOREST
+        - name: FOREST_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFORESTMOUNT
+        - name: FORESTMOUNT_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: GRASSLANDPOLAR
+        - name: WETLAND_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 5
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: NATIVEUFO
+        - name: NATIVE_UFO
           weight: 40
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
     - id: 5
       terrain:
         - name: MOUNT
           weight: 10
-        - name: TAIGADESERTMOUNT
+        - name: DESERTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
-        - name: TUNDRAMOUNT
+        - name: MOUNT_TUNDRA
           weight: 10
-        - name: TUNDRADESERTMOUNT
+        - name: DESERTMOUNT_TUNDRA
           weight: 10
-        - name: TUNDRAFORESTMOUNT
+        - name: FORESTMOUNT_TUNDRA
           weight: 10
-        - name: TUNDRAPLANE
+        - name: PLANE_TFTD_TUNDRA
           weight: 10
-        - name: TUNDRAPOLAR
+        - name: WETLAND_TUNDRA
           weight: 10
     - id: 6
       terrain:
@@ -344,34 +346,34 @@ globe:
         - name: FORESTMOUNT
           weight: 10
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFOREST
+        - name: FOREST_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TUNDRAFORESTMOUNT
+        - name: FORESTMOUNT_TUNDRA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TUNDRAPOLAR
+        - name: WETLAND_TUNDRA
           weight: 10
           area: [0, 360, -90, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 7
@@ -380,129 +382,129 @@ globe:
           weight: 10
         - name: DESERTMOUNT
           weight: 5
-        - name: DESERTTEMPLE
+        - name: ATLANT_TFTD_DESERT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: DESERTPLANE
+        - name: PLANE_TFTD_DESERT
           weight: 15
     - id: 8
       terrain:
         - name: CULTA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: CULTAFARMA
+        - name: CULTA_FARMA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: CULTAFARMB
+        - name: CULTA_FARMB
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERT
+        - name: DESERT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERTMOUNT
+        - name: DESERTMOUNT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFOREST
+        - name: FOREST_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFORESTMOUNT
+        - name: FORESTMOUNT_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: GRASSLANDPOLAR
+        - name: WETLAND_GRASSLAND
           weight: 5
           area: [0, 360, -90, 0]
         - name: DESERT
           weight: 10
         - name: DESERTMOUNT
           weight: 10
-        - name: DESERTPLANE
+        - name: PLANE_TFTD_DESERT
           weight: 10
-        - name: DESERTTEMPLE
+        - name: ATLANT_TFTD_DESERT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: MADURBANUFO
+        - name: MADCITY_UFO
           weight: 30
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
     - id: 9
       terrain:
         - name: POLAR
           weight: 10
-        - name: POLARDESERT
+        - name: DESERT_POLAR
           weight: 10
-        - name: POLARPLANE
+        - name: PLANE_TFTD_POLAR
           weight: 10
     - id: 10
       terrain:
-        - name: TAIGADESERT
+        - name: DESERT_TAIGA
           weight: 5
           area: [0, 360, -90, 0]
-        - name: TAIGADESERTMOUNT
+        - name: DESERTMOUNT_TAIGA
           weight: 5
           area: [0, 360, -90, 0]
-        - name: TAIGAFOREST
+        - name: FOREST_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TUNDRADESERT
+        - name: DESERT_TUNDRA
           weight: 5
-        - name: TUNDRADESERTMOUNT
+        - name: DESERTMOUNT_TUNDRA
           weight: 5
-        - name: TUNDRAFOREST
+        - name: FOREST_TUNDRA
           weight: 10
-        - name: TUNDRAFORESTMOUNT
+        - name: FORESTMOUNT_TUNDRA
           weight: 10
-        - name: TUNDRAMOUNT
+        - name: MOUNT_TUNDRA
           weight: 10
-        - name: TUNDRAPLANE
+        - name: PLANE_TFTD_TUNDRA
           weight: 5
-        - name: TUNDRAPOLAR
+        - name: WETLAND_TUNDRA
           weight: 10
     - id: 11
       terrain:
-        - name: NATIVEUFO
+        - name: NATIVE_UFO
           weight: 10
         - name: JUNGLE
           weight: 10
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 10
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 12
@@ -511,78 +513,78 @@ globe:
           weight: 10
     - id: 13
       terrain:
-        - name: GRASSLANDDESERT
+        - name: DESERT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDDESERTMOUNT
+        - name: DESERTMOUNT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFOREST
+        - name: FOREST_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: GRASSLANDFORESTMOUNT
+        - name: FORESTMOUNT_GRASSLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERT
+        - name: DESERT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFOREST
+        - name: FOREST_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: SAVANNADESERT
+        - name: DESERT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFOREST
+        - name: FOREST_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 10
           area: [0, 360, 0, 0]
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 14
       terrain:
-        - name: STEPPEDESERTMOUNT
+        - name: DESERTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEFORESTMOUNT
+        - name: FORESTMOUNT_STEPPE
           weight: 10
           area: [0, 360, -90, 0]
-        - name: STEPPEPOLAR
+        - name: WETLAND_STEPPE
           weight: 5
           area: [0, 360, -90, 0]
-        - name: SAVANNADESERTMOUNT
+        - name: DESERTMOUNT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAFORESTMOUNT
+        - name: FORESTMOUNT_SAVANNA
           weight: 10
           area: [0, 360, 0, 90]
-        - name: SAVANNAPOLAR
+        - name: WETLAND_SAVANNA
           weight: 5
           area: [0, 360, 0, 90]
     - id: 15
@@ -591,37 +593,37 @@ globe:
           weight: 5
         - name: DESERTMOUNT
           weight: 10
-        - name: DESERTPLANE
+        - name: PLANE_TFTD_DESERT
           weight: 10
-        - name: DESERTTEMPLE
+        - name: ATLANT_TFTD_DESERT
           weight: 10
           area: [0, 360, 0, 90]
     - id: 16
       terrain:
         - name: MOUNT
           weight: 10
-        - name: TAIGADESERTMOUNT
+        - name: DESERTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
-        - name: TUNDRAMOUNT
+        - name: MOUNT_TUNDRA
           weight: 10
-        - name: TUNDRADESERTMOUNT
+        - name: DESERTMOUNT_TUNDRA
           weight: 10
-        - name: TUNDRAPLANE
+        - name: PLANE_TFTD_TUNDRA
           weight: 10
-        - name: TUNDRAPOLAR
+        - name: WETLAND_TUNDRA
           weight: 10
     - id: 17
       terrain:
         - name: POLAR
           weight: 10
-        - name: POLARDESERT
+        - name: DESERT_POLAR
           weight: 10
-        - name: POLARDESERTMOUNT
+        - name: DESERTMOUNT_POLAR
           weight: 10
-        - name: POLARPLANE
+        - name: PLANE_TFTD_POLAR
           weight: 10
         - name: POLARMOUNT
           weight: 10
@@ -633,25 +635,25 @@ globe:
         - name: FORESTMOUNT
           weight: 5
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 5
           area: [0, 360, -90, 0]
-        - name: TAIGAFOREST
+        - name: FOREST_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 19
@@ -660,9 +662,9 @@ globe:
           weight: 10
         - name: DESERTMOUNT
           weight: 10
-        - name: DESERTPLANE
+        - name: PLANE_TFTD_DESERT
           weight: 10
-        - name: DESERTTEMPLE
+        - name: ATLANT_TFTD_DESERT
           weight: 10
           area: [0, 360, 0, 90]
     - id: 20
@@ -673,25 +675,25 @@ globe:
         - name: FORESTMOUNT
           weight: 10
           area: [0, 360, -90, 0]
-        - name: FORESTPOLAR
+        - name: WETLAND
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFOREST
+        - name: FOREST_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAFORESTMOUNT
+        - name: FORESTMOUNT_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: TAIGAPOLAR
+        - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: JUNGLEMOUNT
+        - name: RAINMOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLEPOLAR
+        - name: RAINFOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: JUNGLETEMPLE
+        - name: MU_TFTD_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 21

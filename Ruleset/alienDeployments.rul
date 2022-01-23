@@ -1,7 +1,12 @@
+#XCOM
 alienDeployments:
   - delete: STR_TERROR_MISSION
-  - type: STR_TERROR_MISSION
-    data: &TERROR_MISSION_ALIENRANKS
+  - delete: STR_ALIEN_BASE_ASSAULT
+#TERRAIN PACK
+alienDeployments:
+  - &STR_TERROR_MISSION
+    type: STR_TERROR_MISSION
+    data:
       - alienRank: 5
         lowQty: 4
         highQty: 6
@@ -129,16 +134,14 @@ alienDeployments:
     civilians: 16
     terrains:
       - URBAN
-      - MADURBAN
-      - INDUSTRIALURBAN
-      - INDUSTRIALURBAN
+      - MADCITY
+      - INDUSTRIAL
       - EXPANDEDTERROR
-      - EXPANDEDTERROR
-      - CITY
+      - APARTMENT
       - COMMERCIAL
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
-    briefing: &TERROR_MISSION_BRIEFING
+    briefing:
       title: STR_TERROR_MISSION
       desc: STR_TERROR_MISSION_BRIEFING
       palette: 2
@@ -146,12 +149,12 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_AIRFIELD
-    data: *TERROR_MISSION_ALIENRANKS
+  - &STR_TERROR_MISSION_AIRFIELD
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_AIRFIELD
     width: 60
     length: 60
     height: 6
-    civilians: 16
     terrains:
       - AIRFIELD1
       - AIRFIELD2
@@ -161,166 +164,81 @@ alienDeployments:
       - AIRFIELD6
       - AIRFIELD7
       - AIRFIELD8
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_BIG_CITY
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+  - &STR_TERROR_MISSION_BIG_CITY
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_BIG_CITY
     terrains:
-      - DAWNURBANA
-      - DAWNURBANB
-      - DOWNTOWNURBAN
-      - DOWNTOWNURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_FACILITY
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+      - DOWNTOWN
+      - DOWNTOWN
+  - &STR_TERROR_MISSION_FACILITY
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_FACILITY
     terrains:
-      - AREA
-      - RAILYARDURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_ISLAND
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+      - AREA51
+      - RAILYARD
+  - &STR_TERROR_MISSION_ISLAND
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_ISLAND
     terrains:
-      - ISLANDURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_POLIS
-    data: *TERROR_MISSION_ALIENRANKS
+      - ISLAND_TFTD
+  - &STR_TERROR_MISSION_POLIS
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_POLIS
     width: 70
     length: 70
-    height: 6
-    civilians: 16
     terrains:
-      - POLISURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_PORT
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+      - POLIS
+  - &STR_TERROR_MISSION_PORT
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_PORT
     terrains:
-      - PORTURBAN
-      - PORTTFTD
-      - PORTINDUSTRIALURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_SHIP
-    data: *TERROR_MISSION_ALIENRANKS
+      - PORT_TFTD
+      - PORT_TFTD_INDUSTRIAL
+      - PORT_TFTD_URBAN
+  - &STR_TERROR_MISSION_SHIP
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_SHIP
     width: 30
     length: 70
     height: 5
-    civilians: 16
     terrains:
-      - CARGOSHIP
-      - LINERSHIP
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_SLUM
-    data: *TERROR_MISSION_ALIENRANKS
+      - CARGOSHIP_TFTD
+      - LINER_TFTD
+  - &STR_TERROR_MISSION_SLUM
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_SLUM
     width: 50
     length: 70
     height: 4
     civilians: 24
     terrains:
-      - SLUMURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_SNOW
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+      - SLUM
+  - &STR_TERROR_MISSION_SNOW
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_SNOW
     terrains:
-      - MADURBANSNOW
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_POLAR
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
+      - MAD_CITY_SNOW
+  - &STR_TERROR_MISSION_POLAR
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_POLAR
     shade: 10
-    civilians: 16
     terrains:
       - SIBERIA
       - COLDISLE
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_TERROR_MISSION_TROPICAL
-    data: *TERROR_MISSION_ALIENRANKS
-    width: 50
-    length: 50
-    height: 6
-    civilians: 16
+      - STORMMOUNTAIN
+  - &STR_TERROR_MISSION_TROPICAL
+    refNode: *STR_TERROR_MISSION
+    type: STR_TERROR_MISSION_TROPICAL
     terrains:
-      - NATIVEURBAN
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
-  - type: STR_ALIEN_BASE_ASSAULT
+      - NATIVE
+  - &STR_ALIEN_BASE_ASSAULT
+    type: STR_ALIEN_BASE_ASSAULT
     data:
-      - alienRank: 7
+      - alienRank: 6
         lowQty: 1
-        highQty: 1
+        highQty: 3
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -330,9 +248,9 @@ alienDeployments:
             []
           -
             []
-      - alienRank: 6
-        lowQty: 1
-        highQty: 1
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -343,9 +261,9 @@ alienDeployments:
           -
             []
       - alienRank: 5
-        lowQty: 4
-        highQty: 6
-        dQty: 3
+        lowQty: 5
+        highQty: 7
+        dQty: 4
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -396,10 +314,9 @@ alienDeployments:
             - STR_PLASMA_RIFLE_CLIP
           -
             - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -422,7 +339,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
       - alienRank: 1
         lowQty: 2
-        highQty: 3
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
@@ -464,14 +381,12 @@ alienDeployments:
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
-    height: 6
+    height: 2
     terrains:
       - UBASE
-      - HIVE
     shade: 15
+    script: ALIENBASE
     briefing:
-      title: STR_ALIEN_BASE_ASSAULT
-      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
       textOffset: -16
       background: BACK01.SCR
       showTarget: false
@@ -479,8 +394,7 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_SUPPLY_2: 10
-      STR_ALIEN_SUPPLY_3: 10
+      STR_ALIEN_SUPPLY: 100
     genMissionFreq: 6
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]

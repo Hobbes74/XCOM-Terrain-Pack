@@ -1,3 +1,4 @@
+#XCOM
 countries:
   - delete: STR_USA
   - delete: STR_RUSSIA
@@ -15,7 +16,10 @@ countries:
   - delete: STR_SOUTH_AFRICA
   - delete: STR_EGYPT
   - delete: STR_CANADA
-  - type: STR_USA
+#TERRAIN PACK
+countries:
+  - &STR_USA
+    type: STR_USA
     fundingBase: 600
     fundingCap: 10000
     labelLon: 260
@@ -31,7 +35,8 @@ countries:
       - [190, 219, -80, -53.6] #Alaska Main Body
       - [219, 224, -60.4, -57] #Alaska Juneau Box 1
       - [224, 230, -58.5, -54] #Alaska Juneau Box 2
-  - type: STR_RUSSIA
+  - &STR_RUSSIA
+    type: STR_RUSSIA
     fundingBase: 230
     fundingCap: 8000
     labelLon: 69
@@ -44,7 +49,8 @@ countries:
       - [134, 146.1, -50.5, -45.63] #Sakhalin Island Area
       - [130, 137.6, -45.63, -42.36] #Vladivostok Area
       - [19.16, 22.84, -55.5, -54.52] #Kaliningrad Area
-  - type: STR_UK
+  - &STR_UK
+    type: STR_UK
     fundingBase: 240
     fundingCap: 7000
     labelLon: 358
@@ -53,7 +59,8 @@ countries:
       - [352, 2, -60, -53.93] #Scotland and Northern Ireland
       - [353.9, 2, -53.93, -50] #Lower Part of England
       - [299.22, 302.33, 51.16, 52.66] #Falkland Islands
-  - type: STR_FRANCE
+  - &STR_FRANCE
+    type: STR_FRANCE
     fundingBase: 320
     fundingCap: 8000
     labelLon: 2.5
@@ -63,14 +70,16 @@ countries:
       - [8.2, 9.88, -43, -41.3] #Corsica
       - [163.6, 167, 19.9, 22.71] #New Caledonia - E of Australia
       - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil   
-  - type: STR_GERMANY
+  - &STR_GERMANY
+    type: STR_GERMANY
     fundingBase: 250
     fundingCap: 9000
     labelLon: 8.64
     labelLat: -50.31
     areas:
       - [6, 15, -55, -47.5]
-  - type: STR_ITALY
+  - &STR_ITALY
+    type: STR_ITALY
     fundingBase: 160
     fundingCap: 6000
     labelLon: 12.5
@@ -81,7 +90,8 @@ countries:
       - [18, 18.9, -40.88, -39.5] #Eastern Tip of Mainland
       - [13.34, 15.5, -37, -36.4] #Bottom of Sicily
       - [7.7, 10.33, -41.3, -38.4] #Sardinia
-  - type: STR_SPAIN
+  - &STR_SPAIN
+    type: STR_SPAIN
     fundingBase: 140
     fundingCap: 5000
     labelLon: 355.5
@@ -96,7 +106,8 @@ countries:
       - [352.917, 353.59, -40, -39] #C near Portugal 2
       - [352.32, 359.1, -37.6, -36.11] #Southern Part of Spain
       - [1.92, 3.7, -40.17, -39] #Maiorca
-  - type: STR_CHINA
+  - &STR_CHINA
+    type: STR_CHINA
     fundingBase: 245
     fundingCap: 7000
     labelLon: 100
@@ -107,7 +118,8 @@ countries:
       - [122, 126.27, -52, -49.49]
       - [122.13, 129.48, -49.40, -41.85]
       - [108, 113, -22, -17.9] #Southern China near Hainan and Hainan Island
-  - type: STR_JAPAN
+  - &STR_JAPAN
+    type: STR_JAPAN
     fundingBase: 400
     fundingCap: 10000
     labelLon: 138
@@ -117,7 +129,8 @@ countries:
       - [138, 147, -46, -40]
       - [129, 130, -34.2, -31.95]
       - [141, 146, -54, -45.6] #Sakhalin
-  - type: STR_INDIA
+  - &STR_INDIA
+    type: STR_INDIA
     fundingBase: 150
     fundingCap: 5000
     labelLon: 80
@@ -127,7 +140,8 @@ countries:
       - [74, 79, -35, -30]
       - [85, 89, -27, -18]
       - [68, 70, -23.81, -21.27]
-  - type: STR_BRAZIL
+  - &STR_BRAZIL
+    type: STR_BRAZIL
     fundingBase: 300
     fundingCap: 4000
     labelLon: 305
@@ -142,7 +156,8 @@ countries:
       - [316, 325, 1.4, 24] #Eastern Brazil
       - [304, 316, 24, 26.3] #Southern Brazil 1
       - [303.78, 312, 26.3, 33] #Southern Brazil 2
-  - type: STR_AUSTRALIA
+  - &STR_AUSTRALIA
+    type: STR_AUSTRALIA
     fundingBase: 280
     fundingCap: 5000
     labelLon: 135
@@ -152,14 +167,16 @@ countries:
       - [144, 149, 40, 44.3] #Tasmania
       - [164, 177.2, 40, 47] #New Zealand 1
       - [172, 179, 33.5, 40] #New Zealand 2
-  - type: STR_NIGERIA
+  - &STR_NIGERIA
+    type: STR_NIGERIA
     fundingBase: 180
     fundingCap: 2000
     labelLon: 7.5
     labelLat: -10
     areas:
       - [3, 14, -14, -4]
-  - type: STR_SOUTH_AFRICA
+  - &STR_SOUTH_AFRICA
+    type: STR_SOUTH_AFRICA
     fundingBase: 230
     fundingCap: 3000
     labelLon: 17.5
@@ -167,14 +184,16 @@ countries:
     areas:
       - [15, 25, 26, 35]
       - [25, 33, 22, 35]
-  - type: STR_EGYPT
+  - &STR_EGYPT
+    type: STR_EGYPT
     fundingBase: 230
     fundingCap: 2000
     labelLon: 29
     labelLat: -27
     areas:
       - [25, 35, -32, -22]
-  - type: STR_CANADA
+  - &STR_CANADA
+    type: STR_CANADA
     fundingBase: 230
     fundingCap: 4000
     labelLon: 260
@@ -192,7 +211,8 @@ countries:
       - [293.5, 298, -45, -43.2] #Newfoundland 1
       - [305, 307.89, -49.37, -46.77] #Newfoundland 2
 #New countries
-  - type: STR_MEXICO
+  - &STR_MEXICO
+    type: STR_MEXICO
     fundingBase: 160
     fundingCap: 3400
     fundingBase: 140
@@ -209,7 +229,8 @@ countries:
       - [265, 270, -19, -15.5]
       - [268, 272, -21.6, -19]
       - [270, 272, -19, -15.5]
-  - type: STR_ARGENTINA
+  - &STR_ARGENTINA
+    type: STR_ARGENTINA
     fundingBase: 100
     fundingCap: 1400
     labelLon: 294
@@ -220,7 +241,8 @@ countries:
       - [290, 299, 30, 37]
       - [292, 302, 17.7, 30]
       - [298, 302, 30, 34]
-  - type: STR_PAKISTAN
+  - &STR_PAKISTAN
+    type: STR_PAKISTAN
     fundingBase: 100
     fundingCap: 1200
     labelLon: 68
@@ -229,7 +251,8 @@ countries:
       - [61, 70, -32.5, -23]
       - [70, 74, -35, -30]
       - [70, 70, -77, -35]
-  - type: STR_NEW_ZEALAND
+  - &STR_NEW_ZEALAND
+    type: STR_NEW_ZEALAND
     fundingBase: 100
     fundingCap: 1500
     labelLon: 169

@@ -1,3 +1,4 @@
+#XCOM
 regions:
   - delete: STR_NORTH_AMERICA
   - delete: STR_ARCTIC
@@ -14,7 +15,10 @@ regions:
   - delete: STR_NORTH_ATLANTIC
   - delete: STR_SOUTH_ATLANTIC
   - delete: STR_INDIAN_OCEAN
-  - type: STR_NORTH_AMERICA
+#TERRAIN PACK
+regions:
+  - &STR_NORTH_AMERICA
+    type: STR_NORTH_AMERICA
     cost: 800000
     areas:
       - [195, 305, -70, -55]
@@ -102,7 +106,8 @@ regions:
         - [4.75, 27.625, -52, -44.375]
         - [75, 89, -39, -34.375]
         - [115, 132.5, 21, 25.5]
-  - type: STR_ARCTIC
+  - &STR_ARCTIC
+    type: STR_ARCTIC
     cost: 950000
     areas:
       - [0, 360, -90, -70]
@@ -155,7 +160,8 @@ regions:
         - [4.75, 27.625, -52, -44.375]
         - [75, 89, -39, -34.375]
         - [115, 132.5, 21, 25.5]
-  - type: STR_ANTARCTICA
+  - &STR_ANTARCTICA
+    type: STR_ANTARCTICA
     cost: 900000
     areas:
       - [0, 360, 60, 90]
@@ -204,7 +210,8 @@ regions:
         - [4.75, 27.625, -52, -44.375]
         - [75, 89, -39, -34.375]
         - [115, 132.5, 21, 25.5]
-  - type: STR_SOUTH_AMERICA
+  - &STR_SOUTH_AMERICA
+    type: STR_SOUTH_AMERICA
     cost: 600000
     areas:
       - [270, 315, -6, 0]
@@ -264,7 +271,8 @@ regions:
         - [4.75, 27.625, -52, -44.375]
         - [75, 89, -39, -34.375]
         - [115, 132.5, 21, 25.5]
-  - type: STR_EUROPE
+  - &STR_EUROPE
+    type: STR_EUROPE
     cost: 1000000
     areas:
       - [335, 60, -70, -35]
@@ -327,7 +335,8 @@ regions:
         - [64.5, 125.5, -55.5, -44]
         - [72.875, 105.25, -25, -11.75]
         - [115, 132.5, 21, 25.5]
-  - type: STR_NORTH_AFRICA
+  - &STR_NORTH_AFRICA
+    type: STR_NORTH_AFRICA
     cost: 650000
     areas:
       - [335, 40, -35, -15]
@@ -384,7 +393,8 @@ regions:
         - [64.5, 125.5, -55.5, -44]
         - [72.875, 105.25, -25, -11.75]
         - [115, 132.5, 21, 25.5]
-  - type: STR_SOUTHERN_AFRICA
+  - &STR_SOUTHERN_AFRICA
+    type: STR_SOUTHERN_AFRICA
     cost: 550000
     areas:
       - [5, 55, 0, 40]
@@ -436,7 +446,8 @@ regions:
         - [64.5, 125.5, -55.5, -44]
         - [72.875, 105.25, -25, -11.75]
         - [115, 132.5, 21, 25.5]
-  - type: STR_CENTRAL_ASIA
+  - &STR_CENTRAL_ASIA
+    type: STR_CENTRAL_ASIA
     cost: 500000
     areas:
       - [40, 70, -35, -15]
@@ -496,7 +507,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [137.125, 169.5, -54, -40.75]
         - [115, 132.5, 21, 25.5]
-  - type: STR_SOUTH_EAST_ASIA
+  - &STR_SOUTH_EAST_ASIA
+    type: STR_SOUTH_EAST_ASIA
     cost: 750000
     areas:
       - [90, 105, -50, 10]
@@ -556,7 +568,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [50.5, 82.875, -64.5, -51.25]
         - [115, 132.5, 21, 25.5]
-  - type: STR_SIBERIA
+  - &STR_SIBERIA
+    type: STR_SIBERIA
     cost: 800000
     areas:
       - [60, 180, -70, -50]
@@ -608,7 +621,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [91.875, 124.25, -30.75, -17.5]
         - [115, 132.5, 21, 25.5]
-  - type: STR_AUSTRALASIA
+  - &STR_AUSTRALASIA
+    type: STR_AUSTRALASIA
     cost: 750000
     areas:
       - [105, 180, -5, 60]
@@ -664,7 +678,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [91.875, 124.25, -30.75, -17.5]
         - [62.125, 101.375, -66.625, -57.125]
-  - type: STR_NORTH_PACIFIC
+  - &STR_NORTH_PACIFIC
+    type: STR_NORTH_PACIFIC
     cost: 600000
     areas:
       - [180, 195, -70, -55]
@@ -712,7 +727,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [91.875, 124.25, -30.75, -17.5]
         - [62.125, 101.375, -66.625, -57.125]
-  - type: STR_SOUTH_PACIFIC
+  - &STR_SOUTH_PACIFIC
+    type: STR_SOUTH_PACIFIC
     cost: 600000
     areas:
       - [180, 275, 0, 60]
@@ -756,7 +772,8 @@ regions:
         - [7.5, 38.625, 4.125, 18.625]
         - [91.875, 124.25, -30.75, -17.5]
         - [62.125, 101.375, -66.625, -57.125]
-  - type: STR_NORTH_ATLANTIC 
+  - &STR_NORTH_ATLANTIC
+    type: STR_NORTH_ATLANTIC 
     cost: 500000
     areas:
       - [305, 335, -70, -30]
@@ -823,7 +840,8 @@ regions:
         - [70, 71.125, -70, -68.125]
         - [4, 5.5, -38, -35.5]
         - [273, 274.5, -8, -21.25]
-  - type: STR_SOUTH_ATLANTIC
+  - &STR_SOUTH_ATLANTIC
+    type: STR_SOUTH_ATLANTIC
     cost: 500000
     areas:
       - [330, 5, 0,  15]
@@ -891,7 +909,8 @@ regions:
         - [370, 371.125, -70, -68.125]
         - [370, 373.125, 60, 61.75]
         - [360, 366.875, 60, 65.25]
-  - type: STR_INDIAN_OCEAN 
+  - &STR_INDIAN_OCEAN 
+    type: STR_INDIAN_OCEAN 
     cost: 500000
     areas:
       - [55, 70, -15, 10]

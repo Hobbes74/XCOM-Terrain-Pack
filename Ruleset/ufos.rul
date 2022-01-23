@@ -1,0 +1,53 @@
+#TERRAIN PACK
+ufos:
+  - type: STR_CARGOSHIPPORT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: CARGOSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - SEAURBAN
+        - CARGOSHIP1
+        - CARGOSHIP2
+        - CARGOSHIP3
+        - CARGOSHIP4
+        - SEABITS
+        - U_PODS
+      mapBlocks:
+        - name: CARGOSHIPPORT
+          width: 30
+          length: 70
+  - type: STR_LINERSHIPPORT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: LINERSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - DECKSHIPC
+        - LINERSHIPA
+        - LINERSHIPB
+        - LINERSHIPC
+        - LINERSHIPD
+        - SEABITS
+      mapBlocks:
+        - name: LINERSHIPPORT
+          width: 30
+          length: 70
