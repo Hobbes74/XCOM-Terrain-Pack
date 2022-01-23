@@ -4,8 +4,8 @@ terrains:
       - BLANKS
       - AIRFIELDA
       - AIRFIELDB
-      - AREA51_AT4
       - AIRFIELDC
+      - AIRFIELDD
     script: AIRFIELD1
     mapBlocks: &MAPS_AIRFIELD
       - name: AIRFIELD00
