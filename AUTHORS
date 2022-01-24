@@ -77,9 +77,8 @@ Exo2000
 
 Hobbes
 * APARTMENT - UFO2000 and OpenXCom terrains, conversion of CITY XCOM terrain 
-* AREA - XCOM original terrain, converted to OpenXCom
-* AREA 51 - UFO2000, conversion of AREA XCOM terrain
-* AREA51 - OpenXCom, conversion and expansion of AREA (WIP)
+* AREA 51- XCOM original terrain, converted to OpenXCom (WIP)
+* AREA 51 FORT - XCOM original terrain, converted to OpenXCom (WIP)
 * CARGOSHIP - OpenXCom, conversion of CARGO TFTD terrain, 1st stage only
 * CARGOSHIPPORT - OpenXCom, combined and converted CARGO and PORT TFTD terrains
 * CITY - XCOM original terrain
@@ -179,6 +178,9 @@ MKSheppard & Gix & Hobbes
 Nachtwolf & Hobbes & Voller
 * DAWN CITY - XCOM and UFO2000 original terrain, artwork by Nachtwolf
 * DAWNURBANA/DAWNURBANB - OpenXCom, conversion of DAWN CITY UFO2000 terrain
+
+Nappes
+* MOONBASE - UFO2000 original terrain
 
 Twilight Owl
 * ABANDONED BASE - UFO2000 original terrain

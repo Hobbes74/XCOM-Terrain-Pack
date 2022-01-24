@@ -34,7 +34,6 @@ globe:
     - [302.752, 34.475, 302.493, 30.022]
     - [306, 25.75, 304.134, 26.665, 301.182, 26.734, 301.897, 24.781, 297.182, 22.66, 291.928, 23.179, 289.604, 30.998, 290.166, 33.335, 286.13, 47.418, 288.082, 51.36, 291.753, 52.589, 291.962, 55.764]
     - [75.416, -37.588, 69.878, -37.484, 69.499, -33.858, 64.181, -29.319, 61.136, -29.213, 62.62, -26.75, 60.986, -25.129]
-#Textures -13 to -22 can be reused to add additional Terror Sites alienDeployments
   textures:
     - id: 0
       terrain:
@@ -738,31 +737,55 @@ globe:
         STR_TERROR_MISSION_TROPICAL: 100
     - id: -13
       deployments:
-        STR_TERROR_MISSION: 100
+        STR_ESCAPE_MISSION: 100
     - id: -14
       deployments:
-        STR_TERROR_MISSION_AIRFIELD: 100
+        STR_ESCAPE_MISSION_AIRFIELD: 100
     - id: -15
       deployments:
-        STR_TERROR_MISSION_BIG_CITY: 100
+        STR_ESCAPE_MISSION_BIG_CITY: 100
     - id: -16
       deployments:
-        STR_TERROR_MISSION_FACILITY: 100
+        STR_ESCAPE_MISSION_FACILITY: 100
     - id: -17
       deployments:
-        STR_TERROR_MISSION_ISLAND: 100
+        STR_ESCAPE_MISSION_ISLAND: 100
     - id: -18
       deployments:
-        STR_TERROR_MISSION_POLAR: 100
+        STR_ESCAPE_MISSION_OUTPOST: 100
     - id: -19
       deployments:
-        STR_TERROR_MISSION_PORT: 100
+        STR_ESCAPE_MISSION_POLAR: 100
     - id: -20
       deployments:
-        STR_TERROR_MISSION_SLUM: 100
+        STR_ESCAPE_MISSION_PORT: 100
     - id: -21
       deployments:
-        STR_TERROR_MISSION_SNOW: 100
+        STR_ESCAPE_MISSION_SLUM: 100
     - id: -22
       deployments:
-        STR_TERROR_MISSION_TROPICAL: 100
+        STR_ESCAPE_MISSION_SNOW: 100
+    - id: -23
+      deployments:
+        STR_ESCAPE_MISSION_TROPICAL: 100
+    - id: -101
+      deployments:
+        STR_ALIEN_BASE_ASSAULT: 100
+    - id: -102
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_HIVE: 100
+    - id: -103
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_COLONY: 100
+    - id: -104
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_COLONY_FOREST: 100
+    - id: -105
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_COLONY_GRASSLAND: 100
+    - id: -106
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_COLONY_STEPPE: 100
+    - id: -107
+      deployments:
+        STR_ALIEN_BASE_ASSAULT_COLONY_TAIGA: 100

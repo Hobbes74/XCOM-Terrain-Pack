@@ -110,6 +110,86 @@ terrains:
   - name: AIRFIELD8
     refNode: *AIRFIELD1
     script: AIRFIELD8
+  - name: AIRFIELD_ESCAPE
+    refNode: *AIRFIELD1
+    script: AIRFIELDESCAPE
+    mapBlocks:
+      - name: AIRFIELD00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD01
+        width: 20
+        length: 20
+        groups: 2
+      - name: AIRFIELD02
+        width: 20
+        length: 20
+        groups: 3
+      - name: AIRFIELD03
+        width: 10
+        length: 10
+      - name: AIRFIELD04
+        width: 10
+        length: 10
+      - name: AIRFIELD05
+        width: 20
+        length: 20
+      - name: AIRFIELD06
+        width: 10
+        length: 10
+      - name: AIRFIELD07
+        width: 20
+        length: 20
+      - name: AIRFIELD08
+        width: 10
+        length: 10
+      - name: AIRFIELD09
+        width: 10
+        length: 10
+      - name: AIRFIELD10
+        width: 20
+        length: 20
+      - name: AIRFIELD11
+        width: 20
+        length: 20
+        groups: 4
+      - name: AIRFIELD12
+        width: 20
+        length: 20
+      - name: AIRFIELD13
+        width: 10
+        length: 10
+      - name: AIRFIELD14
+        width: 20
+        length: 20
+      - name: AIRFIELD15
+        width: 20
+        length: 20
+      - name: AIRFIELD16
+        width: 20
+        length: 20
+      - name: AIRFIELD17
+        width: 20
+        length: 20
+      - name: AIRFIELD18
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD19
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD20
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: AIRFIELD21
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &APARTMENT
     name: APARTMENT
     mapDataSets:
@@ -178,7 +258,7 @@ terrains:
         width: 10
         length: 10
         groups: 2
-  - name: APARTMENT_COMMERCIAL
+  - name: COMMERCIAL
     refNode: *APARTMENT
     mapDataSets:
       - BLANKS
@@ -265,6 +345,103 @@ terrains:
         width: 10
         length: 10
         groups: 4
+  - name: COMMERCIAL_ESCAPE
+    refNode: *APARTMENT
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN
+      - COMDECOR
+    script: COMRCESCAPE
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: 1
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: 4
+      - name: COMRCURBAN21
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: COMRCURBAN22
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &AREA51
     name: AREA51
     mapDataSets:
@@ -323,6 +500,66 @@ terrains:
         width: 10
         length: 10
       - name: AREA18
+        width: 10
+        length: 10
+  - name: AREA51_FORT
+    refNode: *AREA51
+    mapDataSets:
+      - BLANKS
+      - AREA51_FORTA
+      - AREA51_FORTB
+      - AREA51_FORTC
+      - AREA51_FORTD
+    script: URBAN
+    mapBlocks:
+      - name: FORT00
+        width: 10
+        length: 10
+        groups: 2
+      - name: FORT01
+        width: 10
+        length: 10
+        groups: 3
+      - name: FORT02
+        width: 10
+        length: 10
+        groups: 4
+      - name: FORT03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FORT04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FORT05
+        width: 20
+        length: 20
+      - name: FORT06
+        width: 20
+        length: 20
+      - name: FORT07
+        width: 20
+        length: 20
+      - name: FORT08
+        width: 20
+        length: 20
+      - name: FORT09
+        width: 20
+        length: 20
+      - name: FORT14
+        width: 10
+        length: 10
+      - name: FORT15
+        width: 10
+        length: 10
+      - name: FORT16
+        width: 10
+        length: 10
+      - name: FORT17
+        width: 10
+        length: 10
+      - name: FORT18
         width: 10
         length: 10
   - &ATLANT_TFTD_DESERT
@@ -739,6 +976,139 @@ terrains:
         width: 20
         length: 20
         groups: 4
+  - name: COLDISLE_ESCAPE
+    refNode: *COLDISLE
+    script: COLDISLEESCAPE
+    mapBlocks:
+      - name: COLDISLE00
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE01
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE02
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE07
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE09
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE10
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE11
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE12
+        width: 20
+        length: 20
+      - name: COLDISLE13
+        width: 20
+        length: 20
+      - name: COLDISLE14
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE16
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE17
+        width: 10
+        length: 10
+      - name: COLDISLE18
+        width: 10
+        length: 10
+      - name: COLDISLE19
+        width: 10
+        length: 10
+      - name: COLDISLE20
+        width: 10
+        length: 10
+      - name: COLDISLE21
+        width: 10
+        length: 10
+      - name: COLDISLE22
+        width: 10
+        length: 10
+      - name: COLDISLE23
+        width: 10
+        length: 10
+      - name: COLDISLE24
+        width: 10
+        length: 10
+      - name: COLDISLE25
+        width: 10
+        length: 10
+      - name: COLDISLE26
+        width: 10
+        length: 10
+      - name: COLDISLE27
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE28
+        width: 20
+        length: 20
+      - name: COLDISLE29
+        width: 20
+        length: 20
+      - name: COLDISLE30
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE31
+        width: 20
+        length: 20
+      - name: COLDISLE32
+        width: 20
+        length: 20
+      - name: COLDISLE33
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE34
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLEEXTRACTION
+        width: 20
+        length: 20
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
   - &CULTA
     name: CULTA
     script: FARM
@@ -1343,6 +1713,167 @@ terrains:
       - name: DAWNURBAN67
         width: 20
         length: 20
+  - name: DAWNCITY_ESCAPE
+    refNode: *DAWNCITY
+    mapDataSets:
+      - BLANKS
+      - DAWNROADS
+      - DAWNURBITS
+      - DAWNURBAN
+      - DAWNFRNITURE
+      - DAWNDECOR
+    script: DAWNESCAPE
+    mapBlocks:
+      - name: DAWNURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN07
+        width: 10
+        length: 10
+        groups: 2
+      - name: DAWNURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN09
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN10
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN11
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN12
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN14
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: DAWNURBAN16
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN17
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN18
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN19
+        width: 10
+        length: 10
+        groups: 4
+      - name: DAWNURBAN20
+        width: 20
+        length: 20
+      - name: DAWNURBAN21
+        width: 20
+        length: 20
+      - name: DAWNURBAN22
+        width: 20
+        length: 20
+      - name: DAWNURBAN23
+        width: 20
+        length: 20
+      - name: DAWNURBAN24
+        width: 20
+        length: 20
+      - name: DAWNURBAN25
+        width: 20
+        length: 20
+      - name: DAWNURBAN26
+        width: 20
+        length: 20
+      - name: DAWNURBAN27
+        width: 20
+        length: 20
+      - name: DAWNURBAN28
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN29
+        width: 10
+        length: 10
+        groups: 1
+      - name: DAWNURBAN30
+        width: 10
+        length: 10
+      - name: DAWNURBAN31
+        width: 10
+        length: 10
+      - name: DAWNURBAN32
+        width: 10
+        length: 10
+      - name: DAWNURBAN33
+        width: 10
+        length: 10
+      - name: DAWNURBAN34
+        width: 10
+        length: 10
+      - name: DAWNURBAN35
+        width: 10
+        length: 10
+      - name: DAWNURBAN36
+        width: 10
+        length: 10
+      - name: DAWNURBAN37
+        width: 10
+        length: 10
+      - name: DAWNURBAN38
+        width: 10
+        length: 10
+      - name: DAWNURBAN39
+        width: 10
+        length: 10
+      - name: DAWNURBAN68
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: DAWNURBAN69
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
   - &DESERT
     name: DESERT
     mapDataSets:
@@ -1623,6 +2154,94 @@ terrains:
       - name: DOWNTOWNURBAN21
         width: 10
         length: 10
+  - name: DOWNTOWN_ESCAPE
+    refNode: *DOWNTOWN
+    script: DOWNTOWNESCAPE
+    mapBlocks:
+      - name: DOWNTOWNURBAN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN01
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN02
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN03
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN05
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN06
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN07
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN08
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN09
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN10
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN11
+        width: 10
+        length: 10
+        groups: 4
+      - name: DOWNTOWNURBAN12
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN14
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN15
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN16
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN17
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN19
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN20
+        width: 10
+        length: 10
+        groups: 1
+      - name: DOWNTOWNURBAN21
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN22
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: DOWNTOWNURBAN23
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &EXPANDEDTERROR
     name: EXPANDEDTERROR
     mapDataSets:
@@ -2039,6 +2658,76 @@ terrains:
         width: 10
         length: 10
         groups: 1
+  - name: INDUSTRIAL_ESCAPE
+    refNode: *INDUSTRIAL
+    script: INDUSTRIALESCAPE
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN18
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: INDUSTRIALURBAN19
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - name: INDUSTRIAL_UFO
     refNode: *INDUSTRIAL
     script: INDUSTRIALUFO
@@ -2106,6 +2795,69 @@ terrains:
       - name: ISLANDURBAN14
         width: 10
         length: 10
+  - name: ISLAND_TFTD_ESCAPE
+    refNode: *ISLAND_TFTD
+    script: ISLANDESCAPE
+    mapBlocks:
+      - name: ISLANDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN02
+        width: 20
+        length: 20
+      - name: ISLANDURBAN03
+        width: 20
+        length: 20
+      - name: ISLANDURBAN04
+        width: 20
+        length: 20
+        groups: 2
+      - name: ISLANDURBAN05
+        width: 20
+        length: 20
+        groups: 3
+      - name: ISLANDURBAN06
+        width: 20
+        length: 20
+      - name: ISLANDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: ISLANDURBAN08
+        width: 10
+        length: 10
+      - name: ISLANDURBAN09
+        width: 10
+        length: 10
+      - name: ISLANDURBAN10
+        width: 10
+        length: 10
+      - name: ISLANDURBAN11
+        width: 10
+        length: 10
+      - name: ISLANDURBAN12
+        width: 10
+        length: 10
+      - name: ISLANDURBAN13
+        width: 10
+        length: 10
+      - name: ISLANDURBAN14
+        width: 10
+        length: 10
+      - name: ISLANDURBAN15
+        width: 10
+        length: 10
+        groups: 11
+      - name: ISLANDURBAN16
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &JUNGLE
     name: JUNGLE
     mapDataSets:
@@ -2514,6 +3266,285 @@ terrains:
       - name: MADURBAN38
         width: 10
         length: 10
+  - name: MADCITY_ESCAPE
+    refNode: *MADCITY
+    script: MADESCAPE
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+      - name: MADURBAN39
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: MADURBAN40
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+  - name: MADCITY_ESCAPE_SNOW
+    refNode: *MADCITY
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - MADDECOR
+    script: MADESCAPESNOW
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: 1
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: MADURBAN10
+        width: 10
+        length: 10
+      - name: MADURBAN11
+        width: 20
+        length: 20
+      - name: MADURBAN12
+        width: 20
+        length: 20
+      - name: MADURBAN13
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: MADURBAN19
+        width: 10
+        length: 10
+      - name: MADURBAN20
+        width: 10
+        length: 10
+      - name: MADURBAN21
+        width: 10
+        length: 10
+      - name: MADURBAN22
+        width: 10
+        length: 10
+      - name: MADURBAN23
+        width: 10
+        length: 10
+      - name: MADURBAN24
+        width: 10
+        length: 10
+      - name: MADURBAN25
+        width: 10
+        length: 10
+      - name: MADURBAN26
+        width: 10
+        length: 10
+      - name: MADURBAN27
+        width: 20
+        length: 20
+      - name: MADURBAN28
+        width: 20
+        length: 20
+      - name: MADURBAN29
+        width: 20
+        length: 20
+      - name: MADURBAN30
+        width: 20
+        length: 20
+      - name: MADURBAN31
+        width: 20
+        length: 20
+      - name: MADURBAN32
+        width: 20
+        length: 20
+      - name: MADURBAN33
+        width: 20
+        length: 20
+      - name: MADURBAN34
+        width: 20
+        length: 20
+      - name: MADURBAN35
+        width: 20
+        length: 20
+      - name: MADURBAN36
+        width: 10
+        length: 10
+      - name: MADURBAN37
+        width: 10
+        length: 10
+      - name: MADURBAN38
+        width: 10
+        length: 10
+      - name: MADURBAN39
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: MADURBAN40
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - name: MADCITY_SNOW
     refNode: *MADCITY
     mapDataSets:
@@ -2877,6 +3908,161 @@ terrains:
         width: 10
         length: 10
         groups: 1
+  - name: NATIVE_ESCAPE
+    refNode: *NATIVE
+    script: NATIVEESCAPE
+    mapBlocks:
+      - name: NATIVEURBAN00
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46
+        width: 10
+        length: 10
+        groups: 1
+      - name: NATIVEURBAN47
+        width: 10
+        length: 10
+        groups: 10
+      - name: NATIVEURBAN48
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - name: NATIVE_UFO
     refNode: *NATIVE
     script: NATIVEUFO
@@ -3186,6 +4372,94 @@ terrains:
         width: 20
         length: 20
         groups: 5
+  - name: PORT_TFTD_ESCAPE
+    refNode: *PORT_TFTD
+    script: PORTTFTDESCAPE
+    mapBlocks:
+      - name: PORTUFO00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO02
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO03
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO04
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO05
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO06
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO07
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO08
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO09
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO10
+        width: 10
+        length: 10
+      - name: PORTUFO11
+        width: 10
+        length: 10
+      - name: PORTUFO12
+        width: 10
+        length: 10
+      - name: PORTUFO13
+        width: 10
+        length: 10
+      - name: PORTUFO14
+        width: 10
+        length: 10
+      - name: PORTUFO15
+        width: 10
+        length: 10
+      - name: PORTUFO16
+        width: 10
+        length: 10
+      - name: PORTUFO17
+        width: 20
+        length: 20
+      - name: PORTUFO18
+        width: 20
+        length: 20
+      - name: PORTUFO19
+        width: 20
+        length: 20
+      - name: PORTUFO20
+        width: 20
+        length: 20
+        groups: 5
+      - name: PORTUFO38
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: PORTUFO39
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+        groups: 10
   - name: PORT_TFTD_INDUSTRIAL
     refNode: *PORT_TFTD
     mapDataSets:
@@ -3716,6 +4990,111 @@ terrains:
       - name: RAILYARDURBAN27
         width: 10
         length: 10
+  - name: RAILYARD_ESCAPE
+    refNode: *RAILYARD
+    script: RAILYARDESCAPE
+    mapBlocks:
+      - name: RAILYARDURBAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: RAILYARDURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN02
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN03
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: RAILYARDURBAN05
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN06
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN07
+        width: 10
+        length: 10
+        groups: 4
+      - name: RAILYARDURBAN08
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN09
+        width: 10
+        length: 10
+        groups: 2
+      - name: RAILYARDURBAN11
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN12
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN13
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN14
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN15
+        width: 20
+        length: 20
+      - name: RAILYARDURBAN16
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN17
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN18
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN19
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN20
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN21
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN22
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN23
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN24
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN25
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN26
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN27
+        width: 10
+        length: 10
+      - name: RAILYARDURBAN28
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: RAILYARDURBAN29
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &SIBERIA
     name: SIBERIA
     mapDataSets:
@@ -3896,6 +5275,225 @@ terrains:
       - name: SIBERIABASE46
         width: 10
         length: 10
+  - name: SIBERIA_ESCAPE
+    refNode: *SIBERIA
+    script: SIBERIA
+    mapBlocks:
+      - name: SIBERIADEFENSE00
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE01
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE02
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE03
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE04
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE05
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE06
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE07
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE08
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE09
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE10
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE11
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE12
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE13
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE14
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE15
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE16
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE17
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE18
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE19
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE20
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE21
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE22
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE23
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE24
+        width: 10
+        length: 10
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE25
+        width: 10
+        length: 10
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE26
+        width: 10
+        length: 10
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE27
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE28
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE29
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE30
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE31
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE32
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE33
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE34
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE35
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE36
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE37
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE38
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE39
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE40
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE41
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE42
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE43
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE44
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE45
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SIBERIADEFENSE46
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
   - &SLUM
     name: SLUM
     mapDataSets:
@@ -4025,6 +5623,129 @@ terrains:
         width: 10
         length: 10
         groups: 11
+  - name: SLUM_ESCAPE
+    refNode: *SLUM
+    script: SLUMESCAPE
+    mapBlocks:
+      - name: SLUMURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN01
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN02
+        width: 10
+        length: 10
+        groups: 2
+      - name: SLUMURBAN03
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN04
+        width: 10
+        length: 10
+        groups: 11
+      - name: SLUMURBAN05
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN06
+        width: 10
+        length: 10
+        groups: 10
+      - name: SLUMURBAN07
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN08
+        width: 10
+        length: 10
+        groups: 3
+      - name: SLUMURBAN09
+        width: 10
+        length: 10
+        groups: 4
+      - name: SLUMURBAN10
+        width: 20
+        length: 20
+      - name: SLUMURBAN11
+        width: 20
+        length: 20
+      - name: SLUMURBAN12
+        width: 10
+        length: 20
+      - name: SLUMURBAN13
+        width: 10
+        length: 20
+      - name: SLUMURBAN14
+        width: 10
+        length: 20
+      - name: SLUMURBAN15
+        width: 10
+        length: 20
+      - name: SLUMURBAN16
+        width: 10
+        length: 20
+      - name: SLUMURBAN17
+        width: 10
+        length: 30
+      - name: SLUMURBAN18
+        width: 10
+        length: 30
+      - name: SLUMURBAN19
+        width: 10
+        length: 30
+      - name: SLUMURBAN20
+        width: 10
+        length: 30
+      - name: SLUMURBAN21
+        width: 10
+        length: 30
+      - name: SLUMURBAN22
+        width: 10
+        length: 30
+      - name: SLUMURBAN23
+        width: 10
+        length: 10
+      - name: SLUMURBAN24
+        width: 10
+        length: 10
+      - name: SLUMURBAN25
+        width: 10
+        length: 10
+      - name: SLUMURBAN26
+        width: 10
+        length: 10
+      - name: SLUMURBAN27
+        width: 10
+        length: 10 
+      - name: SLUMURBAN28
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN29
+        width: 10
+        length: 10
+        groups: 5
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN30
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN31
+        width: 10
+        length: 10
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: SLUMURBAN32
+        width: 20
+        length: 20
+        groups: 10
+        revealedFloors: [0, 1, 2, 3]
   - &STORMMOUNTAIN
     name: STORMMOUNTAIN
     mapDataSets:
@@ -4079,6 +5800,68 @@ terrains:
       - name: STORMMOUNTAIN13
         width: 10
         length: 10
+  - name: STORMMOUNTAIN_ESCAPE
+    refNode: *STORMMOUNTAIN
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: STORMMOUNTAINDEFENSE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE06
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE07
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE08
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE09
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE10
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE11
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
   - &UBASE
     name: UBASE
     mapDataSets:
@@ -4376,3 +6159,82 @@ terrains:
       - name: XBASE_20
         width: 10
         length: 10
+  - name: XBASE+
+    refNode: *XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASE1
+      - XBASE2
+      - FORESTEARTH
+      - FORESTBITS
+    script: XBASE+
+    mapBlocks:
+      - name: XBASE+00
+        width: 10
+        length: 10
+      - name: XBASE+01
+        width: 10
+        length: 10
+      - name: XBASE+02
+        width: 10
+        length: 10
+      - name: XBASE+03
+        width: 10
+        length: 10
+      - name: XBASE+04
+        width: 10
+        length: 10
+      - name: XBASE+05
+        width: 10
+        length: 10
+      - name: XBASE+06
+        width: 10
+        length: 10
+      - name: XBASE+07
+        width: 10
+        length: 10
+      - name: XBASE+08
+        width: 10
+        length: 10
+      - name: XBASE+09
+        width: 10
+        length: 10
+      - name: XBASE+10
+        width: 10
+        length: 10
+      - name: XBASE+11
+        width: 10
+        length: 10
+      - name: XBASE+12
+        width: 10
+        length: 10
+      - name: XBASE+13
+        width: 10
+        length: 10
+      - name: XBASE+14
+        width: 10
+        length: 10
+      - name: XBASE+15
+        width: 10
+        length: 10
+      - name: XBASE+16
+        width: 10
+        length: 10
+      - name: XBASE+17
+        width: 10
+        length: 10
+      - name: XBASE+18
+        width: 10
+        length: 10
+      - name: XBASE+19
+        width: 10
+        length: 10
+      - name: XBASE+20
+        width: 10
+        length: 10
+      - name: XBASE+21
+        width: 10
+        length: 10
+      - name: XBASE+22
+        width: 20
+        length: 20

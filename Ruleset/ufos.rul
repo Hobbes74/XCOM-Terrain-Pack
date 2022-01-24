@@ -51,3 +51,45 @@ ufos:
         - name: LINERSHIPPORT
           width: 30
           length: 70
+  - type: STR_NKF_APC
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: NKF_APC
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC
+          width: 10
+          length: 20
+          revealedFloors: [0, 1, 2, 3]
+  - type: STR_NKF_APC_AREA51
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: NKF_APC_AREA51
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC_AREA51
+          width: 10
+          length: 20
+          revealedFloors: [0, 1, 2]

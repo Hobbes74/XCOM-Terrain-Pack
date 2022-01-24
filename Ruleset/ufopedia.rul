@@ -1,0 +1,8 @@
+ufopaedia:
+  - id: STR_MUDRANGER
+    type_id: 7
+    section: STR_XCOM_CRAFT
+    image_id: MUDRANGER_UFOPEDIA
+    text_width: 108
+    text: STR_MUDRANGER_UFOPEDIA
+    listOrder: 530
