@@ -1,5 +1,5 @@
-#XCOM
 regions:
+#XCOM
   - delete: STR_NORTH_AMERICA
   - delete: STR_ARCTIC
   - delete: STR_ANTARCTICA
@@ -16,7 +16,6 @@ regions:
   - delete: STR_SOUTH_ATLANTIC
   - delete: STR_INDIAN_OCEAN
 #TERRAIN PACK
-regions:
   - &STR_NORTH_AMERICA
     type: STR_NORTH_AMERICA
     cost: 800000

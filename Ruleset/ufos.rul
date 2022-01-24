@@ -1,5 +1,5 @@
-#TERRAIN PACK
 ufos:
+#TERRAIN PACK
   - type: STR_CARGOSHIPPORT
     size: STR_SMALL
     sprite: 1

@@ -1,5 +1,5 @@
-#TERRAIN PACK
 extraSprites:
+#TERRAIN PACK
   - type: TEXTURE.DAT
     width: 800
     height: 96

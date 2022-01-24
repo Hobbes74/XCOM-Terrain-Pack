@@ -1,17 +1,15 @@
-#XCOM
 terrains:
+#XCOM
   - delete: CULTA
   - delete: DESERT
   - delete: FOREST
   - delete: JUNGLE
-  - delete: MARS
   - delete: MOUNT
   - delete: POLAR
   - delete: UBASE
   - delete: URBAN
   - delete: XBASE
 #TERRAIN PACK
-terrains: 
   - &AIRFIELD1
     name: AIRFIELD1
     mapDataSets:
@@ -91,94 +89,27 @@ terrains:
         width: 10
         length: 10
         groups: [0, 1]
-  - &AIRFIELD2
+  - name: AIRFIELD2
     refNode: *AIRFIELD1
-    name: AIRFIELD2
     script: AIRFIELD2
-  - &AIRFIELD3
+  - name: AIRFIELD3
     refNode: *AIRFIELD1
-    name: AIRFIELD3
     script: AIRFIELD3
-  - &AIRFIELD4
+  - name: AIRFIELD4
     refNode: *AIRFIELD1
-    name: AIRFIELD4
     script: AIRFIELD4
-  - &AIRFIELD5
+  - name: AIRFIELD5
     refNode: *AIRFIELD1
-    name: AIRFIELD5
     script: AIRFIELD5
-  - &AIRFIELD6
+  - name: AIRFIELD6
     refNode: *AIRFIELD1
-    name: AIRFIELD6
     script: AIRFIELD6
-  - &AIRFIELD7
+  - name: AIRFIELD7
     refNode: *AIRFIELD1
-    name: AIRFIELD7
     script: AIRFIELD7
-  - &AIRFIELD8
+  - name: AIRFIELD8
     refNode: *AIRFIELD1
-    name: AIRFIELD8
     script: AIRFIELD8
-  - &AREA51
-    name: AREA51
-    mapDataSets:
-      - BLANKS
-      - AREA_ROADS
-      - AREA_URBITS
-      - AREA_URBAN
-      - AREA_FRNITURE
-    script: URBAN
-    mapBlocks:
-      - name: AREA00
-        width: 10
-        length: 10
-        groups: 2
-      - name: AREA01
-        width: 10
-        length: 10
-        groups: 3
-      - name: AREA02
-        width: 10
-        length: 10
-        groups: 4
-      - name: AREA03
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: AREA04
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: AREA05
-        width: 20
-        length: 20
-      - name: AREA06
-        width: 20
-        length: 20
-      - name: AREA07
-        width: 20
-        length: 20
-      - name: AREA08
-        width: 20
-        length: 20
-      - name: AREA09
-        width: 20
-        length: 20
-      - name: AREA14
-        width: 10
-        length: 10
-      - name: AREA15
-        width: 10
-        length: 10
-      - name: AREA16
-        width: 10
-        length: 10
-      - name: AREA17
-        width: 10
-        length: 10
-      - name: AREA18
-        width: 10
-        length: 10
   - &APARTMENT
     name: APARTMENT
     mapDataSets:
@@ -247,9 +178,8 @@ terrains:
         width: 10
         length: 10
         groups: 2
-  - &APARTMENT_COMMERCIAL
+  - name: APARTMENT_COMMERCIAL
     refNode: *APARTMENT
-    name: APARTMENT_COMMERCIAL
     mapDataSets:
       - BLANKS
       - COMROADS
@@ -335,6 +265,66 @@ terrains:
         width: 10
         length: 10
         groups: 4
+  - &AREA51
+    name: AREA51
+    mapDataSets:
+      - BLANKS
+      - AREA_ROADS
+      - AREA_URBITS
+      - AREA_URBAN
+      - AREA_FRNITURE
+    script: URBAN
+    mapBlocks:
+      - name: AREA00
+        width: 10
+        length: 10
+        groups: 2
+      - name: AREA01
+        width: 10
+        length: 10
+        groups: 3
+      - name: AREA02
+        width: 10
+        length: 10
+        groups: 4
+      - name: AREA03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA05
+        width: 20
+        length: 20
+      - name: AREA06
+        width: 20
+        length: 20
+      - name: AREA07
+        width: 20
+        length: 20
+      - name: AREA08
+        width: 20
+        length: 20
+      - name: AREA09
+        width: 20
+        length: 20
+      - name: AREA14
+        width: 10
+        length: 10
+      - name: AREA15
+        width: 10
+        length: 10
+      - name: AREA16
+        width: 10
+        length: 10
+      - name: AREA17
+        width: 10
+        length: 10
+      - name: AREA18
+        width: 10
+        length: 10
   - &ATLANT_TFTD_DESERT
     name: ATLANT_TFTD_DESERT
     mapDataSets:
@@ -817,9 +807,8 @@ terrains:
       - name: CULTA18
         width: 10
         length: 10
-  - &CULTA_FARMA
+  - name: CULTA_FARMA
     refNode: *CULTA
-    name: CULTA_FARMA
     mapBlocks:
       - name: CULTA00
         width: 10
@@ -950,9 +939,8 @@ terrains:
       - name: CULTAFARM22
         width: 20
         length: 20
-  - &CULTA_FARMB
+  - name: CULTA_FARMB
     refNode: *CULTA
-    name: CULTA_FARMB
     mapBlocks:
       - name: CULTA00
         width: 10
@@ -1039,10 +1027,10 @@ terrains:
     name: DAWNCITY
     mapDataSets:
       - BLANKS
+      - DAWNUFO00
       - DAWNUFO01
       - DAWNUFO02
       - DAWNUFO03
-      - DAWNUFO04
     script: URBAN
     civilianTypes:
       - MALE_CIVILIAN
@@ -1098,9 +1086,8 @@ terrains:
       - name: DAWN18
         width: 10
         length: 10
-  - &DAWNCITY_URBANA
+  - name: DAWNCITY_URBANA
     refNode: *DAWNCITY
-    name: DAWNCITY_URBANA
     mapDataSets:
       - BLANKS
       - DAWNROADS
@@ -1109,6 +1096,9 @@ terrains:
       - DAWNFRNITURE
       - DAWNDECOR
     script: DAWNURBANA
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
     mapBlocks:
       - name: DAWNURBAN00
         width: 10
@@ -1252,9 +1242,8 @@ terrains:
       - name: DAWNURBAN39
         width: 10
         length: 10
-  - &DAWNCITY_URBANB
+  - name: DAWNCITY_URBANB
     refNode: *DAWNCITY
-    name: DAWNCITY_URBANB
     script: DAWNURBANB
     mapBlocks:
       - name: DAWNURBAN40
@@ -1400,47 +1389,44 @@ terrains:
       - name: DESERT11
         width: 20
         length: 20
-  - &DESERT_GRASSLAND
-    refNode: DESERT
-    name: DESERT_GRASSLAND
+      - name: DESERT12
+        width: 10
+        length: 10
+        groups: [1]
+  - name: DESERT_GRASSLAND
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - GRASSLANDDESERT
       - GRASSLANDBITS
-  - &DESERT_POLAR
-    refNode: DESERT
-    name: DESERT_POLAR
+  - name: DESERT_POLAR
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - POLARDESERT
-  - &DESERT_SAVANNA
-    refNode: DESERT
-    name: DESERT_SAVANNA
+  - name: DESERT_SAVANNA
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - SAVANNADESERT
       - SAVANNABITS
-  - &DESERT_STEPPE
-    refNode: DESERT
-    name: DESERT_STEPPE
+  - name: DESERT_STEPPE
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - STEPPEDESERT
       - STEPPEBITS
-  - &DESERT_TAIGA
-    refNode: DESERT
-    name: DESERT_TAIGA
+  - name: DESERT_TAIGA
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - TAIGADESERT
       - TAIGABITS
-  - &DESERT_TUNDRA
-    refNode: DESERT
-    name: DESERT_TUNDRA
+  - name: DESERT_TUNDRA
+    refNode: *DESERT
     mapDataSets:
       - BLANKS
       - TUNDRADESERT
-      - TUNDRABITS
   - &DESERTMOUNT
     name: DESERTMOUNT
     mapDataSets:
@@ -1506,52 +1492,46 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
+      - name: DESERTMOUNT18
         width: 10
         length: 10
         groups: [1]
-  - &DESERTMOUNT_GRASSLAND
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_GRASSLAND
+  - name: DESERTMOUNT_GRASSLAND
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - GRASSLANDMOUNT
       - GRASSLANDDESERT
       - GRASSLANDBITS
-  - &DESERTMOUNT_POLAR
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_POLAR
+  - name: DESERTMOUNT_POLAR
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - POLARMOUNT
       - POLARDESERT
-  - &DESERTMOUNT_SAVANNA
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_SAVANNA
+  - name: DESERTMOUNT_SAVANNA
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - SAVANNAMOUNT
       - SAVANNADESERT
       - SAVANNABITS
-  - &DESERTMOUNT_STEPPE
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_STEPPE
+  - name: DESERTMOUNT_STEPPE
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - STEPPEMOUNT
       - STEPPEDESERT
       - STEPPEBITS
-  - &DESERTMOUNT_TAIGA
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_TAIGA
+  - name: DESERTMOUNT_TAIGA
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - TAIGAMOUNT
       - TAIGADESERT
       - TAIGABITS
-  - &DESERTMOUNT_TUNDRA
-    refNode: DESERTMOUNT
-    name: DESERTMOUNT_TUNDRA
+  - name: DESERTMOUNT_TUNDRA
+    refNode: *DESERTMOUNT
     mapDataSets:
       - BLANKS
       - TUNDRAMOUNT
@@ -1825,37 +1805,36 @@ terrains:
       - name: FOREST11
         width: 20
         length: 20
-  - &FOREST_GRASSLAND
-    refNode: FOREST
-    name: FOREST_GRASSLAND
+      - name: FOREST12
+        width: 10
+        length: 10
+        groups: [1]
+  - name: FOREST_GRASSLAND
+    refNode: *FOREST
     mapDataSets:
       - BLANKS
       - GRASSLANDFOREST
       - GRASSLANDBITS
-  - &FOREST_SAVANNA
-    refNode: FOREST
-    name: FOREST_SAVANNA
+  - name: FOREST_SAVANNA
+    refNode: *FOREST
     mapDataSets:
       - BLANKS
       - SAVANNAFOREST
       - SAVANNABITS
-  - &FOREST_STEPPE
-    refNode: FOREST
-    name: FOREST_STEPPE
+  - name: FOREST_STEPPE
+    refNode: *FOREST
     mapDataSets:
       - BLANKS
       - STEPPEFOREST
       - STEPPEBITS
-  - &FOREST_TAIGA
-    refNode: FOREST
-    name: FOREST_TAIGA
+  - name: FOREST_TAIGA
+    refNode: *FOREST
     mapDataSets:
       - BLANKS
       - TAIGAFOREST
       - TAIGABITS
-  - &FOREST_TUNDRA
-    refNode: FOREST
-    name: FOREST_TUNDRA
+  - name: FOREST_TUNDRA
+    refNode: *FOREST
     mapDataSets:
       - BLANKS
       - TUNDRAFOREST
@@ -1952,41 +1931,40 @@ terrains:
       - name: FORESTMOUNT26
         width: 20
         length: 20
-  - &FORESTMOUNT_GRASSLAND
-    refNode: FORESTMOUNT
-    name: FORESTMOUNT_GRASSLAND
+      - name: FORESTMOUNT27
+        width: 10
+        length: 10
+        groups: [1]
+  - name: FORESTMOUNT_GRASSLAND
+    refNode: *FORESTMOUNT
     mapDataSets:
       - BLANKS
       - GRASSLANDMOUNT
       - GRASSLANDFOREST
       - GRASSLANDBITS
-  - &FORESTMOUNT_SAVANNA
-    refNode: FORESTMOUNT
-    name: FORESTMOUNT_SAVANNA
+  - name: FORESTMOUNT_SAVANNA
+    refNode: *FORESTMOUNT
     mapDataSets:
       - BLANKS
       - SAVANNAMOUNT
       - SAVANNAFOREST
       - SAVANNABITS
-  - &FORESTMOUNT_STEPPE
-    refNode: FORESTMOUNT
-    name: FORESTMOUNT_STEPPE
+  - name: FORESTMOUNT_STEPPE
+    refNode: *FORESTMOUNT
     mapDataSets:
       - BLANKS
       - STEPPEMOUNT
       - STEPPEFOREST
       - STEPPEBITS
-  - &FORESTMOUNT_TAIGA
-    refNode: FORESTMOUNT
-    name: FORESTMOUNT_TAIGA
+  - name: FORESTMOUNT_TAIGA
+    refNode: *FORESTMOUNT
     mapDataSets:
       - BLANKS
       - TAIGAMOUNT
       - TAIGAFOREST
       - TAIGABITS
-  - &FORESTMOUNT_TUNDRA
-    refNode: FORESTMOUNT
-    name: FORESTMOUNT_TUNDRA
+  - name: FORESTMOUNT_TUNDRA
+    refNode: *FORESTMOUNT
     mapDataSets:
       - BLANKS
       - TUNDRAMOUNT
@@ -2061,9 +2039,8 @@ terrains:
         width: 10
         length: 10
         groups: 1
-  - &INDUSTRIAL_UFO
-    refNode: INDUSTRIAL
-    name: INDUSTRIAL_UFO
+  - name: INDUSTRIAL_UFO
+    refNode: *INDUSTRIAL
     script: INDUSTRIALUFO
   - &ISLAND_TFTD
     name: ISLAND_TFTD
@@ -2537,9 +2514,8 @@ terrains:
       - name: MADURBAN38
         width: 10
         length: 10
-  - &MADCITY_SNOW
-    refNode: MADCITY
-    name: MADCITY_SNOW
+  - name: MADCITY_SNOW
+    refNode: *MADCITY
     mapDataSets:
       - BLANKS
       - ROADS_SNOW
@@ -2547,9 +2523,8 @@ terrains:
       - URBAN_SNOW
       - FRNITURE
       - MADDECOR
-  - &MADCITY_UFO
-    refNode: MADCITY
-    name: MADCITY_UFO
+  - name: MADCITY_UFO
+    refNode: *MADCITY
     script: MADURBANUFO
   - &MARS
     name: MARS
@@ -2642,9 +2617,54 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-  - &MOUNT_TUNDRA
-    refNode: MOUNT
-    name: MOUNT_TUNDRA
+  - name: MOUNT_TUNDRA
+    refNode: *MOUNT
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
   - &MU_TFTD_JUNGLE
     name: MU_TFTD_JUNGLE
     mapDataSets:
@@ -2857,9 +2877,8 @@ terrains:
         width: 10
         length: 10
         groups: 1
-  - &NATIVE_UFO
-    refNode: NATIVE
-    name: NATIVE_UFO
+  - name: NATIVE_UFO
+    refNode: *NATIVE
     script: NATIVEUFO
   - &PLANE_TFTD_DESERT
     name: PLANE_TFTD_DESERT
@@ -2933,16 +2952,14 @@ terrains:
       - name: CRASHEDPLANE20
         width: 10
         length: 10
-  - &PLANE_TFTD_POLAR
+  - name: PLANE_TFTD_POLAR
     refNode: *PLANE_TFTD_DESERT
-    name: PLANE_TFTD_POLAR
     mapDataSets:
       - BLANKS
       - POLARPLANE
       - CRASHEDPLANE
-  - &PLANE_TFTD_TUNDRA
+  - name: PLANE_TFTD_TUNDRA
     refNode: *PLANE_TFTD_DESERT
-    name: PLANE_TFTD_TUNDRA
     mapDataSets:
       - BLANKS
       - TUNDRAPLANE
@@ -3169,9 +3186,16 @@ terrains:
         width: 20
         length: 20
         groups: 5
-  - &PORT_TFTD_INDUSTRIAL
-    refNode: PORT_TFTD
-    name: PORT_TFTD_INDUSTRIAL
+  - name: PORT_TFTD_INDUSTRIAL
+    refNode: *PORT_TFTD
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+      - SEABITS
     script: PORTINDUSTRIALURBAN
     mapBlocks:
       - name: PORTUFO00
@@ -3346,9 +3370,8 @@ terrains:
         width: 10
         length: 10
         groups: 1
-  - &PORT_TFTD_URBAN
-    refNode: PORT_TFTD
-    name: PORT_TFTD_URBAN
+  - name: PORT_TFTD_URBAN
+    refNode: *PORT_TFTD
     script: PORTURBAN
     mapBlocks:
       - name: PORTUFO00
@@ -3698,8 +3721,8 @@ terrains:
     mapDataSets:
       - BLANKS
       - POLAR
-      - XBASE1_REDUX
-      - SIBERIA
+      - SIBERIA01
+      - SIBERIA02
     civilianTypes:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
@@ -4002,7 +4025,6 @@ terrains:
         width: 10
         length: 10
         groups: 11
-
   - &STORMMOUNTAIN
     name: STORMMOUNTAIN
     mapDataSets:
@@ -4057,10 +4079,6 @@ terrains:
       - name: STORMMOUNTAIN13
         width: 10
         length: 10
-
-
-
-
   - &UBASE
     name: UBASE
     mapDataSets:
@@ -4257,37 +4275,32 @@ terrains:
         width: 10
         length: 10
         groups: 1
-  - &WETLAND_GRASSLAND
-    refNode: WETLAND
-    name: WETLAND_GRASSLAND
+  - name: WETLAND_GRASSLAND
+    refNode: *WETLAND
     mapDataSets:
       - BLANKS
       - GRASSLANDPOLAR
       - GRASSLANDFOREST
-  - &WETLAND_SAVANNA
-    refNode: WETLAND
-    name: WETLAND_SAVANNA
+  - name: WETLAND_SAVANNA
+    refNode: *WETLAND
     mapDataSets:
       - BLANKS
       - SAVANNAPOLAR
       - SAVANNAFOREST
-  - &WETLAND_STEPPE
-    refNode: WETLAND
-    name: WETLAND_STEPPE
+  - name: WETLAND_STEPPE
+    refNode: *WETLAND
     mapDataSets:
       - BLANKS
       - STEPPEPOLAR
       - STEPPEFOREST
-  - &WETLAND_TAIGA
-    refNode: WETLAND
-    name: WETLAND_TAIGA
+  - name: WETLAND_TAIGA
+    refNode: *WETLAND
     mapDataSets:
       - BLANKS
       - TAIGAPOLAR
       - TAIGAFOREST
-  - &WETLAND_TUNDRA
-    refNode: WETLAND
-    name: WETLAND_TUNDRA
+  - name: WETLAND_TUNDRA
+    refNode: *WETLAND
     mapDataSets:
       - BLANKS
       - TUNDRAPOLAR
