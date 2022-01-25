@@ -190,6 +190,182 @@ terrains:
         length: 20
         groups: 10
         revealedFloors: [0, 1, 2, 3]
+  - &ALIENCOLONY
+    name: ALIENCOLONY
+    mapDataSets:
+      - BLANKS
+      - COLONYA
+      - COLONYB
+      - TUNDRAFOREST
+    script: ALIENCOLONY
+    mapBlocks:
+      - name: ALIENCOLONY00
+        width: 10
+        length: 10
+      - name: ALIENCOLONY01
+        width: 10
+        length: 10
+      - name: ALIENCOLONY02
+        width: 10
+        length: 10
+      - name: ALIENCOLONY03
+        width: 10
+        length: 10
+      - name: ALIENCOLONY04
+        width: 10
+        length: 10
+      - name: ALIENCOLONY05
+        width: 10
+        length: 10
+      - name: ALIENCOLONY06
+        width: 10
+        length: 10
+      - name: ALIENCOLONY07
+        width: 10
+        length: 10
+      - name: ALIENCOLONY08
+        width: 10
+        length: 10
+      - name: ALIENCOLONY09
+        width: 10
+        length: 10
+      - name: ALIENCOLONY10
+        width: 10
+        length: 10
+      - name: ALIENCOLONY11
+        width: 10
+        length: 10
+      - name: ALIENCOLONY12
+        width: 10
+        length: 10
+      - name: ALIENCOLONY13
+        width: 10
+        length: 10
+      - name: ALIENCOLONY14
+        width: 10
+        length: 10
+      - name: ALIENCOLONY15
+        width: 10
+        length: 10
+      - name: ALIENCOLONY16
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY17
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY18
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY19
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY20
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY21
+        width: 20
+        length: 20
+      - name: ALIENCOLONY22
+        width: 20
+        length: 20
+      - name: ALIENCOLONY23
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENCOLONY24
+        width: 10
+        length: 10
+      - name: ALIENCOLONY25
+        width: 10
+        length: 10
+  - name: ALIENCOLONY_F
+    refNode: *ALIENCOLONY
+    mapDataSets:
+      - BLANKS
+      - COLONYA
+      - COLONYB
+      - FORESTEARTH
+  - name: ALIENCOLONY_G
+    refNode: *ALIENCOLONY
+    mapDataSets:
+      - BLANKS
+      - COLONYA
+      - COLONYB
+      - GRASSLANDFOREST
+  - name: ALIENCOLONY_S
+    refNode: *ALIENCOLONY
+    mapDataSets:
+      - BLANKS
+      - COLONYA
+      - COLONYB
+      - STEPPEFOREST
+  - name: ALIENCOLONY_T
+    refNode: *ALIENCOLONY
+    mapDataSets:
+      - BLANKS
+      - COLONYA
+      - COLONYB
+      - TAIGAFOREST
+  - &ALIENHIVE
+    name: ALIENHIVE
+    mapDataSets:
+      - BLANKS
+      - HIVEA
+      - HIVEB
+      - HIVEC
+      - NKF_APC
+    script: ALIENHIVE
+    mapBlocks:
+      - name: HIVE00
+        width: 10
+        length: 10
+      - name: HIVE01
+        width: 10
+        length: 10
+      - name: HIVE02
+        width: 10
+        length: 10
+      - name: HIVE03
+        width: 10
+        length: 10
+      - name: HIVE04
+        width: 10
+        length: 10
+      - name: HIVE05
+        width: 10
+        length: 10
+      - name: HIVE06
+        width: 10
+        length: 10
+      - name: HIVE07
+        width: 10
+        length: 10
+      - name: HIVE08
+        width: 10
+        length: 10
+      - name: HIVE09
+        width: 10
+        length: 10
+      - name: HIVE10
+        width: 20
+        length: 20
+      - name: HIVE11
+        width: 20
+        length: 20
+      - name: HIVE12
+        width: 20
+        length: 20
+      - name: HIVE14
+        width: 20
+        length: 20
+      - name: HIVE15
+        width: 10
+        length: 20
   - &APARTMENT
     name: APARTMENT
     mapDataSets:

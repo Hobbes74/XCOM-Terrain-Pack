@@ -76,145 +76,110 @@ Exo2000
 * SAND CASTLE - UFO2000 original terrain, original artwork
 
 Hobbes
-* APARTMENT - UFO2000 and OpenXCom terrains, conversion of CITY XCOM terrain 
-* AREA 51- XCOM original terrain, converted to OpenXCom (WIP)
-* AREA 51 FORT - XCOM original terrain, converted to OpenXCom (WIP)
-* CARGOSHIP - OpenXCom, conversion of CARGO TFTD terrain, 1st stage only
-* CARGOSHIPPORT - OpenXCom, combined and converted CARGO and PORT TFTD terrains
-* CITY - XCOM original terrain
-* CITY2 - XCOM original terrain, new map blocks for URBAN XCOM terrain
-* CULTAFARM - OpenXCom, conversion of MODIFIED FARM UFO2000 terrain
-* DESERTMOUNT - OpenXCom, combined DESERT and MOUNT XCOM terrains
-* DESERTPLANE -  OpenXCom, converted from DESERT XCOM and PLANE TFTD terrains
-* FARM WITH UFOS - UFO2000 original terrain
-* FORESTMOUNT - OpenXCom, combined FOREST and MOUNT XCOM terrains
-* FORESTPOLAR - OpenXCom, combined FOREST and POLAR XCOM terrains
-* FORT - XCOM original terrain
-* GRASSLANDDESERT - OpenXCom, retextured DESERT XCOM terrain
-* GRASSLANDDESERTMOUNT - OpenXCom, retextured and combined DESERT and MOUNT XCOM terrains
-* GRASSLANDFOREST - OpenXCom, retextured FOREST XCOM terrain
-* GRASSLANDFORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains
-* GRASSLANDPOLAR - OpenXCom, retextured POLAR XCOM terrain
-* HIVE - XCOM original terrain, converted to OpenXCom (WIP)
+* ALIENCOLONY - OpenXCom terrain for Alien Base Assault.
+* APARTMENT - UFO2000 and OpenXCom terrains, conversion of CITY XCOM terrain .
+* AREA 51- XCOM original terrain, converted to OpenXCom (WIP).
+* AREA 51 FORT - XCOM original terrain, converted to OpenXCom (WIP).
+* CARGOSHIP_TFTD - OpenXCom, conversion of CARGO TFTD terrain, 1st stage only and docked variant.
+* CITY - XCOM original terrain.
+* CITY2 - XCOM original terrain, new map blocks for URBAN XCOM terrain.
+* CULTAFARM - OpenXCom, conversion of MODIFIED FARM UFO2000 terrain.
+* FARM WITH UFOS - UFO2000 original terrain.
+* FORT - XCOM original terrain.
+* DESERT versions of POLAR, SAVANNA, STEPPE TAIGA and TUNDRA biomes, by reusing XCOM original files.
+* DESERTMOUNT - OpenXCom, combined DESERT and MOUNT XCOM terrains with versions of POLAR, SAVANNA, STEPPE TAIGA and TUNDRA biomes.
+* FOREST - versions of POLAR, SAVANNA, STEPPE TAIGA and TUNDRA biomes.
+* FORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains, with versions of POLAR, SAVANNA, STEPPE TAIGA and TUNDRA biomes.
+* HIVE - XCOM original terrain, converted to OpenXCom (WIP).
 * HWP FACTORY - XCOM original terrain
-* ISLANDURBAN - OpenXCom, converted from ISLAND TFTD terrain
-* JUNGLEMOUNT - OpenXCom, combined JUNGLE and MOUNT XCOM terrains
-* JUNGLEPOLAR - OpenXCom, combined JUNGLE and POLAR XCOM terrains
-* LINERSHIP  - OpenXCom, converted from LINER TFTD terrain, 1st stage only
-* LINERSHIPPORT - OpenXCom, combined and converted LINER and PORT TFTD terrains
-* MAD CITY - UFO2000, conversion of CITY2 XCOM terrain
-* MADURBAN - OpenXCom, conversion of CITY2 XCOM terrain, Terror Site version
-* MADURBANUFO - OpenXCom, conversion of CITY2 XCOM terrain, UFO Assault/Recovery version
-* MADURBANSNOW - OpenXCom, combined and converted MADURBAN and ARCTIC CITY UFO2000 terrains
-* MODIFIED FARM - UFO2000, new map blocks for CULTA XCOM terrain
-* NATIVE - UFO2000 original terrain, and converted to XCOM
-* NATIVEURBAN - OpenXCom, conversion of NATIVE UFO2000 terrain, Terror Site version
-* NATIVEUFO - OpenXCom, conversion of NATIVE UFO2000 terrain, UFO Assault/Recovery version
-* POLARDESERT - OpenXCom, combined POLAR and DESERT XCOM terrains
-* POLARDESERTMOUNT - OpenXCom combined POLAR, DESERT and MOUNT XCOM terrains
-* POLARMOUNT - OpenXCom, combined POLAR and MOUNT XCOM terrains
-* POLARPLANE - OpenXCom, converted from POLAR XCOM and PLANE TFTD terrain
-* POLIS - UFO2000 original terrain
-* POLISURBAN - OpenXCom, conversion of POLIS UFO2000 terrain
-* PORT - XCOM, converted from TFTD PORT terrain and expanded with new map blocks
-* PORTUFO - OpenXCom, converted from PORT TFTD terrain
-* PORTURBAN - OpenXCom, converted from PORT TFTD terrain with new map blocks
-* RAILYARD - UFO2000 original terrain
-* RAILYARDURBAN - OpenXCom, conversion of RAILYARD UFO2000 terrain
-* SKYRANGER FACTORY - UFO2000 original terrain
-* SLUM - UFO2000 original terrain
-* SLUMURBAN - OpenXCom, conversion of SLUM UFO2000 terrain 
-* SIBERIA - UFO2000 original terrain, converted to OpenXCom (WIP)
-* SAVANNADESERT -  OpenXCom, retextured DESERT XCOM terrain
-* SAVANNADESERTMOUNT - OpenXCom, retextured and combined DESERT and MOUNT XCOM terrains
-* SAVANNAFOREST - OpenXCom, retextured FOREST XCOM terrain
-* SAVANNAFORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains
-* SAVANNAPOLAR - OpenXCom, retextured POLAR XCOM terrain
-* STEPPEDESERT -  OpenXCom, retextured DESERT XCOM terrain
-* STEPPEDESERTMOUNT - OpenXCom, retextured and combined DESERT and MOUNT XCOM terrains
-* STEPPEFOREST - OpenXCom, retextured FOREST XCOM terrain
-* STEPPEFORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains
-* STEPPEPOLAR - OpenXCom, retextured POLAR XCOM terrain
-* TAIGADESERT -  OpenXCom, retextured DESERT XCOM terrain
-* TAIGADESERTMOUNT - OpenXCom, retextured and combined DESERT and MOUNT XCOM terrains
-* TAIGAFOREST - OpenXCom, retextured FOREST XCOM terrain
-* TAIGAFORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains
-* TAIGAPOLAR - OpenXCom, retextured POLAR XCOM terrain
-* TUNDRADESERT -  OpenXCom, retextured DESERT XCOM terrain
-* TUNDRADESERTMOUNT - OpenXCom, retextured and combined DESERT and MOUNT XCOM terrains
-* TUNDRAFOREST - OpenXCom, retextured FOREST XCOM terrain
-* TUNDRAFORESTMOUNT - OpenXCom, retextured and combined FOREST and MOUNT XCOM terrains
-* TUNDRAMOUNT - OpenXCom, retextured MOUNT XCOM terrain
-* TUNDRAPOLAR - OpenXCom, retextured POLAR XCOM terrain
-* TUNDRAPLANE -  OpenXCom, converted from TUNDRA XCOM and PLANE TFTD terrain
+* ISLAND_TFTD - OpenXCom, converted from ISLAND TFTD terrain, with Escape variant.
+* LINER_TFTD  - OpenXCom, converted from LINER TFTD terrain, 1st stage only LINER_TFTD_PORT - OpenXCom, combined and converted LINER and PORT TFTD terrains, and docked variant..
+* MAD CITY - UFO2000, conversion of CITY2 XCOM terrain.
+* MADURBAN - OpenXCom, conversion of CITY2 XCOM terrain, Terror Site version, with landed UFO and Snow versions.
+* MODIFIED FARM - UFO2000, new map blocks for CULTA XCOM terrain.
+* MOUNT - OpenXCom, combined POLAR, TUNDRA and MOUNT XCOM terrains.
+* NATIVE - UFO2000 original terrain, and converted to XCOM, Terror Site, Escape and UFO versions.
+* PLANE (TFTD) DESERT -  OpenXCom, converted from DESERT XCOM and PLANE TFTD terrains, with POLAR and TUNDRA versions.
+* POLIS - UFO2000 original terrain and POLISURBAN - OpenXCom, conversion of POLIS UFO2000 terrain.
+* PORT_TFTD - XCOM, converted from TFTD PORT terrain and expanded with new map blocks, with Escape variant.
+* RAILYARD - UFO2000 original terrain, and Escape variant.
+* RAINMOUNT - OpenXCom, combined JUNGLE and MOUNT XCOM terrains.
+* RAINFOREST - OpenXCom, combined JUNGLE and POLAR XCOM terrainss.
+* SKYRANGER FACTORY - UFO2000 original terrain.
+* SLUM - UFO2000 original terrain and ported to OXC, and Escape variant.
+* SIBERIA - UFO2000 original terrain, converted to OpenXCom (WIP), and Escape variant.
+* WETLANDS - OpenXCom, combined FOREST and POLAR XCOM and textured according to globe textures, with versions of POLAR, SAVANNA, STEPPE TAIGA and TUNDRA biomes.
 
-* TERRAIN PACK 1 XCOM - unreleased, would have included AREA51, CITY, DAWN CITY, INDUSTRIAL, NATIVE and PORTUFO XCOM terrains
-* TERRAIN PACK 2 UFO2000 - included APARTMENT, AREA, FARM WITH UFOS, MAD CITY, MODIFIED FARM, NATIVE, POLIS, RAILYARD, SIBERIA, SLUM, all UFO2000 terrains
+* TERRAIN PACK 1 XCOM - unreleased, would have included AREA51, CITY, DAWN CITY, INDUSTRIAL, NATIVE and PORTUFO XCOM terrains.
+* TERRAIN PACK 2 UFO2000 - included APARTMENT, AREA, FARM WITH UFOS, MAD CITY, MODIFIED FARM, NATIVE, POLIS, RAILYARD, SIBERIA, SLUM, all UFO2000 terrains.
 
 Hobbes & Kratos 
-* MADURBANSNOW - UFO2000 original terrain, retextured and combined MADURBAN and ARCTIC CITY UFO2000 terrains
+* MADCITY_SNOW - UFO2000 original terrain, retextured and combined MADURBAN and ARCTIC CITY UFO2000 terrains.
 
 Hobbes & Solarius Scorch & Dioxine
-* COMRCURBAN - OpenXCom, conversion of CITY XCOM terrain, expanded with additional map blocks by Solarius and artwork by Dioxine
+* COMRCURBAN - OpenXCom, conversion of CITY XCOM terrain, expanded with additional map blocks by Solarius and artwork by Dioxine.
 
 JFarceur
-* ALIEN BASE++ (UBASE++) - UFO2000 original terrain, converted from UBASE XCOM terrain
+* ALIEN BASE++ (UBASE++) - UFO2000 original terrain, converted from UBASE XCOM terrain.
 
 Kratos
-* ARCTIC CITY - UFO2000 original terrain, retextured URBAN XCOM terrain
+* ARCTIC CITY - UFO2000 original terrain, retextured URBAN XCOM terrain.
 
 Llyr
-* DOWNTOWN - UFO2000 original terrain
+* DOWNTOWN - UFO2000 original terrain.
 
 Llyr & Hobbes
-* DOWNTOWNURBAN - OpenXCom, conversion of DOWNTOWN UFO2000 terrain
+* DOWNTOWNURBAN - OpenXCom, conversion of DOWNTOWN UFO2000 terrain.
 
 Luke83
-* EXPANDEDTERROR - OpenXCom original terrain, also a part of the Community Map Pack (https://openxcom.mod.io/community-map-pack)
+* EXPANDEDTERROR - OpenXCom original terrain, also a part of the Community Map Pack (https://openxcom.mod.io/community-map-pack).
 
 MKSheppard & Gix & Hobbes
-* Geoscape cities, countries and Country Zones - Improved Nations mod (https://openxcom.org/forum/index.php?topic=1513.0)
+* Geoscape cities, countries and Country Zones - Improved Nations mod (https://openxcom.org/forum/index.php?topic=1513.0).
 
 Nachtwolf & Hobbes & Voller
-* DAWN CITY - XCOM and UFO2000 original terrain, artwork by Nachtwolf
-* DAWNURBANA/DAWNURBANB - OpenXCom, conversion of DAWN CITY UFO2000 terrain
+* DAWN CITY - XCOM and UFO2000 original terrain, ruleset and artwork by Nachtwolf & Voller, map/tileset design and port to the original XCOM game by Hobbes.
+* DAWNURBANA/DAWNURBANB - OpenXCom, conversion of DAWN CITY UFO2000 terrain by Hobbes.
 
 Nappes
-* MOONBASE - UFO2000 original terrain
+* MOONBASE - UFO2000 original terrain.
+
+NKF
+* Mudranger APC - original download location http://www.strategycore.co.uk/files/mudranger/.
 
 Twilight Owl
-* ABANDONED BASE - UFO2000 original terrain
-* AIRFIELD - UFO2000 original terrain
+* ABANDONED BASE - UFO2000 original terrain.
+* AIRFIELD - UFO2000 original terrain.
 
 Twilight Owl & Hobbes
-* AIRFIELD1/2/3/4/5/6/7/8 - OpenXCom, conversion of AIRFIELD UFO2000 terrain
+* AIRFIELD1/2/3/4/5/6/7/8 - OpenXCom, conversion of AIRFIELD UFO2000 terrain.
 
 Violazr
-BEACHES OF NORMANDY - UFO2000 original terrain, original artwork
-EASTER ISLAND - UFO2000 original terrain, conversion of ISLAND TFTD terrain
-PAINTBALL FIELD - UFO2000 original terrain, original artwork
-PLANE CRASH SITE - UFO2000 original terrain, conversion of PLANE TFTD terrain
+BEACHES OF NORMANDY - UFO2000 original terrain, original artwork.
+EASTER ISLAND - UFO2000 original terrain, conversion of ISLAND TFTD terrain.
+PAINTBALL FIELD - UFO2000 original terrain, original artwork.
+PLANE CRASH SITE - UFO2000 original terrain, conversion of PLANE TFTD terrain.
 
 Volutar & Hobbes
-* WORLD.DAT - Globe Expansion
+* WORLD.DAT - Globe Expansion.
 
 Wiseman
-* STORM MOUNTAIN - UFO2000 original terrain
+* STORM MOUNTAIN - UFO2000 original terrain.
 
 Wiseman & Hobbes
-* STORMMOUNTAIN - OpenXCom, conversion of STORM MOUNTAIN UFO2000 terrain
+* STORMMOUNTAIN - OpenXCom, conversion of STORM MOUNTAIN UFO2000 terrain.
 
-Several UFO2000 authors (uncredited)
-* MODIFIED CITY - UFO2000 original terrain, new map blocks for URBAN XCOM terrain
+Several UFO2000 authors (uncredited - project frozen in development for more than a decade, official forums offline)
+* MODIFIED CITY - UFO2000 original terrain, new map blocks for URBAN XCOM terrain.
 * WAREHOUSE - UFO2000 original terrain
-* XBASE+ - UFO2000 original terrain, conversion of XBASE XCOM terrain
+* XBASE+ - UFO2000 original terrain, conversion of XBASE XCOM terrain.
 
 XOps & Hobbes
-* DESERTTEMPLE - OpenXCom, converted and combined DESERT XCOM and MU TFTD terrains
-* JUNGLETEMPLE - OpenXCom, converted and combined DESERT XCOM and ATLANT TFTD terrains, additional artwork by XOps
+* ATLANT (TFTD) DESERT - OpenXCom, converted and combined DESERT XCOM and MU TFTD terrains.
+* MU (TFTD) JUNGLE - OpenXCom, converted and combined JUNGLE XCOM and ATLANT TFTD terrains, additional artwork by XOps.
 
 Notes:
-* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included. 
+* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail. the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included. 
 * Conversion of UFO2000 original terrains to XCOM/UFO2000 required creating the necessary .RMP files for the AI to spawn and move the alien units.
 * Converting UFO/TFTD terrains to UFO2000 mainly required creating the .lua map generation files.
 * Combined terrains for OpenXCom was mostly done through map script rulesets, without changes done to the terrain's original files.

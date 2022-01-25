@@ -400,7 +400,7 @@ alienDeployments:
       - COLDISLE_ESCAPE
   - type: STR_ESCAPE_MISSION_PORT
     terrains:
-      - PORTTFTD__ESCAPE
+      - PORT_TFTD__ESCAPE
       - COMMERCIAL_ESCAPE
   - type: STR_ESCAPE_MISSION_SLUM
     terrains:
@@ -585,12 +585,6 @@ alienDeployments:
     terrains:
       - ALIENHIVE
     shade: 15
-    briefing:
-      title: STR_ALIEN_BASE_ASSAULT
-      desc: STR_ALIEN_BASE_ASSAULT_HIVE_BRIEFING
-      textOffset: -16
-      background: BACK01.SCR
-      showTarget: false
   - type: STR_ALIEN_BASE_ASSAULT_COLONY
     refNode: *STR_ALIEN_BASE_ASSAULT
     height: 6

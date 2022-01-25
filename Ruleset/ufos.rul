@@ -1,3 +1,4 @@
+#Those are not real 'UFOs' but are used to place specific map blocks on terrains.
 ufos:
 #TERRAIN PACK
   - type: STR_CARGOSHIPPORT
@@ -21,7 +22,6 @@ ufos:
         - CARGOSHIP3
         - CARGOSHIP4
         - SEABITS
-        - U_PODS
       mapBlocks:
         - name: CARGOSHIPPORT
           width: 30
