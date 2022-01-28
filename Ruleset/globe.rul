@@ -79,13 +79,13 @@ globe:
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 5
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 1
@@ -288,13 +288,13 @@ globe:
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 5
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
         - name: NATIVE_UFO
@@ -333,7 +333,7 @@ globe:
           weight: 10
         - name: FORESTMOUNT_TUNDRA
           weight: 10
-        - name: PLANE_TFTD_TUNDRA
+        - name: TFTD_PLANE_TUNDRA
           weight: 10
         - name: WETLAND_TUNDRA
           weight: 10
@@ -366,13 +366,13 @@ globe:
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 7
@@ -381,10 +381,10 @@ globe:
           weight: 10
         - name: DESERTMOUNT
           weight: 5
-        - name: ATLANT_TFTD_DESERT
+        - name: TFTD_ATLANT_DESERT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: PLANE_TFTD_DESERT
+        - name: TFTD_PLANE_DESERT
           weight: 15
     - id: 8
       terrain:
@@ -416,9 +416,9 @@ globe:
           weight: 10
         - name: DESERTMOUNT
           weight: 10
-        - name: PLANE_TFTD_DESERT
+        - name: TFTD_PLANE_DESERT
           weight: 10
-        - name: ATLANT_TFTD_DESERT
+        - name: TFTD_ATLANT_DESERT
           weight: 10
           area: [0, 360, 0, 90]
         - name: DESERT_STEPPE
@@ -460,7 +460,7 @@ globe:
           weight: 10
         - name: DESERT_POLAR
           weight: 10
-        - name: PLANE_TFTD_POLAR
+        - name: TFTD_PLANE_POLAR
           weight: 10
     - id: 10
       terrain:
@@ -489,7 +489,7 @@ globe:
           weight: 10
         - name: MOUNT_TUNDRA
           weight: 10
-        - name: PLANE_TFTD_TUNDRA
+        - name: TFTD_PLANE_TUNDRA
           weight: 5
         - name: WETLAND_TUNDRA
           weight: 10
@@ -499,11 +499,11 @@ globe:
           weight: 10
         - name: JUNGLE
           weight: 10
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 10
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 12
@@ -557,13 +557,13 @@ globe:
         - name: JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 14
@@ -592,9 +592,9 @@ globe:
           weight: 5
         - name: DESERTMOUNT
           weight: 10
-        - name: PLANE_TFTD_DESERT
+        - name: TFTD_PLANE_DESERT
           weight: 10
-        - name: ATLANT_TFTD_DESERT
+        - name: TFTD_ATLANT_DESERT
           weight: 10
           area: [0, 360, 0, 90]
     - id: 16
@@ -610,7 +610,7 @@ globe:
           weight: 10
         - name: DESERTMOUNT_TUNDRA
           weight: 10
-        - name: PLANE_TFTD_TUNDRA
+        - name: TFTD_PLANE_TUNDRA
           weight: 10
         - name: WETLAND_TUNDRA
           weight: 10
@@ -622,9 +622,9 @@ globe:
           weight: 10
         - name: DESERTMOUNT_POLAR
           weight: 10
-        - name: PLANE_TFTD_POLAR
+        - name: TFTD_PLANE_POLAR
           weight: 10
-        - name: POLARMOUNT
+        - name: POLAR_MOUNT
           weight: 10
     - id: 18
       terrain:
@@ -646,13 +646,13 @@ globe:
         - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 19
@@ -661,9 +661,9 @@ globe:
           weight: 10
         - name: DESERTMOUNT
           weight: 10
-        - name: PLANE_TFTD_DESERT
+        - name: TFTD_PLANE_DESERT
           weight: 10
-        - name: ATLANT_TFTD_DESERT
+        - name: TFTD_ATLANT_DESERT
           weight: 10
           area: [0, 360, 0, 90]
     - id: 20
@@ -686,13 +686,13 @@ globe:
         - name: WETLAND_TAIGA
           weight: 10
           area: [0, 360, -90, 0]
-        - name: RAINMOUNT
+        - name: JUNGLE_MOUNT
           weight: 10
           area: [0, 360, 0, 90]
-        - name: RAINFOREST
+        - name: JUNGLE_FOREST
           weight: 10
           area: [0, 360, 0, 90]
-        - name: MU_TFTD_JUNGLE
+        - name: TFTD_MU_JUNGLE
           weight: 10
           area: [0, 360, 0, 90]
     - id: 21
@@ -737,43 +737,43 @@ globe:
         STR_TERROR_MISSION_TROPICAL: 100
     - id: -13
       deployments:
-        STR_ESCAPE_MISSION: 100
+        STR_TERROR_MISSION: 100
     - id: -14
       deployments:
-        STR_ESCAPE_MISSION_AIRFIELD: 100
+        STR_TERROR_MISSION_AIRFIELD: 100
     - id: -15
       deployments:
-        STR_ESCAPE_MISSION_BIG_CITY: 100
+        STR_TERROR_MISSION_BIG_CITY: 100
     - id: -16
       deployments:
-        STR_ESCAPE_MISSION_FACILITY: 100
+        STR_TERROR_MISSION_FACILITY: 100
     - id: -17
       deployments:
-        STR_ESCAPE_MISSION_ISLAND: 100
+        STR_TERROR_MISSION_ISLAND: 100
     - id: -18
       deployments:
-        STR_ESCAPE_MISSION_OUTPOST: 100
+        STR_TERROR_MISSION_OUTPOST: 100
     - id: -19
       deployments:
-        STR_ESCAPE_MISSION_POLAR: 100
+        STR_TERROR_MISSION_POLAR: 100
     - id: -20
       deployments:
-        STR_ESCAPE_MISSION_PORT: 100
+        STR_TERROR_MISSION_PORT: 100
     - id: -21
       deployments:
-        STR_ESCAPE_MISSION_SLUM: 100
+        STR_TERROR_MISSION_SLUM: 100
     - id: -22
       deployments:
-        STR_ESCAPE_MISSION_SNOW: 100
+        STR_TERROR_MISSION_SNOW: 100
     - id: -23
       deployments:
-        STR_ESCAPE_MISSION_TROPICAL: 100
+        STR_TERROR_MISSION_TROPICAL: 100
     - id: -101
       deployments:
         STR_ALIEN_BASE_ASSAULT: 100
     - id: -102
       deployments:
-        STR_ALIEN_BASE_ASSAULT_HIVE: 100
+        STR_ALIEN_BASE_ASSAULT: 100
     - id: -103
       deployments:
         STR_ALIEN_BASE_ASSAULT_COLONY: 100
