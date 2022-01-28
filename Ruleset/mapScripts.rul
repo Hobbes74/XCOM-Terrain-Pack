@@ -248,6 +248,50 @@ mapScripts:
     - type: fillArea
       blocks: [00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  - type: ALIENHIVE
+    commands:
+    - type: addBlock
+      size: [1, 2]
+      blocks: 15
+    - type: addBlock
+      size: 2
+      blocks: 11
+    - type: addBlock
+      size: 2
+      executions: 4
+      blocks: [10, 12, 13, 14]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [00, 01, 02, 03, 04, 05, 06, 07, 08, 09]
+  - type: APARTMENT
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 5
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [3, 4, 10, 11, 12, 13, 14]
+      freqs: [3, 3, 2, 2, 2, 2, 2]
   - type: COLDISLE
     commands:
     - type: addBlock
@@ -264,7 +308,23 @@ mapScripts:
     - type: addBlock
       blocks: [13, 27]
       executions: 2
-      maxUses: [1, 1] 
+      maxUses: [1, 1]
+    - type: addBlock
+      blocks: 12
+      label: 1
+      executionChances: 50
+    - type: addBlock
+      executions: 2
+      conditionals: -1
+      blocks: [28, 29, 31, 32]
+      maxUses: [1, 1, 1, 1]
+    - type: addBlock
+      executions: 10
+      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: COMRCURBAN
     commands:
     - type: addCraft
@@ -328,6 +388,14 @@ mapScripts:
         - [4, 0, 1, 5]
     - type: fillArea
       blocks: [1, 2, 3]
+  - type: CULTA
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 5
+    - type: fillArea
   - type: DAWNURBANA
     commands:
     - type: addCraft
@@ -1480,6 +1548,7 @@ mapScripts:
       size: 2
       executions: 2
     - type: fillArea
+      groups: 9
   - type: PORTINDUSTRIALURBAN
     commands:
     - type: addLine
@@ -1539,6 +1608,7 @@ mapScripts:
       size: 2
       executions: 2
     - type: fillArea
+      groups: 9
   - type: PORTTFTD
     commands:
     - type: addCraft

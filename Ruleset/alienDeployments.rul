@@ -3,6 +3,7 @@ alienDeployments:
   - delete: STR_TERROR_MISSION
   - delete: STR_ALIEN_BASE_ASSAULT
 #TERRAIN PACK
+#The terror site and alien base deployments are assigned to textures/sites corresponding to their specific geography.
   - &STR_TERROR_MISSION
     type: STR_TERROR_MISSION
     data:
@@ -171,6 +172,14 @@ alienDeployments:
     terrains:
       - AREA51
       - RAILYARD
+  - type: STR_TERROR_MISSION_DOCKS
+    refNode: *STR_TERROR_MISSION
+    width: 60
+    length: 70
+    height: 6
+    terrains:
+      - TFTD_CARGOSHIP_PORT
+      - TFTD_LINER_PORT
   - type: STR_TERROR_MISSION_ISLAND
     refNode: *STR_TERROR_MISSION
     terrains:
@@ -192,6 +201,8 @@ alienDeployments:
   - type: STR_TERROR_MISSION_PORT
     refNode: *STR_TERROR_MISSION
     terrains:
+      - TFTD_CARGOSHIP_PORT
+      - TFTD_LINER_PORT
       - TFTD_PORT
       - TFTD_PORT_INDUSTRIAL
       - TFTD_PORT_URBAN
@@ -388,33 +399,367 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 5
-  - type: STR_ALIEN_BASE_ASSAULT_COLONY
-    refNode: *STR_ALIEN_BASE_ASSAULT
+  - &STR_ALIEN_BASE_ASSAULT_COLONY
+    type: STR_ALIEN_BASE_ASSAULT_COLONY
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 7
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
     height: 6
     terrains:
       - ALIENCOLONY
-    shade: 7
+    shade: 15
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_SUPPLY: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5
   - type: STR_ALIEN_BASE_ASSAULT_COLONY_FOREST
-    refNode: *STR_ALIEN_BASE_ASSAULT
+    refNode: *STR_ALIEN_BASE_ASSAULT_COLONY
     height: 6
+    script: ALIENCOLONY
     terrains:
       - ALIENCOLONY_F
     shade: 7
   - type: STR_ALIEN_BASE_ASSAULT_COLONY_GRASSLAND
-    refNode: *STR_ALIEN_BASE_ASSAULT
+    refNode: *STR_ALIEN_BASE_ASSAULT_COLONY
     height: 6
+    script: ALIENCOLONY
     terrains:
       - ALIENCOLONY_G
     shade: 7
   - type: STR_ALIEN_BASE_ASSAULT_COLONY_STEPPE
-    refNode: *STR_ALIEN_BASE_ASSAULT
+    refNode: *STR_ALIEN_BASE_ASSAULT_COLONY
     height: 6
+    script: ALIENCOLONY
     terrains:
       - ALIENCOLONY_S
     shade: 7
   - type: STR_ALIEN_BASE_ASSAULT_COLONY_TAIGA
-    refNode: *STR_ALIEN_BASE_ASSAULT
+    refNode: *STR_ALIEN_BASE_ASSAULT_COLONY
     height: 6
+    script: ALIENCOLONY
     terrains:
       - ALIENCOLONY_T
     shade: 7
+  - &STR_ALIEN_BASE_ASSAULT_HIVE
+    type: STR_ALIEN_BASE_ASSAULT_HIVE
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 7
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    terrains:
+      - ALIENHIVE
+    shade: 15
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_SUPPLY: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5

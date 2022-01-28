@@ -16,6 +16,8 @@ regions:
   - delete: STR_SOUTH_ATLANTIC
   - delete: STR_INDIAN_OCEAN
 #TERRAIN PACK
+#MissionZone 4 has been altered for all regions, by adding textures for Alien Base Assault deployments.
+#Most cities were taken from Improved Nations mod, several others added due to Terrain Pack's specific needs.
   - &STR_NORTH_AMERICA
     type: STR_NORTH_AMERICA
     cost: 800000

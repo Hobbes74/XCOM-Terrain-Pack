@@ -17,6 +17,7 @@ countries:
   - delete: STR_EGYPT
   - delete: STR_CANADA
 #TERRAIN PACK
+#Improved Nations mod with missing polyline borders added by the Terrain Pack.
   - &STR_USA
     type: STR_USA
     fundingBase: 600

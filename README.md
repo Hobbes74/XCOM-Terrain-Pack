@@ -2,6 +2,7 @@
 Open source terrain mod pack for the original UFO: Enemy Unknown/XCom: UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom, UFO2000 or the original game to be played.
 
 Official GitHub repository: https://github.com/Hobbes74/XCOM-Terrain-Pack
+XCOM Terrain Pack Discord server: https://discord.gg/5f2KRVjqBN 
 
 Any questions can be asked in the OpenXCom forums & Discord or emailed to aadlg@rocketmail.com.
 
@@ -13,7 +14,7 @@ The AUTHORS file also contains the credits for everyone who created, or was invo
 
 Finally, the original games are copyright of 2K Games/Firaxis, or the current XCOM IP holder. This extends to the original games and their tiles, artwork, map, routes, tileset and globe, even if they have been expanded and/or adapted by the modders. These files are being distributed here only for modding proposes related to XCom. All the new artwork, maps, routes, tilesets, globe or any other original game files that have been created by the authors are considered to be their copyright. 
 
-TLDR - Modders, read the AUTHORS file, follow the rules and have fun.
+TLDR - Modders, read the LICENSE and AUTHORS file, follow the rules and have fun.
 
 INSTALLATION
 ------------
@@ -50,6 +51,8 @@ MOD COMPATIBILITY OPENXCOM
 
 The Terrain Pack can be played on both OXC or OpenXCom Extended.
 
+With OXCE, the pack now supports its &YAML anchors feature, which allows to set refNotes for other mods to easily reference and apply changes to the Terror Pack.
+
 Compatible Types Of Mods (100%)
 * Weapons
 * Craft
@@ -73,7 +76,7 @@ Incompatible Types of Mods (50%)
 * Regions
 * Globe
 
-TLDR - Players, pick from the top list. Modders, pick from the bottom list. 
+TLDR - Players, pick from the top list. Modders, pick from the bottom list.
 
 TERRAIN LIST (OpenXCom)
 -----------------------
