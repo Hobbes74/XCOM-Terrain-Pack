@@ -2,6 +2,7 @@
 Open source terrain mod pack for the original UFO: Enemy Unknown/XCom: UFO Defense game that contains 70+ new terrains and an expanded globe. Requires OpenXCom, UFO2000 or the original game to be played.
 
 Official GitHub repository: https://github.com/Hobbes74/XCOM-Terrain-Pack
+
 XCOM Terrain Pack Discord server: https://discord.gg/5f2KRVjqBN 
 
 Any questions can be asked in the OpenXCom forums & Discord or emailed to aadlg@rocketmail.com.
@@ -129,29 +130,35 @@ UFO Assault/Recovery:
 
 Terror Site:
 * AIRFIELD
-* APARTMENT
+* APARTMENT (original XCOM version)
+* AREA 51 (original XCOM version)
 * CARGOSHIP (TFTD terrain, 1st stage mission only)
 * CARGOSHIPPORT (Cargo Ship + Port terrain)
 * COLDISLE (Polar research station)
-* COMRCURBAN (Commercial)
-* DAWNURBANA (Dawn City A)
-* DAWNURBANB( Dawn City B)
-* DOWNTOWNURBAN
+* COMMERCIAL (Commercial)
+* DAWNCITY (original XCOM version)
+* DAWNCITYURBANA (Dawn City A)
+* DAWNCITYURBANB ( Dawn City B)
+* DOWNTOWN
 * EXPANDEDTERROR
-* INDUSTRIALURBAN
-* ISLANDURBAN (vanilla TFTD terrain)
+* INDUSTRIAL
+* ISLAND (vanilla TFTD terrain)
 * LINERSHIP (TFTD terrain, 1st stage mission only)
 * LINERSHIPPORT (Liner Ship + Port terrain)
-* MADURBAN (Expanded UFO Urban terrain)
-* MADURBANSNOW (Snow covered city)
-* NATIVEURBAN (Tropical Terror Site)
-* POLISURBAN
-* PORTINDUSTRIALURBAN (Port + Industrial)
+* MADCITY (Expanded UFO Urban terrain)
+* MADCITYSNOW (Snow covered city)
+* NATIVE (Tropical Terror Site)
+* POLIS
+* PORTINDUSTRIAL (Port + Industrial)
 * PORTUFO (vanilla TFTD terrain)
 * PORTURBAN (expanded TFTD Port terrain)
-* RAILYARDURBAN
-* SLUMURBAN
+* RAILYARD
+* SLUM
 * STORMMOUNTAIN (Underground base)
+
+Alien Base
+* ALIENCOLONY
+* ALIENHIVE
 
 Other OpenXCom Features:
 - Reworked Geoscape, including several new textures and cities.

@@ -10,7 +10,7 @@ terrains:
   - delete: URBAN
   - delete: XBASE
 #TERRAIN PACK
-#Original terrains (XCOM, TFTD, UFO2000, etc.) set as &YAML anchors. Through use of refNode, other mods can easily adapt the pack's terrains. 
+#Original terrains (XCOM, TFTD, UFO2000, etc.) set as &YAML anchors. Through use of refNode, other mods can easily use and adapt the pack's terrains. 
   - &AIRFIELD1 #DONE
     name: AIRFIELD1
     mapDataSets:

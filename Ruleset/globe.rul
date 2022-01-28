@@ -731,7 +731,7 @@ globe:
         STR_TERROR_MISSION_POLIS: 100
     - id: -8
       deployments:
-        STR_TERROR_MISSION_PORT: 75
+        STR_TERROR_MISSION_PORT: 50
         STR_TERROR_MISSION_DOCKS: 25
     - id: -9
       deployments:
