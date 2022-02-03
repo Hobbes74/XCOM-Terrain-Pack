@@ -7,3 +7,9 @@ extraSprites:
     subY: 32
     files:
       0: Resources/Geoscape/TEXTURES.PNG
+  - type: MUDRANGER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/Mudranger_ufopedia.png
