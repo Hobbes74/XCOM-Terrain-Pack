@@ -215,8 +215,6 @@ countries:
     type: STR_MEXICO
     fundingBase: 160
     fundingCap: 3400
-    fundingBase: 140
-    fundingCap: 2800
     labelLon: 255
     labelLat: -22.5
     areas: 
