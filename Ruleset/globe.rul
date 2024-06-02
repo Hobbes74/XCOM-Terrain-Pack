@@ -762,7 +762,7 @@ globe:
         STR_TERROR_MISSION_ISLAND: 100
     - id: -18
       deployments:
-        STR_TERROR_MISSION_OUTPOST: 100
+        STR_TERROR_MISSION_SNOW: 100
     - id: -19
       deployments:
         STR_TERROR_MISSION_POLAR: 100

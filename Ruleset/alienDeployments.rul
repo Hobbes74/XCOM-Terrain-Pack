@@ -201,8 +201,6 @@ alienDeployments:
   - type: STR_TERROR_MISSION_PORT
     refNode: *STR_TERROR_MISSION
     terrains:
-      - TFTD_CARGOSHIP_PORT
-      - TFTD_LINER_PORT
       - TFTD_PORT
       - TFTD_PORT_INDUSTRIAL
       - TFTD_PORT_URBAN
