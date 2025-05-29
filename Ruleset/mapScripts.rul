@@ -416,7 +416,7 @@ mapScripts:
       executions: 4
     - type: fillArea
       blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: DAWNURBANB
     commands:
     - type: addCraft
@@ -1509,7 +1509,7 @@ mapScripts:
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-  - type: POLISURBAN 
+  - type: POLISURBAN
     commands:
     - type: addBlock
       size: 6
@@ -1871,7 +1871,7 @@ mapScripts:
       blocks: 12
     - type: fillArea
       blocks: [00, 03, 04, 05, 13]
-  - type: URBAN 
+  - type: URBAN
     commands:
     - type: addCraft
     - type: addLine

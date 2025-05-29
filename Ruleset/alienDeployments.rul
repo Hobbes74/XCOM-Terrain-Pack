@@ -142,7 +142,7 @@ alienDeployments:
       title: STR_TERROR_MISSION
       desc: STR_TERROR_MISSION_BRIEFING
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
@@ -168,7 +168,7 @@ alienDeployments:
       - DOWNTOWN
       - DOWNTOWN
   - type: STR_TERROR_MISSION_FACILITY
-    refNode: *STR_TERROR_MISSION    
+    refNode: *STR_TERROR_MISSION
     terrains:
       - AREA51
       - RAILYARD
@@ -192,7 +192,7 @@ alienDeployments:
       - COLDISLE
       - STORMMOUNTAIN
   - type: STR_TERROR_MISSION_POLIS
-    refNode: *STR_TERROR_MISSION    
+    refNode: *STR_TERROR_MISSION
     width: 70
     length: 70
     terrains:
@@ -205,7 +205,7 @@ alienDeployments:
       - TFTD_PORT_INDUSTRIAL
       - TFTD_PORT_URBAN
   - type: STR_TERROR_MISSION_SHIP
-    refNode: *STR_TERROR_MISSION    
+    refNode: *STR_TERROR_MISSION
     width: 30
     length: 70
     height: 5
@@ -213,7 +213,7 @@ alienDeployments:
       - TFTD_CARGOSHIP
       - TFTD_LINER
   - type: STR_TERROR_MISSION_SLUM
-    refNode: *STR_TERROR_MISSION    
+    refNode: *STR_TERROR_MISSION
     width: 50
     length: 70
     height: 4
@@ -227,7 +227,7 @@ alienDeployments:
       - MADCITY_SNOW
       - SIBERIA
   - type: STR_TERROR_MISSION_TROPICAL
-    refNode: *STR_TERROR_MISSION    
+    refNode: *STR_TERROR_MISSION
     terrains:
       - NATIVE
   - &STR_ALIEN_BASE_ASSAULT

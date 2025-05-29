@@ -10,7 +10,7 @@ terrains:
   - delete: URBAN
   - delete: XBASE
 #TERRAIN PACK
-#Original terrains (XCOM, TFTD, UFO2000, etc.) set as &YAML anchors. Through use of refNode, other mods can easily use and adapt the pack's terrains. 
+#Original terrains (XCOM, TFTD, UFO2000, etc.) set as &YAML anchors. Through use of refNode, other mods can easily use and adapt the pack's terrains.
   - &AIRFIELD1 #DONE
     name: AIRFIELD1
     mapDataSets:
@@ -1523,10 +1523,6 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
   - name: DESERT_MOUNT_POLAR #DONE
     refNode: *DESERT_MOUNT
     mapDataSets:
@@ -1598,10 +1594,6 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
   - name: DESERT_MOUNT_STEPPE #DONE
     refNode: *DESERT_MOUNT
     mapDataSets:
@@ -1667,10 +1659,6 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
   - name: DESERT_MOUNT_TAIGA #DONE
     refNode: *DESERT_MOUNT
     mapDataSets:
@@ -1736,10 +1724,6 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
   - name: DESERT_MOUNT_TUNDRA #DONE
     refNode: *DESERT_MOUNT
     mapDataSets:
@@ -1804,10 +1788,6 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
   - &DOWNTOWN #DONE
     name: DOWNTOWN
     mapDataSets:
@@ -3992,7 +3972,7 @@ terrains:
         length: 10
       - name: SLUMURBAN27
         width: 10
-        length: 10 
+        length: 10
       - name: SLUMURBAN28
         width: 10
         length: 10
@@ -5021,7 +5001,7 @@ terrains:
       - name: PORTUFO27
         width: 10
         length: 10
-        groups: 4   
+        groups: 4
       - name: PORTUFO28
         width: 10
         length: 10
@@ -5197,7 +5177,7 @@ terrains:
       - name: PORTUFO27
         width: 10
         length: 10
-        groups: 4   
+        groups: 4
       - name: PORTUFO28
         width: 10
         length: 10
